@@ -1,6 +1,8 @@
 .DS_Store
-*.csv
-*.png
-*.pdf
 *.html
 *.env
+*.png
+*.csv
+*.pdf
+*.m
+*.py
