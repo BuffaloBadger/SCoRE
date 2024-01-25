@@ -1,0 +1,64 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "SCoRE"
+  navbar:
+    title: false
+    search: true
+    logo: graphics/Banner.png
+    logo-href: http://buffalobadger.github.io
+    left:
+      - text: "Reaction Engineering Basics"
+        href: http://buffalobadger.github.io/RE_Basics
+      - text: "SCoRE"
+        href: index.qmd
+      - text: "ToTaL Engineering"
+        href: total_eng.qmd
+      - text: "The Sett"
+        href: the_sett.qmd
+      - text: "About"
+        href: http://buffalobadger.github.io/about.html
+  search:
+    location: navbar
+    type: overlay
+  page-footer:
+    background: light
+    right: 
+      - text: Copyright 2024, Carl Lund 
+  favicon: graphics/BuffaloBadger_16_16.png
+  sidebar:
+    style: floating
+    search: false
+    collapse-level: 1
+    contents: 
+      - section: "Welcome"
+        contents: 
+          - text: "About SCoRE"
+            href: index.qmd
+          - text: "Before Starting"
+      - section: "___"
+      - section: "Introduction"
+      - section: "Rate Expressions"
+      - section: "Ideal Reactor Models"
+      - section: "Isolated Ideal Reactors"
+      - section: "Ideal Reactor Systems"
+      - section: "Kinetics Data Analysis"
+      - section: "Non-Ideal Reactors"
+      - section: "Beyond the Basics"
+      - section: "___"
+      - section: "Computational Methods"
+        contents:
+          - text: "Common Tasks"
+          - text: "Parameter Estimation"
+          - text: "Solving ATEs"
+          - text: "Solving IVODEs"
+          - text: "Solving DAEs"
+          - text: "Solving BVODEs"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

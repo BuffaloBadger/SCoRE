@@ -6,3 +6,6 @@
 *.pdf
 *.m
 *.py
+
+/.quarto/
+/_site/

@@ -1,0 +1,9 @@
+
+![](graphics/SCoRE_Logo.png){fig-alt="Hockey Net with SCoRE written over it" fig-align="center" width="400"}
+
+## Welcome to SCoRE {.ch}
+
+Talking head video introducing myself and the course
+
+## Suggested SCoRE Workflow {.ch}
+
