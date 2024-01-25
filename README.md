@@ -1,5 +1,7 @@
 This is a repository for the SCoRE website.
 
+This repository and website are licensed under the [Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/) License (CC BY-NC-ND 4.0).
+
 SCoRE stands for Self-study Course on Reaction Engineering.
 
 It ties together a collection of videos and documents, organizing them in a course-like structure.
