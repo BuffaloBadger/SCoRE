@@ -1,2 +1,9 @@
 
 ![](graphics/SCoRE_Logo.png){fig-alt="Hockey Net with SCoRE written over it" fig-align="center" width="400"}
+
+::: {.callout-warning}
+## *SCoRE* is not yet complete
+
+I am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. My plan is to first complete the preparation assignments. Then I will create the class videos. Finally I'll create the introductory content and take down this alert. I'll be adding to the Computational Methods in parallel with the other content.
+
+:::

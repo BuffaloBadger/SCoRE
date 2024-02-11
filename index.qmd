@@ -1,7 +1,7 @@
 
 {{< include _top_logo.qmd >}}
 
-## Welcome to SCoRE {.ch}
+## Welcome to SCoRE {.ch} 
 
 Talking head video introducing myself and the course
 

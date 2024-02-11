@@ -16,8 +16,8 @@ website:
         href: index.qmd
       - text: "ToTaL Engineering"
         href: total_eng.qmd
-      - text: "The Sett"
-        href: the_sett.qmd
+      #- text: "The Sett"
+      #  href: the_sett.qmd
       - text: "About"
         href: http://buffalobadger.github.io/about.html
   search:
@@ -53,6 +53,7 @@ website:
           - text: "Common Tasks"
           - text: "Parameter Estimation"
           - text: "Solving ATEs"
+            href: solve_ates.qmd
           - text: "Solving IVODEs"
           - text: "Solving DAEs"
           - text: "Solving BVODEs"
