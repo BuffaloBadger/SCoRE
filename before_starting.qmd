@@ -1,0 +1,28 @@
+
+{{< include includes/_top_logo.qmd >}}
+
+## SCoRE Prerequisite Knowledge {.ch}
+
+link to video
+
+## SCoRE Notation {.ch}
+
+link to video
+
+## SCoRE Resources {.ch}
+
+link to SCoRE Equation Summary
+
+link to video
+
+## SCoRE Computer Setup {.ch}
+
+link to Matlab setup video
+
+links to Matlab code 
+
+link to Python setup video
+
+link to Python code
+
+{{< include includes/_bottom_license.qmd >}}

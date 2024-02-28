@@ -1,10 +1,20 @@
 
-{{< include _top_logo.qmd >}}
+{{< include includes/_top_logo.qmd >}}
 
 ## Welcome to SCoRE {.ch} 
 
-Talking head video introducing myself and the course
+link to video
+
+## Navigating the SCoRE Website {.ch}
+
+link to video
 
 ## Suggested SCoRE Workflow {.ch}
 
-{{< include _bottom_license.qmd >}}
+link to video
+
+## SCoRE Practice Assignment Paradigm {.ch}
+
+link to video
+
+{{< include includes/_bottom_license.qmd >}}

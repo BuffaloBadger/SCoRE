@@ -15,11 +15,11 @@ website:
       - text: "SCoRE"
         href: index.qmd
       - text: "ToTaL Engineering"
-        href: total_eng.qmd
-      #- text: "The Sett"
-      #  href: the_sett.qmd
+        href: file:///Users/lund/Projects/ToTaL_Engineering/_site/index.html
+      - text: "The Sett"
+        href: file:///Users/lund/Projects/The_Sett/_site/index.html
       - text: "About"
-        href: http://buffalobadger.github.io/about.html
+        href: file:///Users/lund/Projects/BuffaloBadger.github.io/_site/about.html
   search:
     location: navbar
     type: overlay
@@ -38,6 +38,7 @@ website:
           - text: "About SCoRE"
             href: index.qmd
           - text: "Before Starting"
+            href: before_starting.qmd
       - section: "___"
       - section: "Introduction"
       - section: "Rate Expressions"
