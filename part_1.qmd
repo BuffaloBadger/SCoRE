@@ -1,0 +1,22 @@
+
+{{< include includes/_top_logo.qmd >}}
+
+# Part 1 - Reactions and Rates {.ct} 
+
+[content forthcoming]
+
+## Classes in Part 1 {.ch}
+
+[Class 1 - Chemical Reactions](class_1.qmd)
+
+[Class 2 - Rates and Rate Expressions](class_2.qmd)
+
+[Class 3 - Reaction Mechanisms](class_3.qmd)
+
+[Class 4 - Rate Determining Steps](class_4.qmd)
+
+[Class 5 - Catalyst and Charge Conservation](class_5.qmd)
+
+[Class 6 - Most Abundant Intermediates](class_6.qmd)
+
+{{< include includes/_bottom_license.qmd >}}

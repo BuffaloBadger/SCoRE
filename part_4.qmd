@@ -1,0 +1,30 @@
+
+{{< include includes/_top_logo.qmd >}}
+
+# Part 4 - Continuous Ideal Reactors {.ct} 
+
+[content forthcoming]
+
+## Classes in Part 4 {.ch}
+
+[Class 14 - Steady-State CSTR Response](class_14.qmd)
+
+[Class 15 - Steady-State CSTR Optimization](class_15.qmd)
+
+[Class 16 - CSTR Steady-State Multiplicity](class_16.qmd)
+
+[Class 17 - Transient CSTR Response](class_17.qmd)
+
+[Class 18 - Steady-State CSTR Stability](class_18.qmd)
+
+[Class 19 - Steady-State PFR Response](class_19.qmd)
+
+[Class 20 - Steady-State PFR Optimization](class_20.qmd)
+
+[Class 21 - Transient PFR Response](class_21.qmd)
+
+[Class 22 - Packed Bed PFR Response](class_22.qmd)
+
+[Class 23 - Continuous Reactor Design](class_23.qmd)
+
+{{< include includes/_bottom_license.qmd >}}

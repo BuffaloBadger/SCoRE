@@ -1,23 +1,19 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Before Starting SCoRE {.ct}
+# About SCoRE {.ct} 
 
 [content forthcoming]
 
-## SCoRE Prerequisite Knowledge {.ch}
+## Navigating the SCoRE Website {.ch}
 
 [content forthcoming]
 
-## SCoRE Notation {.ch}
+## Suggested SCoRE Workflow {.ch}
 
 [content forthcoming]
 
-## SCoRE Resources {.ch}
-
-[content forthcoming]
-
-## SCoRE Computer Setup {.ch}
+## SCoRE Practice Assignment Paradigm {.ch}
 
 [content forthcoming]
 

@@ -1,0 +1,20 @@
+
+{{< include includes/_top_logo.qmd >}}
+
+# Part 6 - Kinetics Data Analysis {.ct} 
+
+[content forthcoming]
+
+## Classes in Part 6 {.ch}
+
+[Class 27 - Kinetics Data Generation](class_27.qmd)
+
+[Class 28 - BSTR Kinetics Data Analysis](class_28.qmd)
+
+[Class 29 - CSTR Kinetics Data Analysis](class_29.qmd)
+
+[Class 30 - PFR Kinetics Data Analysis](class_30.qmd)
+
+[Class 31 - Differential Data Analysis](class_31.qmd)
+
+{{< include includes/_bottom_license.qmd >}}

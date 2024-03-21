@@ -1,0 +1,18 @@
+
+{{< include includes/_top_logo.qmd >}}
+
+# Class 18 - Steady-State CSTR Stability {.ct}
+
+## Preparation Assignment {.ch} 
+
+[content forthcoming]
+
+## Class 18 {.ch}
+
+[content forthcoming]
+
+## Practice Assignment {.ch}
+
+[content forthcoming]
+
+{{< include includes/_bottom_license.qmd >}}

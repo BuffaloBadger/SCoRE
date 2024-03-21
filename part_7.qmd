@@ -1,0 +1,18 @@
+
+{{< include includes/_top_logo.qmd >}}
+
+# Part 7 - Non-Ideal Reactors {.ct} 
+
+[content forthcoming]
+
+## Classes in Part 7 {.ch}
+
+[Class 32 - Axial Dispersion Models](class_32.qmd)
+
+[Class 33 - The Age Function](class_33.qmd)
+
+[Class 34 - Segregated Flow Models](class_34.qmd)
+
+[Class 35 - Zoned Reactor Models](class_35.qmd)
+
+{{< include includes/_bottom_license.qmd >}}

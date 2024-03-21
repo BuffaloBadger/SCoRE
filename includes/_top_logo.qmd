@@ -4,6 +4,6 @@
 ::: {.callout-warning}
 ## *SCoRE* is not yet complete
 
-I am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. My plan is to first complete the preparation assignments. Then I will create the class videos. Finally I'll create the introductory content and take down this alert. I'll be adding to the Computational Methods in parallel with the other content.
+I am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. Right now I'm mostly adding Matlab and Python code for the example problems in *Reaction Engineering Basics*. I hope to start making videos soon. I'll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon *Reaction Engineering Basics*. Then I will create the class videos. I'll be adding to the introductory material and the Computational Methods in parallel with the other content.  I'll take down this alert when all of the content has been added.
 
 :::
