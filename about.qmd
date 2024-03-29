@@ -1,19 +1,19 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# About SCoRE {.ct} 
+# About [SC]{style="color:blue"}o[RE]{style="color:red"} {.ct} 
 
 [content forthcoming]
 
-## Navigating the SCoRE Website {.ch}
+## Navigating the [SC]{style="color:blue"}o[RE]{style="color:red"} Website {.ch}
 
 [content forthcoming]
 
-## Suggested SCoRE Workflow {.ch}
+## Suggested [SC]{style="color:blue"}o[RE]{style="color:red"} Workflow {.ch}
 
 [content forthcoming]
 
-## SCoRE Practice Assignment Paradigm {.ch}
+## [SC]{style="color:blue"}o[RE]{style="color:red"} Practice Assignment Paradigm {.ch}
 
 [content forthcoming]
 

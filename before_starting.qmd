@@ -1,23 +1,23 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Before Starting SCoRE {.ct}
+# Before Starting [SC]{style="color:blue"}o[RE]{style="color:red"} {.ct}
 
 [content forthcoming]
 
-## SCoRE Prerequisite Knowledge {.ch}
+## [SC]{style="color:blue"}o[RE]{style="color:red"} Prerequisite Knowledge {.ch}
 
 [content forthcoming]
 
-## SCoRE Notation {.ch}
+## [SC]{style="color:blue"}o[RE]{style="color:red"} Notation {.ch}
 
 [content forthcoming]
 
-## SCoRE Resources {.ch}
+## [SC]{style="color:blue"}o[RE]{style="color:red"} Resources {.ch}
 
 [content forthcoming]
 
-## SCoRE Computer Setup {.ch}
+## [SC]{style="color:blue"}o[RE]{style="color:red"} Computer Setup {.ch}
 
 [content forthcoming]
 

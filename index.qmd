@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Welcome to SCoRE {.ct} 
+# Welcome to [SC]{style="color:blue"}o[RE]{style="color:red"} {.ct} 
 
 [content forthcoming]
 
