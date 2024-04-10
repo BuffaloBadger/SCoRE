@@ -15,11 +15,11 @@ website:
       - text: "SCoRE"
         href: index.qmd
       - text: "ToTaL Engineering"
-        href: file:///Users/lund/Projects/ToTaL_Engineering/_site/index.html
+        href: http://buffalobadger.github.io/ToTaL_Engineering
       - text: "The Sett"
-        href: file:///Users/lund/Projects/The_Sett/_site/index.html
+        href: http://buffalobadger.github.io/The_Sett
       - text: "About"
-        href: file:///Users/lund/Projects/BuffaloBadger.github.io/_site/about.html
+        href: http://buffalobadger.github.io/about.html
   search:
     location: navbar
     type: overlay
