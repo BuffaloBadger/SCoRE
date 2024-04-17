@@ -7,6 +7,18 @@
 
 [content forthcoming]
 
+**Reaction Engineering Basics, Example 9.6.3**
+
+[links to videos forthcoming]
+
+Numerical implementations of the solution using Matlab, [reb_9_6_3.m](reb_examples/reb_9_6_3/reb_9_6_3.m), and Python, [reb_9_6_3.py](reb_examples/reb_9_6_3/reb_9_6_3.py).
+
+**Reaction Engineering Basics, Example 9.6.4**
+
+[links to videos forthcoming]
+
+Numerical implementations of the solution using Matlab, [reb_9_6_4.m](reb_examples/reb_9_6_4/reb_9_6_4.m), and Python, [reb_9_6_4.py](reb_examples/reb_9_6_4/reb_9_6_4.py).
+
 ## Class 10 {.ch}
 
 [content forthcoming]
