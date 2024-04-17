@@ -11,7 +11,7 @@
 
 [Class 10 - BSTR Optimization](class_10.qmd)
 
-[Class 11 - BSSTR Response](class_11.qmd)
+[Class 11 - SBSTR Response](class_11.qmd)
 
 [Class 12 - SBSTR Optimization](class_12.qmd)
 
