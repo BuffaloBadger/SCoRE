@@ -5,4 +5,10 @@
 
 [content forthcoming]
 
+**Reaction Engineering Basics, Example I.6**
+
+[links to videos forthcoming]
+
+Numerical implementations of the solution using Matlab, [reb_I_6.m](reb_examples/reb_I_6/reb_I_6.m), and Python, [reb_I_6.py](reb_examples/reb_I_6/reb_I_6.py).
+
 {{< include includes/_bottom_license.qmd >}}
