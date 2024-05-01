@@ -7,6 +7,12 @@
 
 [content forthcoming]
 
+**Reaction Engineering Basics, Example 12.7.3**
+
+[links to videos forthcoming]
+
+Numerical implementations of the solution using Matlab, [reb_12_7_3.m](reb_examples/reb_12_7_3/reb_12_7_3.m), and Python, [reb_12_7_3.py](reb_examples/reb_12_7_3/reb_12_7_3.py).
+
 ## Class 15 {.ch}
 
 [content forthcoming]
