@@ -111,8 +111,7 @@ def perform_the_analysis():
 
     # save the results
     results_df.to_csv('reb_12_7_4/python/results.csv',index=False)
-
-    # display and save the graphs
+    
     return
 
 if __name__=="__main__":
