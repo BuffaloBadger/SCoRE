@@ -12,8 +12,8 @@ yB_in = 0.65
 yI_in = 0.25
 T_in = 165 + 273.15 # K
 P = 5.0 # atm
+yA = 0.001
 yA_max = 0.001
-tau = 0.5 # min
 k0 = 1.37E5 # m^3 /mol /min
 E = 11100.0 # cal /mol
 dH = -7200.0 # cal /mol
@@ -24,9 +24,8 @@ Cp_I = 4.3 # cal /mol /K
 Re = 1.987 # cal /mol /K
 Rw = 8.206E-5 # m^3 atm /mol /K
 # basis
-V = 1.0 # m^3
+Vdot_in = 1.0 # m^3 /min
 # calculated
-Vdot_in = V/tau
 nA_in = yA_in*P*Vdot_in/Rw/T_in
 nB_in = yB_in*P*Vdot_in/Rw/T_in
 nI_in = yI_in*P*Vdot_in/Rw/T_in
@@ -48,11 +47,14 @@ def unknowns(init_guess):
 # residuals function
 def residuals(guess):
     # extract the indiviaual guesses
-    nA = guess[0]
+    V = guess[0]
     nB = guess[1]
     nI = guess[2]
     nZ = guess[3]
     T = guess[4]
+
+    # calculate nA
+    nA = yA*(nB + nI + nZ)/(1 - yA)
 
     # calculate the rate
     k = k0*np.exp(-E/Re/T)
@@ -73,29 +75,21 @@ def residuals(guess):
 # perform the analysis
 def perform_the_analysis():
 	# set the initial guess
-    init_guess = np.array([0.01*nA_in, nB_in - 0.01*nA_in, nI_in, 0.01*nA_in
+    init_guess = np.array([1.0, nB_in - 0.01*nA_in, nI_in, 0.01*nA_in
                            , T_in + 10.0])
 
     # solve the reactor design equations
     solution = unknowns(init_guess)
 
     # extract the individual results
-    nA = solution[0]
-    nB = solution[1]
-    nI = solution[2]
-    nZ = solution[3]
+    V = solution[0]
     T = solution[4] - 273.15
 
     # calculate the other quantities of interest
-    nTot = nA + nB + nI + nZ
-    yA = nA/nTot
-    yB = nB/nTot
-    yI = nI/nTot
-    yZ = nZ/nTot
+    tau = V/Vdot_in
 
     # tabulate the results
-    data = [['yA',f'{100*yA}','%'],['yB',f'{100*yB}','%'],['yI',f'{100*yI}','%']
-         ,['yZ',f'{100*yZ}','%'],['T',f'{T}','°C']]
+    data = [['tau',f'{tau}','min'],['T',f'{T}','°C']]
     results_df = pd.DataFrame(data, columns=['item','value','units'])
 
     # display the results

@@ -7,20 +7,19 @@ function reb_12_7_2
     yI_in = 0.25;
     T_in = 165 + 273.15; % K
     P = 5; % atm
+    yA = 0.001;
     k0_1 = 1.37E5; % m^3 /mol /min
     E_1 = 11100; % cal /mol
     dH_1 = -7200; % cal /mol
     Cp_A = 7.6; % cal /mol K
     Cp_B = 8.2; % cal /mol K
     Cp_I = 4.3; % cal /mol K
-    tau = 0.5; % min
     % known
     Re = 1.987; % cal /mol K 
     Rw = 8.206E-5; % m^3 atm /mol /K
     % basis
-    V = 1.0; % m^3
+    Vdot_in = 1.0; % m^3 /min
     % calculated
-    Vdot_in = V/tau;
     nA_in = yA_in*P*Vdot_in/Rw/T_in;
     nB_in = yB_in*P*Vdot_in/Rw/T_in;
     nI_in = yI_in*P*Vdot_in/Rw/T_in;
@@ -40,11 +39,14 @@ function reb_12_7_2
     % residuals function
     function resids = residuals(guess)
         % extract the individual guesses
-        nA = guess(1);
+        V = guess(1);
         nB = guess(2);
         nI = guess(3);
         nZ = guess(4);
         T = guess(5);
+        
+        % calculate nA
+        nA = yA*(nB + nI + nZ)/(1 - yA);
 
         % rates
         k_1 = k0_1*exp(-E_1/Re/T);
@@ -67,29 +69,23 @@ function reb_12_7_2
     function perform_the_analysis()
     
         % set the initial guess
-        init_guess = [0.01*nA_in, nB_in - 0.01*nA_in, nI_in, 0.01*nA_in...
+        init_guess = [1.0, nB_in - 0.01*nA_in, nI_in, 0.01*nA_in...
             , T_in + 50.0];
     
         % solve the reactor design equations
         soln = unknowns(init_guess);
     
         % extract the individual values
-        nA = soln(1);
-        nB = soln(2);
-        nI = soln(3);
-        nZ = soln(4);
+        V = soln(1);
         T = soln(5) - 273.15;
     
         % calculate the other quantities of interest
-        yA = nA/(nA + nB + nI + nZ);
-        yB = nB/(nA + nB + nI + nZ);
-        yI = nI/(nA + nB + nI + nZ);
-        yZ = nZ/(nA + nB + nI + nZ);
+        tau = V/Vdot_in;
     
         % tabulate the results
-        item = ["yA";"yB";"yI";"yZ";"T"];
-        value = [100*yA; 100*yB; 100*yI; 100*yZ; T];
-        units = ["%";"%";"%";"%";"°C"];
+        item = ["tau";"T"];
+        value = [tau; T];
+        units = ["min";"°C"];
         results_table = table(item,value,units);
     
         % display the results
