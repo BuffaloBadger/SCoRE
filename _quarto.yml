@@ -154,7 +154,7 @@ website:
         href: computation.qmd
         contents:
           - text: "SCoRE Code Structure"
-            href: code_structure.qmd
+            href: comp_code_structure.qmd
           - text: "Common Tasks"
             href: comp_tasks.qmd
           - text: "Solving ATEs"
