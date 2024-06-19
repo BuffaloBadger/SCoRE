@@ -27,48 +27,26 @@ Vdot_prod = Vdot_feed
 Vdot_r = R_R*Vdot_prod
 Vdot_in = Vdot_feed + Vdot_r
 
-# derivatives function
-def derivatives(ind, dep):
-	# extract the dependent variables for this integration step
-    nDot_A = dep[0]
-    nDot_Z = dep[1]
-    T = dep[2]
+# other equipment model
+def unknowns(initial_guess):
+    # solve the other equipment mole and energy balances
+    soln = sp.optimize.root(residuals,initial_guess)
 
-	# calculate the rate
-    r = k_0*np.exp(-E/R/T)*nDot_A*nDot_Z/Vdot_in**2
+    # check that the solution is converged
+    if not(soln.success):
+        print(f"The initial temperature was NOT found: {soln.message}")
+    
+    # extract the results
+    nDotA_in = soln.x[0]
+    nDotZ_in = soln.x[1]
+    T_in = soln.x[2]
+    T_r = soln.x[3]
+    nDotA_prod = soln.x[4]
+    nDotZ_prod = soln.x[5]
+    T_prod = soln.x[6]
 
-	# evaluate the derivatives
-    dnDotAdz = -np.pi*D**2/4*r
-    dnDotZdz = np.pi*D**2/4*r
-    dTdz = -np.pi*D**2/4*r*dH/Vdot_in/Cp
-
-	# return the derivatives
-    return dnDotAdz, dnDotZdz, dTdz
-
-# reactor model
-def profiles(dep_0):
-	# set the initial values
-    ind_0 = 0.0
-
-	# define the stopping criterion
-    f_var = 0
-    f_val = L
-     
-	# solve the IVODEs
-    z, dep, success, message = solve_ivodes(ind_0, dep_0, f_var, f_val
-                                        , derivatives, True)
-
-    # check that a solution was found
-    if not(success):
-        print(f"An IVODE solution was NOT obtained: {message}")
-
-    # extract the dependent variable profiles
-    nDotA = dep[0,:]
-    nDotZ = dep[1,:]
-    T = dep[2,:]
-
-    # return all profiles
-    return z, nDotA, nDotZ, T
+    # return the results
+    return nDotA_in, nDotZ_in, T_in, T_r, nDotA_prod, nDotZ_prod, T_prod
 
 # residuals function
 def residuals(guess):
@@ -106,26 +84,48 @@ def residuals(guess):
     # return the residualw
     return eps_1, eps_2, eps_3, eps_4, eps_5, eps_6, eps_7
 
-# other equipment model
-def unknowns(initial_guess):
-    # solve the other equipment mole and energy balances
-    soln = sp.optimize.root(residuals,initial_guess)
+# reactor model
+def profiles(dep_0):
+	# set the initial values
+    ind_0 = 0.0
 
-    # check that the solution is converged
-    if not(soln.success):
-        print(f"The initial temperature was NOT found: {soln.message}")
-    
-    # extract the results
-    nDotA_in = soln.x[0]
-    nDotZ_in = soln.x[1]
-    T_in = soln.x[2]
-    T_r = soln.x[3]
-    nDotA_prod = soln.x[4]
-    nDotZ_prod = soln.x[5]
-    T_prod = soln.x[6]
+	# define the stopping criterion
+    f_var = 0
+    f_val = L
+     
+	# solve the IVODEs
+    z, dep, success, message = solve_ivodes(ind_0, dep_0, f_var, f_val
+                                        , derivatives, True)
 
-    # return the results
-    return nDotA_in, nDotZ_in, T_in, T_r, nDotA_prod, nDotZ_prod, T_prod
+    # check that a solution was found
+    if not(success):
+        print(f"An IVODE solution was NOT obtained: {message}")
+
+    # extract the dependent variable profiles
+    nDotA = dep[0,:]
+    nDotZ = dep[1,:]
+    T = dep[2,:]
+
+    # return all profiles
+    return z, nDotA, nDotZ, T
+
+# derivatives function
+def derivatives(ind, dep):
+	# extract the dependent variables for this integration step
+    nDot_A = dep[0]
+    nDot_Z = dep[1]
+    T = dep[2]
+
+	# calculate the rate
+    r = k_0*np.exp(-E/R/T)*nDot_A*nDot_Z/Vdot_in**2
+
+	# evaluate the derivatives
+    dnDotAdz = -np.pi*D**2/4*r
+    dnDotZdz = np.pi*D**2/4*r
+    dTdz = -np.pi*D**2/4*r*dH/Vdot_in/Cp
+
+	# return the derivatives
+    return dnDotAdz, dnDotZdz, dTdz
 
 # perform the analysis
 def perform_the_analysis():
@@ -138,13 +138,13 @@ def perform_the_analysis():
         = unknowns(initial_guess)
     
     # tabulate the results
-    data = [['A in',nDotA_in,'mol min^-1^']
-            ,['Z in',nDotZ_in,'mol min^-1^']
-            ,['T in',T_in,'K']
-            ,['T r',T_r,'K']
-            ,['A prod',nDotA_prod,'mol min^-1^']
-            ,['A prod',nDotZ_prod,'mol min^-1^']
-            ,['T prod',T_prod,'K']]
+    data = [['$\dot{n}_{A in}$',nDotA_in,'mol min^-1^']
+            ,['$\dot{n}_{Z_in}$',nDotZ_in,'mol min^-1^']
+            ,['$T_{in}$',T_in,'K']
+            ,['$T_r$',T_r,'K']
+            ,['$\dot{n}_{A,prod}$',nDotA_prod,'mol min^-1^']
+            ,['$\dot{n}_{Z,prod}$',nDotZ_prod,'mol min^-1^']
+            ,['$T_{prod}$',T_prod,'K']]
     results_df = pd.DataFrame(data, columns=['item','value','units'])
 
     # display the results

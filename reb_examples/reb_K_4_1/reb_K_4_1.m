@@ -21,6 +21,29 @@ function reb_K_4_1
     Vdot_r = R_R*Vdot_prod;
     Vdot_in = Vdot_feed + Vdot_r;
 
+    % other equipment model
+    function [nDotA_in, nDotZ_in, T_in, T_r, nDotA_prod, nDotZ_prod...
+            , T_prod] = unknowns(initial_guess)
+
+        % solve the other equipment mole and energy balances
+        [soln, flag, message] = solve_ates(@residuals, initial_guess);
+
+        % check that the solution converged
+        if flag <= 0
+            disp(' ')
+            disp(['The ATE solver did not converge: ',message])
+        end
+
+        % extract and return the results
+        nDotA_in = soln(1);
+        nDotZ_in = soln(2);
+        T_in = soln(3);
+        T_r = soln(4);
+        nDotA_prod = soln(5);
+        nDotZ_prod = soln(6);
+        T_prod = soln(7);
+    end
+
     % residuals function for the ATEs
     function resid = residuals(guess)
         % extract the individual guesses
@@ -58,25 +81,6 @@ function reb_K_4_1
         resid = [eps_1; eps_2; eps_3; eps_4; eps_5; eps_6; eps_7];
     end
 
-    % derivatives function
-    function derivs = derivatives(~, dep)
-        % extract ind and dep vars for the current integration step
-        nDot_A = dep(1);
-        nDot_Z = dep(2);
-        T = dep(3);
-
-        % calculate rate
-        r = k_0*exp(-E/R/T)*nDot_A*nDot_Z/Vdot_in^2;
-
-        % evaluate the derivatives
-        dnDotAdz = -pi()*D^2/4*r;
-        dnDotZdz = pi()*D^2/4*r;
-        dTdz = -pi()*D^2/4*r*dH/Vdot_in/Cp;
-
-        % return the derivatives
-        derivs = [dnDotAdz; dnDotZdz; dTdz];
-    end
-
     % reactor model
     function [z, nDotA, nDotZ, T] = profiles(dep_0)
         % set the initial values
@@ -103,27 +107,23 @@ function reb_K_4_1
         T = dep(:,3);
     end
 
-    % other equipment model
-    function [nDotA_in, nDotZ_in, T_in, T_r, nDotA_prod, nDotZ_prod...
-            , T_prod] = unknowns(initial_guess)
+    % derivatives function
+    function derivs = derivatives(~, dep)
+        % extract ind and dep vars for the current integration step
+        nDot_A = dep(1);
+        nDot_Z = dep(2);
+        T = dep(3);
 
-        % solve the other equipment mole and energy balances
-        [soln, flag, message] = solve_ates(@residuals, initial_guess);
+        % calculate rate
+        r = k_0*exp(-E/R/T)*nDot_A*nDot_Z/Vdot_in^2;
 
-        % check that the solution converged
-        if flag <= 0
-            disp(' ')
-            disp(['The ATE solver did not converge: ',message])
-        end
+        % evaluate the derivatives
+        dnDotAdz = -pi()*D^2/4*r;
+        dnDotZdz = pi()*D^2/4*r;
+        dTdz = -pi()*D^2/4*r*dH/Vdot_in/Cp;
 
-        % extract and return the results
-        nDotA_in = soln(1);
-        nDotZ_in = soln(2);
-        T_in = soln(3);
-        T_r = soln(4);
-        nDotA_prod = soln(5);
-        nDotZ_prod = soln(6);
-        T_prod = soln(7);
+        % return the derivatives
+        derivs = [dnDotAdz; dnDotZdz; dTdz];
     end
 
     % function that performs the analysis
