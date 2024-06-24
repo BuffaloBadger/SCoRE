@@ -1,4 +1,4 @@
-"""Calculations for Example K.4.1 of Reaction Engineering Basics"""
+"""Calculations for Example 17.3.1 of Reaction Engineering Basics"""
 
 # import libraries
 import numpy as np
@@ -71,16 +71,18 @@ def profiles(dep_0):
     # return all profiles
     return z, nDotA, nDotZ, T
 
-# splitter and mixer residuals function
+# stream mixer residuals function
 def residuals(guess):
     # extract the individual guesses
     nDotA_1 = guess[0]
     nDotZ_1 = guess[1]
     T_1 = guess[2]
-    T_4 = guess[3]
-    nDotA_3 = guess[4]
-    nDotZ_3 = guess[5]
-    T_3 = guess[6]
+
+    # calculate other unknown constants
+    nDotA_0 = Vdot_0*CA_0
+    nDotZ_0 = Vdot_0*CZ_0
+    Vdot_3 = Vdot_0
+    Vdot_4 = R_R*Vdot_3
 
     # solve the reactor design equations
     dep_0 = np.array([nDotA_1, nDotZ_1, T_1])
@@ -89,27 +91,21 @@ def residuals(guess):
     # calculate the other unknown quantities
     nDotA_2 = nDotA[-1]
     nDotZ_2 = nDotZ[-1]
-    T_2 = T[-1]
-    nDotA_0 = Vdot_0*CA_0
-    nDotZ_0 = Vdot_0*CZ_0
-    Vdot_3 = Vdot_0
-    Vdot_4 = R_R*Vdot_3
-    nDotA_4 = R_R*nDotA_3
-    nDotZ_4 = R_R*nDotZ_3
+    T_4 = T[-1]
+
+    # calculate molar recycle flows
+    nDotA_4 = R_R/(1 + R_R)*nDotA_2
+    nDotZ_4 = R_R/(1 + R_R)*nDotZ_2
 
     # evaluate the residual
-    eps_1 = nDotA_0 + nDotA_4 - nDotA_1
-    eps_2 = nDotZ_0 + nDotZ_4 - nDotZ_1
+    eps_1 = nDotA_1 - nDotA_0 - nDotA_4
+    eps_2 = nDotZ_1 - nDotZ_0 - nDotZ_4
     eps_3 = Vdot_0*Cp*(T_1 - T_0) + Vdot_4*Cp*(T_1 - T_4)
-    eps_4 = nDotA_2 - nDotA_4 - nDotA_3
-    eps_5 = nDotZ_2 - nDotZ_4 - nDotZ_3
-    eps_6 = T_2 - T_4
-    eps_7 = T_2 - T_3
 
     # return the residualw
-    return eps_1, eps_2, eps_3, eps_4, eps_5, eps_6, eps_7
+    return eps_1, eps_2, eps_3
 
-# splitter and mixer model
+# stream mixer model
 def unknowns(initial_guess):
     # solve the other equipment mole and energy balances
     soln = sp.optimize.root(residuals,initial_guess)
@@ -122,32 +118,48 @@ def unknowns(initial_guess):
     nDotA_1 = soln.x[0]
     nDotZ_1 = soln.x[1]
     T_1 = soln.x[2]
-    T_4 = soln.x[3]
-    nDotA_3 = soln.x[4]
-    nDotZ_3 = soln.x[5]
-    T_3 = soln.x[6]
 
     # return the results
-    return nDotA_1, nDotZ_1, T_1, T_4, nDotA_3, nDotZ_3, T_3
+    return nDotA_1, nDotZ_1, T_1
 
 # perform the analysis
 def perform_the_analysis():
     # set initial guess for the unknowns
     nDotA_0 = Vdot_0*CA_0
-    initial_guess = np.array([0.9*nDotA_0, 0.1*nDotA_0, T_0 + 10,
-            T_0 + 10, 0.1*nDotA_0, 0.5*nDotA_0, T_0 + 10])
+    initial_guess = np.array([1.2*nDotA_0, nDotA_0, T_0 + 10])
 
     # solve the other equipment mole and energy balances
-    nDotA_1, nDotZ_1, T_1, T_4, nDotA_3, nDotZ_3, T_3 = unknowns(initial_guess)
+    nDotA_1, nDotZ_1, T_1 = unknowns(initial_guess)
+
+    # solve the reactor design equations
+    dep_0 = np.array([nDotA_1, nDotZ_1, T_1])
+    z, nDotA, nDotZ, T = profiles(dep_0)
+
+    # extract the outlet values
+    nDotA_2 = nDotA[-1]
+    nDotZ_2 = nDotZ[-1]
+    T_3 = T[-1]
+
+    # calculate molar recycle flows
+    nDotA_4 = R_R/(1 + R_R)*nDotA_2
+    nDotZ_4 = R_R/(1 + R_R)*nDotZ_2
+
+    # calculate the product molar flows
+    nDotA_3 = nDotA_2 - nDotA_4
+    nDotZ_3 = nDotZ_2 - nDotZ_4
+
+    # calculate the product concentrations
+    Vdot_3 = Vdot_0
+    CA_3 = nDotA_3/Vdot_3*1000
+    CZ_3 = nDotZ_3/Vdot_3*1000
     
     # tabulate the results
-    data = [['$\dot{n}_{A in}$',nDotA_1,'mol min^-1^']
-            ,['$\dot{n}_{Z_in}$',nDotZ_1,'mol min^-1^']
-            ,['$T_{in}$',T_1,'K']
-            ,['$T_r$',T_4,'K']
-            ,['$\dot{n}_{A,prod}$',nDotA_3,'mol min^-1^']
-            ,['$\dot{n}_{Z,prod}$',nDotZ_3,'mol min^-1^']
-            ,['$T_{prod}$',T_3,'K']]
+    data = [['nDotA 1',nDotA_1,'mol min^-1^']
+            ,['nDotZ 1',nDotZ_1,'mol min^-1^']
+            ,['T 1',T_1,'K']
+            ,['CA 3',CA_3,'M']
+            ,['CZ 3',CZ_3,'M']
+            ,['T 3',T_3,'K']]
     results_df = pd.DataFrame(data, columns=['item','value','units'])
 
     # display the results
@@ -155,7 +167,7 @@ def perform_the_analysis():
     print(results_df)
 
     # save the results
-    results_df.to_csv('reb_K_4_1/python/results.csv', index=False)
+    results_df.to_csv('reb_17_3_1/python/results.csv', index=False)
 
     return
 

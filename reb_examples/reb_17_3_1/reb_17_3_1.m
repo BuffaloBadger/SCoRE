@@ -1,5 +1,5 @@
-function reb_K_4_1
-    %REB_K_4_1 Calculations for Example K.4.1 of Reaction Engineering Basics
+function REB_17_3_1
+    %REB_17_3_1 Calculations for Example 17.3.1 of Reaction Engineering Basics
 
     % constants available to all functions
 	% given
@@ -8,7 +8,7 @@ function reb_K_4_1
     E_1 = 18000.; % cal /mol
     Cp = 1.3; % cal /cm^3 /K
     CA_0 = 2.0E-3; % mol /cm^3
-    CZ_0 = 0; % mol /cm^3
+    CZ_0 = 0.0; % mol /cm^3
     Vdot_0 = 500.; % cm^3 /min
     T_0 = 300.; % K
     R_R = 1.3; %
@@ -29,9 +29,9 @@ function reb_K_4_1
         Vdot_4 = R_R*Vdot_3;
         Vdot = Vdot_3 + Vdot_4;
         k_1 = k0_1*exp(-E_1/R/T);
-        CA = nDot_A/Vdot;
-        CZ = nDot_Z/Vdot;
-        r_1 = k_1*CA*CZ;
+        C_A = nDot_A/Vdot;
+        C_Z = nDot_Z/Vdot;
+        r_1 = k_1*C_A*C_Z;
 
         % evaluate the derivatives
         dnDotAdz = -pi()*D^2/4*r_1;
@@ -68,50 +68,45 @@ function reb_K_4_1
         T = dep(:,3);
     end
 
-    % splitter and mixer residuals function
+    % stream mixer residuals function
     function resid = residuals(guess)
         % extract the individual guesses
         nDotA_1 = guess(1);
         nDotZ_1 = guess(2);
         T_1 = guess(3);
-        T_4 = guess(4);
-        nDotA_3 = guess(5);
-        nDotZ_3 = guess(6);
-        T_3 = guess(7);
+
+        % calculate other unknown constants
+        nDotA_0 = Vdot_0*CA_0;
+        nDotZ_0 = Vdot_0*CZ_0;
+        Vdot_3 = Vdot_0;
+        Vdot_4 = R_R*Vdot_3;
 
         % solve the reactor design equations
         initial_values = [nDotA_1; nDotZ_1; T_1];
         [~, nDotA, nDotZ, T] = profiles(initial_values);
 
-        % calculate the other unknown quantities
+        % extract final values
         nDotA_2 = nDotA(end);
         nDotZ_2 = nDotZ(end);
-        T_2 = T(end);
-        nDotA_0 = Vdot_0*CA_0;
-        nDotZ_0 = Vdot_0*CZ_0;
-        Vdot_3 = Vdot_0;
-        Vdot_4 = R_R*Vdot_3;
-        nDotA_4 = R_R*nDotA_3;
-        nDotZ_4 = R_R*nDotZ_3;
+        T_4 = T(end);
+
+        % calculate molar recycle flows
+        nDotA_4 = R_R/(1 + R_R)*nDotA_2;
+        nDotZ_4 = R_R/(1 + R_R)*nDotZ_2;
 
         % evaluate the residuals
-        eps_1 = nDotA_0 + nDotA_4 - nDotA_1;
-        eps_2 = nDotZ_0 + nDotZ_4 - nDotZ_1;
+        eps_1 = nDotA_1 - nDotA_0 - nDotA_4;
+        eps_2 = nDotZ_1 - nDotZ_0 - nDotZ_4;
         eps_3 = Vdot_0*Cp*(T_1 - T_0) + Vdot_4*Cp*(T_1 - T_4);
-        eps_4 = nDotA_2 - nDotA_4 - nDotA_3;
-        eps_5 = nDotZ_2 - nDotZ_4 - nDotZ_3;
-        eps_6 = T_2 - T_4;
-        eps_7 = T_2 - T_3;
 
         % return the residuals
-        resid = [eps_1; eps_2; eps_3; eps_4; eps_5; eps_6; eps_7];
+        resid = [eps_1; eps_2; eps_3];
     end
 
-    % splitter and mixer model
-    function [nDotA_1, nDotZ_1, T_1, T_4, nDotA_3, nDotZ_3, T_3] ...
-            = unknowns(initial_guess)
+    % stream mixer model
+    function [nDotA_1, nDotZ_1, T_1] = unknowns(initial_guess)
 
-        % solve the other equipment mole and energy balances
+        % solve the stream mixer mole and energy balances
         [soln, flag, message] = solve_ates(@residuals, initial_guess);
 
         % check that the solution converged
@@ -124,10 +119,6 @@ function reb_K_4_1
         nDotA_1 = soln(1);
         nDotZ_1 = soln(2);
         T_1 = soln(3);
-        T_4 = soln(4);
-        nDotA_3 = soln(5);
-        nDotZ_3 = soln(6);
-        T_3 = soln(7);
     end
 
     % function that performs the analysis
@@ -135,18 +126,37 @@ function reb_K_4_1
 
         % initial guess for the unknowns
         nDotA_0 = Vdot_0*CA_0;
-        initial_guess = [0.9*nDotA_0; 0.1*nDotA_0; T_0 + 5
-            T_0 + 10; 0.1*nDotA_0; 0.1*nDotA_0; T_0 + 10];
+        initial_guess = [1.2*nDotA_0; nDotA_0; T_0 + 10];
 
-        % calculate the unknowns
-        [nDotA_1, nDotZ_1, T_1, T_4, nDotA_3, nDotZ_3, T_3] ...
-            = unknowns(initial_guess);
+        % solve the stream mixer balances
+        [nDotA_1, nDotZ_1, T_1] = unknowns(initial_guess);
+
+        % solve the PFR design equations
+        dep_0 = [nDotA_1; nDotZ_1; T_1];
+        [~, nDotA, nDotZ, T] = profiles(dep_0);
+        
+        % extract the outlet values
+        nDotA_2 = nDotA(end);
+        nDotZ_2 = nDotZ(end);
+        T_3 = T(end);
+
+        % calculate molar recycle flows
+        nDotA_4 = R_R/(1 + R_R)*nDotA_2;
+        nDotZ_4 = R_R/(1 + R_R)*nDotZ_2;
+
+        % calculate the product molar flows
+        nDotA_3 = nDotA_2 - nDotA_4;
+        nDotZ_3 = nDotZ_2 - nDotZ_4;
+
+        % calculate the product concentrations
+        Vdot_3 = Vdot_0;
+        CA_3 = nDotA_3/Vdot_3*1000;
+        CZ_3 = nDotZ_3/Vdot_3*1000;
 
         % tabulate the results
-        item = ["A 1"; "Z 1"; "T 1"; "T 4"; "A 3"; "Z 3"; "T 3"];
-        value = [nDotA_1; nDotZ_1; T_1; T_4; nDotA_3; nDotZ_3; T_3];
-        units = ["mol min^-1^"; "mol min^-1^"; "K"; "K"; "mol min^-1^"
-            "mol min^-1^"; "K"];
+        item = ["nDotA 1"; "nDotZ 1"; "T 1"; "CA 3"; "CZ 3"; "T 3"];
+        value = [nDotA_1; nDotZ_1; T_1; CA_3; CZ_3; T_3];
+        units = ["mol/min"; "mol/min"; "K"; "M"; "M"; "K"];
         results_table = table(item,value,units);
 
         % display the results
@@ -159,5 +169,4 @@ function reb_K_4_1
 
     % perform the analysis
     perform_the_analysis()
-
 end
