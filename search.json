@@ -519,7 +519,7 @@
     "href": "class_28.html#preparation-assignment",
     "title": "Class 28 - BSTR Kinetics Data Analysis",
     "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 19.5.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_19_5_1.m, reb_19_5_1_diff.m, and Python, reb_19_5_1.py and reb_19_5_1_diff.py. Data File\nReaction Engineering Basics, Example 19.5.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_19_5_2.m, reb_19_5_2_linear.m and Python, reb_19_5_2.py and reb_19_5_2_linear.py. Data File\nReaction Engineering Basics, Example 19.5.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_19_5_3.m, and Python, reb_19_5_3.py. Data File\nReaction Engineering Basics, Example 19.5.4\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_19_5_4.m, and Python, reb_19_5_4.py. Data File",
     "crumbs": [
       "Reaction Engineering Basics",
       "Kinetics Data Analysis",
