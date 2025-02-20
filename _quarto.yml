@@ -33,19 +33,23 @@ website:
     search: false
     collapse-level: 1
     contents: 
-      - section: "Welcome"
+      - text: "Welcome"
         href: index.qmd
-        contents: 
-          - text: "About SCoRE"
-            href: about.qmd
-          - text: "Before Starting SCoRE"
-            href: before_starting.qmd
+      - section: "Getting Started"
+        contents:
+          - text: "Preparing for SCoRE"
+            href: preparing.qmd
+          - text: "Using SCoRE"
+            href: using.qmd
       - section: "___"
+      - section: "Introduction"
+        contents: 
+          - text: "Reaction Engineering"
+            href: class_1.qmd
       - section: "Reactions and Rates"
         href: part_1.qmd
         contents:
           - text: "Chemical Reactions"
-            href: class_1.qmd
           - text: "Rates and Rate Expressions"
             href: class_2.qmd
           - text: "Reaction Mechanisms"
@@ -151,17 +155,14 @@ website:
         href: practice.qmd
       - section: "___"
       - section: "Computational Methods"
-        href: computation.qmd
         contents:
-          - text: "SCoRE Code Structure"
-            href: comp_code_structure.qmd
           - text: "Common Tasks"
             href: comp_tasks.qmd
           - text: "Solving ATEs"
             href: comp_ates.qmd
           - text: "Solving IVODEs"
             href: comp_ivodes.qmd
-          - text: "Solving DAEs"
+          - text: "Solving CVODEs"
             href: comp_daes.qmd
           - text: "Parameter Estimation"
             href: comp_param_est.qmd
