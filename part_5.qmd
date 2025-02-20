@@ -1,16 +1,8 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Part 5 - Ideal Reactor Systems {.ct} 
+# Part 5 - Continuous Ideal Reactors {.ct} 
 
 [content forthcoming]
-
-## Classes in Part 5 {.ch}
-
-[Class 24 - Reactor Networks](class_4.qmd)
-
-[Class 25 - Thermally Back-Mixed PFRs](class_25.qmd)
-
-[Class 26 - Recycle PFRs](class_26.qmd)
 
 {{< include includes/_bottom_license.qmd >}}

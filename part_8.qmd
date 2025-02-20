@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Part 1 - Introduction to Reaction Engineering {.ct} 
+# Part 8 - Non-Ideal Reactors {.ct} 
 
 [content forthcoming]
 

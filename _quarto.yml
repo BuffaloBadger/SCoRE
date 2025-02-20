@@ -36,6 +36,7 @@ website:
       - text: "Welcome"
         href: index.qmd
       - section: "Getting Started"
+        href: getting_started.qmd
         contents:
           - text: "Preparing for SCoRE"
             href: preparing.qmd
@@ -43,11 +44,12 @@ website:
             href: using.qmd
       - section: "___"
       - section: "Introduction"
+        href: part_1.qmd
         contents: 
           - text: "Reaction Engineering"
             href: class_1.qmd
       - section: "Reactions and Rates"
-        href: part_1.qmd
+        href: part_2.qmd
         contents:
           - text: "Chemical Reactions"
           - text: "Rates and Rate Expressions"
@@ -63,14 +65,14 @@ website:
           - text: "Part 1 Self-Assessment"
             href: assessment_1.qmd
       - section: "Ideal Reactor Models"
-        href: part_2.qmd
+        href: part_3.qmd
         contents:
           - text: "Reactor Design Equations"
             href: class_7.qmd
           - text: "Reactor Modeling"
             href: class_8.qmd
       - section: "Non-Continuous Ideal Reactors"
-        href: part_3.qmd
+        href: part_4.qmd
         contents:
           - text: "BSTR Response"
             href: class_9.qmd
@@ -85,7 +87,7 @@ website:
           - text: "Part 3 Self-Assessment"
             href: assessment_3.qmd
       - section: "Continuous Ideal Reactors"
-        href: part_4.qmd
+        href: part_5.qmd
         contents:
           - text: "Steady-State CSTR Response"
             href: class_14.qmd
@@ -110,7 +112,7 @@ website:
           - text: "Part 4 Self-Assessment"
             href: assessment_4.qmd
       - section: "Ideal Reactor Systems"
-        href: part_5.qmd
+        href: part_6.qmd
         contents:
           - text: "Reactor Networks"
             href: class_24.qmd
@@ -121,7 +123,7 @@ website:
           - text: "Part 5 Self-Assessment"
             href: assessment_5.qmd
       - section: "Kinetics Data Analysis"
-        href: part_6.qmd
+        href: part_7.qmd
         contents:
           - text: "Kinetics Data Generation"
             href: class_27.qmd
@@ -136,7 +138,7 @@ website:
           - text: "Part 6 Self-Assessment"
             href: assessment_6.qmd
       - section: "Non-Ideal Reactors"
-        href: part_7.qmd
+        href: part_8.qmd
         contents:
           - text: "Axial Dispersion Models"
             href: class_32.qmd
@@ -155,6 +157,7 @@ website:
         href: practice.qmd
       - section: "___"
       - section: "Computational Methods"
+        href: comp_methods.qmd
         contents:
           - text: "Common Tasks"
             href: comp_tasks.qmd

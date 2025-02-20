@@ -1,2 +1,2 @@
 
-![](graphics/SCoRE_Logo.png){fig-alt="Hockey Net with SCoRE written over it" fig-align="center" width="400"}
+![](graphics/SCoRE_Logo_with_text.png){fig-alt="Hockey Net with SCoRE written over it" fig-align="center" width="400"}

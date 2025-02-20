@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Part 1 - Introduction to Reaction Engineering {.ct} 
+# Getting Started {.ct} 
 
 [content forthcoming]
 
