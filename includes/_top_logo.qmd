@@ -1,11 +1,2 @@
 
 ![](graphics/SCoRE_Logo.png){fig-alt="Hockey Net with SCoRE written over it" fig-align="center" width="400"}
-
-::: {.callout-warning}
-## *SCoRE* is not yet complete
-
-I am still creating the content for [SC]{style="color:blue"}o[RE]{style="color:red"}. I am making it available in this partially complete format because I use it in a course I teach. When it is completed, [SC]{style="color:blue"}o[RE]{style="color:red"} will be a complete self-study course on reaction engineering that covers essentially the same information as is typically included in an undergraduate chemical engineering course on reaction engineering. It will be tightly integrated with the book, *Reaction Engineering Basics.* It will have 36 classes, and each class will include a preparation assignment including readings from the book and videos, a class "meeting" video, and a practice assignment.
-
-Right now I'm mostly adding Matlab and Python code for the example problems in *Reaction Engineering Basics*. I hope to start adding videos soon. I'll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon *Reaction Engineering Basics*. Then I will create the class videos. I'll be adding to the introductory material and the Computational Methods in parallel with the other content.  I'll take down this alert when all of the content has been added.
-
-:::

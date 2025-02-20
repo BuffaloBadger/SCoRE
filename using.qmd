@@ -1,23 +1,15 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Before Starting [SC]{style="color:blue"}o[RE]{style="color:red"} {.ct}
+# Using [SC]{style="color:blue"}o[RE]{style="color:red"} {.ct}
 
 [content forthcoming]
 
-## [SC]{style="color:blue"}o[RE]{style="color:red"} Prerequisite Knowledge {.ch}
+## Navigating the [SC]{style="color:blue"}o[RE]{style="color:red"} Site {.ch}
 
 [content forthcoming]
 
-## [SC]{style="color:blue"}o[RE]{style="color:red"} Notation {.ch}
-
-[content forthcoming]
-
-## [SC]{style="color:blue"}o[RE]{style="color:red"} Resources {.ch}
-
-[content forthcoming]
-
-## [SC]{style="color:blue"}o[RE]{style="color:red"} Computer Setup {.ch}
+## Suggested [SC]{style="color:blue"}o[RE]{style="color:red"} Workflow and Learning Strategy {.ch}
 
 [content forthcoming]
 

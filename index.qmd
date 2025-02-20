@@ -5,8 +5,4 @@
 
 [content forthcoming]
 
-[About SCoRE](about.qmd)
-
-[Before Starting SCoRE](before_starting.qmd)
-
 {{< include includes/_bottom_license.qmd >}}

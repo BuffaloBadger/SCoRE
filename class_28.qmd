@@ -11,7 +11,7 @@
 
 [links to videos forthcoming]
 
-Numerical implementations of the solution using Matlab, [reb_19_5_1.m](reb_examples/reb_19_5_1/reb_19_5_1.m), [reb_19_5_1_diff.m](reb_examples/reb_19_5_1/reb_19_5_1_diff.m), and Python, [reb_19_5_1.py](reb_examples/reb_19_5_1/reb_19_5_1.py) and [reb_19_5_1_diff.py](reb_examples/reb_19_5_1/reb_19_5_1_diff.py). [Data File](reb_examples/reb_19_5_1/reb_19_5_1_data.csv_)
+Numerical implementations of the solution using Matlab, [reb_19_5_1.m](reb_examples/reb_19_5_1/reb_19_5_1.m), and Python, [reb_19_5_1.py](reb_examples/reb_19_5_1/reb_19_5_1.py). [Data File](reb_examples/reb_19_5_1/reb_19_5_1_data.csv_)
 
 **Reaction Engineering Basics, Example 19.5.2**
 

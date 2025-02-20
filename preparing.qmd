@@ -1,19 +1,19 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# About [SC]{style="color:blue"}o[RE]{style="color:red"} {.ct} 
+# Preparing for [SC]{style="color:blue"}o[RE]{style="color:red"} {.ct} 
 
 [content forthcoming]
 
-## Navigating the [SC]{style="color:blue"}o[RE]{style="color:red"} Website {.ch}
+## [SC]{style="color:blue"}o[RE]{style="color:red"} Notation {.ch}
 
 [content forthcoming]
 
-## Suggested [SC]{style="color:blue"}o[RE]{style="color:red"} Workflow {.ch}
+## [SC]{style="color:blue"}o[RE]{style="color:red"} Resources {.ch}
 
 [content forthcoming]
 
-## [SC]{style="color:blue"}o[RE]{style="color:red"} Practice Assignment Paradigm {.ch}
+## [SC]{style="color:blue"}o[RE]{style="color:red"} Computer Setup {.ch}
 
 [content forthcoming]
 
