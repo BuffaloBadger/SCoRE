@@ -3,24 +3,23 @@
 
 # Numerical Solution of IVODEs {.ct}
 
-[content forthcoming]
+The design equations for some of the reactors considered in SCoRE are initial-value ordinary differential equations, or IVODEs, for short. This computational methods page will show you how to solve IVODEs numerically.
 
-**Reaction Engineering Basics, Example J.6.1**
+## Learning Outcomes
 
-[links to videos forthcoming]
+After completing this computational methods appendix you should be able to...
 
-Numerical implementations of the solution using Matlab, [reb_J_6_1.m](reb_examples/reb_J_6_1/reb_J_6_1.m), and Python, [reb_J_6_1.py](reb_examples/reb_J_6_1/reb_J_6_1.py).
+1. Identify a set of IVODEs,
+2. Know what you must provide to an IVODE solver and what it will return,
+3. Specify initial values and a stopping criterion to pass to an IVODE solver,
+4. Specify a derivatives function to pass to an IVODE solver,
+5. Specify the algorithm steps for using an IVODE solver, and
+6. Solve a set of IVODEs and display, save, or plot the results using Python or Matlab.
 
-**Reaction Engineering Basics, Example J.6.2**
+## Reading Assignment
 
-[links to videos forthcoming]
+*Reaction Engineering Basics,* Appendix J.
 
-Numerical implementations of the solution using Matlab, [reb_J_6_2.m](reb_examples/reb_J_6_2/reb_J_6_2.m), and Python, [reb_J_6_2.py](reb_examples/reb_J_6_2/reb_J_6_2.py).
-
-**Reaction Engineering Basics, Example J.6.3**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_J_6_3.m](reb_examples/reb_J_6_3/reb_J_6_3.m), and Python, [reb_J_6_3.py](reb_examples/reb_J_6_3/reb_J_6_3.py).
+## Learning Resources
 
 {{< include includes/_bottom_license.qmd >}}

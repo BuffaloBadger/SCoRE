@@ -166,7 +166,7 @@ website:
           - text: "Solving IVODEs"
             href: comp_ivodes.qmd
           - text: "Solving CVODEs"
-            href: comp_daes.qmd
+            href: comp_cvodes.qmd
           - text: "Parameter Estimation"
             href: comp_param_est.qmd
           - text: "Solving BVODEs"

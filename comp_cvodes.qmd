@@ -1,0 +1,24 @@
+
+{{< include includes/_top_logo.qmd >}}
+
+# Numerical Solution of CVODEs {.ct}
+
+The design equations for some of the reactors considered in SCoRE are coupled-value ordinary differential equations, or CVODEs, for short. This computational methods page will show you how to solve CVODEs numerically.
+
+## Learning Outcomes
+
+After completing this computational methods appendix you should be able to...
+
+1. Identify a set of CVODEs,
+2. Know what you must provide to a CVODE solver and what it will return,
+3. Specify...,
+5. Specify the algorithm steps for using a CVODE solver, and
+6. Solve a set of CVODEs and display, save, or plot the results using Python or Matlab.
+
+## Reading Assignment
+
+*Reaction Engineering Basics,* Appendix K.
+
+## Learning Resources
+
+{{< include includes/_bottom_license.qmd >}}
