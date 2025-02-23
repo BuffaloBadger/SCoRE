@@ -3,6 +3,6 @@
 
 # Computational Methods {.ct} 
 
-[content forthcoming]
+The lessons in this supplemental part of [SC]{style="color:blue"}o[RE]{style="color:red"} show how to perform common tasks and solve different kinds of equations using either Python or Matlab. The first lesson describes how code is structured in [SC]{style="color:blue"}o[RE]{style="color:red"} and how a number of common tasks are implemented. That is followed by separate lessons on solving algebraic-transcendental equations, solving initial-value ordinary differential equations, solving coupled-value ordinary differential equations, estimating model parmeters using experimental data, and solving boundary-value ordinary differential equations.
 
 {{< include includes/_bottom_license.qmd >}}
