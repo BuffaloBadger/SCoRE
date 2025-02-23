@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/comp_daes.html</loc>
-    <lastmod>2024-05-24T20:04:06.859Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/comp_cvodes.html</loc>
+    <lastmod>2025-02-21T21:24:19.810Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/comp_ates.html</loc>
-    <lastmod>2024-04-29T14:05:38.500Z</lastmod>
+    <lastmod>2025-02-21T13:49:51.844Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/class_9.html</loc>
     <lastmod>2024-04-17T20:13:42.761Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_8.html</loc>
-    <lastmod>2024-04-10T01:06:24.195Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/preparing.html</loc>
+    <lastmod>2025-02-20T14:28:02.455Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/comp_tasks.html</loc>
-    <lastmod>2024-04-10T01:06:24.199Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/NOTES.html</loc>
+    <lastmod>2024-04-10T01:06:24.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BuffaloBadger.github.io/SCoRE/part_8.html</loc>
+    <lastmod>2025-02-20T14:49:28.375Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/class_34.html</loc>
@@ -29,44 +33,48 @@
     <lastmod>2024-05-15T15:10:08.415Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_22.html</loc>
-    <lastmod>2024-05-15T15:09:59.224Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_23.html</loc>
+    <lastmod>2024-04-10T01:06:24.174Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_26.html</loc>
-    <lastmod>2024-06-24T20:04:11.772Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_32.html</loc>
+    <lastmod>2024-04-10T01:06:24.184Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_33.html</loc>
-    <lastmod>2024-04-10T01:06:24.185Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_27.html</loc>
+    <lastmod>2024-04-10T01:06:24.177Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/comp_code_structure.html</loc>
-    <lastmod>2024-06-08T14:54:37.785Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/comp_param_est.html</loc>
+    <lastmod>2024-04-10T01:06:24.199Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_31.html</loc>
-    <lastmod>2024-04-10T01:06:24.182Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_25.html</loc>
+    <lastmod>2024-06-17T14:02:52.701Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/about.html</loc>
-    <lastmod>2024-04-10T01:06:24.153Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_19.html</loc>
+    <lastmod>2024-05-15T14:31:20.028Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_30.html</loc>
-    <lastmod>2024-04-10T01:06:24.181Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_18.html</loc>
+    <lastmod>2024-05-03T19:39:55.570Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_29.html</loc>
-    <lastmod>2024-08-02T18:39:15.639Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_24.html</loc>
+    <lastmod>2024-06-11T14:38:55.074Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/index.html</loc>
-    <lastmod>2024-04-30T14:16:22.282Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_15.html</loc>
+    <lastmod>2024-05-01T19:42:11.496Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_28.html</loc>
-    <lastmod>2024-07-29T20:22:30.666Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_14.html</loc>
+    <lastmod>2024-05-01T19:41:45.666Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BuffaloBadger.github.io/SCoRE/getting_started.html</loc>
+    <lastmod>2025-02-20T14:37:52.705Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/class_17.html</loc>
@@ -90,7 +98,7 @@
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/computation.html</loc>
-    <lastmod>2024-04-10T01:06:24.200Z</lastmod>
+    <lastmod>2025-02-23T18:38:23.148Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/class_7.html</loc>
@@ -98,7 +106,7 @@
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/part_6.html</loc>
-    <lastmod>2024-04-10T01:06:24.248Z</lastmod>
+    <lastmod>2025-02-20T14:51:37.801Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/assessment_5.html</loc>
@@ -106,11 +114,11 @@
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/part_7.html</loc>
-    <lastmod>2024-04-10T01:06:24.254Z</lastmod>
+    <lastmod>2025-02-20T14:52:03.663Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/part_3.html</loc>
-    <lastmod>2024-04-17T12:44:27.061Z</lastmod>
+    <lastmod>2025-02-20T14:50:27.152Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/class_1.html</loc>
@@ -126,7 +134,7 @@
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/part_1.html</loc>
-    <lastmod>2024-04-10T01:06:24.206Z</lastmod>
+    <lastmod>2025-02-20T14:49:14.655Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/assessment_3.html</loc>
@@ -134,7 +142,7 @@
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/part_2.html</loc>
-    <lastmod>2024-04-10T01:06:24.207Z</lastmod>
+    <lastmod>2025-02-20T14:49:55.017Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/assessment_1.html</loc>
@@ -158,7 +166,7 @@
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/part_4.html</loc>
-    <lastmod>2024-04-10T01:06:24.209Z</lastmod>
+    <lastmod>2025-02-20T14:50:50.656Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/assessment_7.html</loc>
@@ -166,7 +174,7 @@
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/part_5.html</loc>
-    <lastmod>2024-04-10T01:06:24.209Z</lastmod>
+    <lastmod>2025-02-20T14:51:15.885Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/class_11.html</loc>
@@ -185,44 +193,48 @@
     <lastmod>2024-05-02T18:54:19.138Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_14.html</loc>
-    <lastmod>2024-05-01T19:41:45.666Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_28.html</loc>
+    <lastmod>2025-02-23T18:38:57.660Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_15.html</loc>
-    <lastmod>2024-05-01T19:42:11.496Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/index.html</loc>
+    <lastmod>2025-02-23T18:35:44.768Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_24.html</loc>
-    <lastmod>2024-06-11T14:38:55.074Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_29.html</loc>
+    <lastmod>2024-08-02T18:39:15.639Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_18.html</loc>
-    <lastmod>2024-05-03T19:39:55.570Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_30.html</loc>
+    <lastmod>2024-04-10T01:06:24.181Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_19.html</loc>
-    <lastmod>2024-05-15T14:31:20.028Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/using.html</loc>
+    <lastmod>2025-02-20T14:29:08.061Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_25.html</loc>
-    <lastmod>2024-06-17T14:02:52.701Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_31.html</loc>
+    <lastmod>2024-04-10T01:06:24.182Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/comp_param_est.html</loc>
-    <lastmod>2024-04-10T01:06:24.199Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/comp_code_structure.html</loc>
+    <lastmod>2024-06-08T14:54:37.785Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_27.html</loc>
-    <lastmod>2024-04-10T01:06:24.177Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_33.html</loc>
+    <lastmod>2024-04-10T01:06:24.185Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_32.html</loc>
-    <lastmod>2024-04-10T01:06:24.184Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_26.html</loc>
+    <lastmod>2024-06-24T20:04:11.772Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/class_23.html</loc>
-    <lastmod>2024-04-10T01:06:24.174Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_22.html</loc>
+    <lastmod>2024-05-15T15:09:59.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BuffaloBadger.github.io/SCoRE/comp_methods.html</loc>
+    <lastmod>2025-02-20T14:56:52.759Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/class_35.html</loc>
@@ -233,19 +245,23 @@
     <lastmod>2024-05-15T14:16:32.936Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/NOTES.html</loc>
-    <lastmod>2024-04-10T01:06:24.151Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/comp_tasks.html</loc>
+    <lastmod>2024-04-10T01:06:24.199Z</lastmod>
   </url>
   <url>
-    <loc>https://BuffaloBadger.github.io/SCoRE/before_starting.html</loc>
-    <lastmod>2024-04-10T01:06:24.159Z</lastmod>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_8.html</loc>
+    <lastmod>2024-04-10T01:06:24.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BuffaloBadger.github.io/SCoRE/class_x.html</loc>
+    <lastmod>2025-02-23T17:53:53.909Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/comp_ivodes.html</loc>
-    <lastmod>2024-04-17T20:10:23.701Z</lastmod>
+    <lastmod>2025-02-21T13:51:55.499Z</lastmod>
   </url>
   <url>
     <loc>https://BuffaloBadger.github.io/SCoRE/comp_bvodes.html</loc>
-    <lastmod>2024-04-10T01:06:24.196Z</lastmod>
+    <lastmod>2025-02-22T21:12:30.205Z</lastmod>
   </url>
 </urlset>

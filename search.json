@@ -1,22 +1,70 @@
 [
   {
-    "objectID": "comp_daes.html",
-    "href": "comp_daes.html",
-    "title": "Numerical Solution of DAEs",
-    "section": "",
-    "text": "SCoRE is not yet complete\n\n\n\nI am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. When it is completed, SCoRE will be a complete self-study course on reaction engineering that covers essentially the same information as is typically included in an undergraduate chemical engineering course on reaction engineering. It will be tightly integrated with the book, Reaction Engineering Basics. It will have 36 classes, and each class will include a preparation assignment including readings from the book and videos, a class “meeting” video, and a practice assignment.\nRight now I’m mostly adding Matlab and Python code for the example problems in Reaction Engineering Basics. I hope to start adding videos soon. I’ll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon Reaction Engineering Basics. Then I will create the class videos. I’ll be adding to the introductory material and the Computational Methods in parallel with the other content. I’ll take down this alert when all of the content has been added.\n\n\n\nNumerical Solution of DAEs\n[content forthcoming]\nReaction Engineering Basics, Example K.4.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_K_4_1.m, and Python, reb_K_4_1.py.\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "objectID": "comp_cvodes.html#learning-outcomes",
+    "href": "comp_cvodes.html#learning-outcomes",
+    "title": "Numerical Solution of CVODEs",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nAfter completing this computational methods appendix you should be able to…\n\nIdentify a set of CVODEs,\nKnow what you must provide to a CVODE solver and what it will return,\nSpecify…,\nSpecify the algorithm steps for using a CVODE solver, and\nSolve a set of CVODEs and display, save, or plot the results using Python or Matlab.",
     "crumbs": [
       "Reaction Engineering Basics",
       "Computational Methods",
-      "Solving DAEs"
+      "Solving CVODEs"
     ]
   },
   {
-    "objectID": "comp_ates.html",
-    "href": "comp_ates.html",
+    "objectID": "comp_cvodes.html#reading-assignment",
+    "href": "comp_cvodes.html#reading-assignment",
+    "title": "Numerical Solution of CVODEs",
+    "section": "Reading Assignment",
+    "text": "Reading Assignment\nReaction Engineering Basics, Appendix K.",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Computational Methods",
+      "Solving CVODEs"
+    ]
+  },
+  {
+    "objectID": "comp_cvodes.html#learning-resources",
+    "href": "comp_cvodes.html#learning-resources",
+    "title": "Numerical Solution of CVODEs",
+    "section": "Learning Resources",
+    "text": "Learning Resources\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Computational Methods",
+      "Solving CVODEs"
+    ]
+  },
+  {
+    "objectID": "comp_ates.html#learning-outcomes",
+    "href": "comp_ates.html#learning-outcomes",
     "title": "Numerical Solution of ATEs",
-    "section": "",
-    "text": "SCoRE is not yet complete\n\n\n\nI am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. When it is completed, SCoRE will be a complete self-study course on reaction engineering that covers essentially the same information as is typically included in an undergraduate chemical engineering course on reaction engineering. It will be tightly integrated with the book, Reaction Engineering Basics. It will have 36 classes, and each class will include a preparation assignment including readings from the book and videos, a class “meeting” video, and a practice assignment.\nRight now I’m mostly adding Matlab and Python code for the example problems in Reaction Engineering Basics. I hope to start adding videos soon. I’ll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon Reaction Engineering Basics. Then I will create the class videos. I’ll be adding to the introductory material and the Computational Methods in parallel with the other content. I’ll take down this alert when all of the content has been added.\n\n\n\nNumerical Solution of ATEs\n[content forthcoming]\nReaction Engineering Basics, Example I.6\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_I_6.m, and Python, reb_I_6.py.\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nAfter completing this computational methods appendix you should be able to…\n\nIdentify a set of ATEs,\nKnow what you must provide to an ATE solver and what it will return,\nSpecify an initial guess to pass to an ATE solver,\nSpecify a residuals function to pass to an ATE solver,\nSpecify the algorithm steps for using an ATE solver, and\nSolve a set of ATEs and display, save, or plot the results using Python or Matlab.",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Computational Methods",
+      "Solving ATEs"
+    ]
+  },
+  {
+    "objectID": "comp_ates.html#reading-assignment",
+    "href": "comp_ates.html#reading-assignment",
+    "title": "Numerical Solution of ATEs",
+    "section": "Reading Assignment",
+    "text": "Reading Assignment\nReaction Engineering Basics, Appendix I.",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Computational Methods",
+      "Solving ATEs"
+    ]
+  },
+  {
+    "objectID": "comp_ates.html#learning-resources",
+    "href": "comp_ates.html#learning-resources",
+    "title": "Numerical Solution of ATEs",
+    "section": "Learning Resources",
+    "text": "Learning Resources\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
     "crumbs": [
       "Reaction Engineering Basics",
       "Computational Methods",
@@ -28,72 +76,1118 @@
     "href": "class_9.html#preparation-assignment",
     "title": "Class 9 - BSTR Response",
     "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 9.6.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_9_6_1.m, and Python, reb_9_6_1.py.\nReaction Engineering Basics, Example 9.6.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_9_6_2.m, and Python, reb_9_6_2.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "BSTR Response"
-    ]
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 9.6.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_9_6_1.m, and Python, reb_9_6_1.py.\nReaction Engineering Basics, Example 9.6.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_9_6_2.m, and Python, reb_9_6_2.py."
   },
   {
     "objectID": "class_9.html#class-9",
     "href": "class_9.html#class-9",
     "title": "Class 9 - BSTR Response",
     "section": "Class 9",
-    "text": "Class 9\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "BSTR Response"
-    ]
+    "text": "Class 9\n[content forthcoming]"
   },
   {
     "objectID": "class_9.html#practice-assignment",
     "href": "class_9.html#practice-assignment",
     "title": "Class 9 - BSTR Response",
     "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "preparing.html#prerequisite-knowledge",
+    "href": "preparing.html#prerequisite-knowledge",
+    "title": "Preparing for SCoRE",
+    "section": "Prerequisite Knowledge",
+    "text": "Prerequisite Knowledge\n[content forthcoming]",
     "crumbs": [
       "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "BSTR Response"
+      "Getting Started",
+      "Preparing for SCoRE"
     ]
   },
   {
-    "objectID": "class_8.html#preparation-assignment",
-    "href": "class_8.html#preparation-assignment",
-    "title": "Class 8 - Reactor Modeling",
+    "objectID": "preparing.html#score-resources",
+    "href": "preparing.html#score-resources",
+    "title": "Preparing for SCoRE",
+    "section": "SCoRE Resources",
+    "text": "SCoRE Resources\n[content forthcoming]",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Getting Started",
+      "Preparing for SCoRE"
+    ]
+  },
+  {
+    "objectID": "preparing.html#score-computer-setup",
+    "href": "preparing.html#score-computer-setup",
+    "title": "Preparing for SCoRE",
+    "section": "SCoRE Computer Setup",
+    "text": "SCoRE Computer Setup\n[content forthcoming]",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Getting Started",
+      "Preparing for SCoRE"
+    ]
+  },
+  {
+    "objectID": "preparing.html#score-notation",
+    "href": "preparing.html#score-notation",
+    "title": "Preparing for SCoRE",
+    "section": "SCoRE Notation",
+    "text": "SCoRE Notation\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Getting Started",
+      "Preparing for SCoRE"
+    ]
+  },
+  {
+    "objectID": "NOTES.html",
+    "href": "NOTES.html",
+    "title": "SCoRE",
+    "section": "",
+    "text": "Make sure there is a PFR kinetics assignment that uses the volume as the dependent variable.\nCompare linear least squares, non-linear least squares using absolute errors, and non-linear least squares using relative errors."
+  },
+  {
+    "objectID": "part_8.html",
+    "href": "part_8.html",
+    "title": "Part 8 - Non-Ideal Reactors",
+    "section": "",
+    "text": "Part 8 - Non-Ideal Reactors\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Non-Ideal Reactors"
+    ]
+  },
+  {
+    "objectID": "class_34.html#preparation-assignment",
+    "href": "class_34.html#preparation-assignment",
+    "title": "Class 34 - Segregated Flow Models",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_34.html#class-34",
+    "href": "class_34.html#class-34",
+    "title": "Class 34 - Segregated Flow Models",
+    "section": "Class 34",
+    "text": "Class 34\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_34.html#practice-assignment",
+    "href": "class_34.html#practice-assignment",
+    "title": "Class 34 - Segregated Flow Models",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_21.html#preparation-assignment",
+    "href": "class_21.html#preparation-assignment",
+    "title": "Class 21 - Transient PFR Response",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 13.7.5\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_5.m, and Python, reb_13_7_5.py."
+  },
+  {
+    "objectID": "class_21.html#class-21",
+    "href": "class_21.html#class-21",
+    "title": "Class 21 - Transient PFR Response",
+    "section": "Class 21",
+    "text": "Class 21\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_21.html#practice-assignment",
+    "href": "class_21.html#practice-assignment",
+    "title": "Class 21 - Transient PFR Response",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_23.html#preparation-assignment",
+    "href": "class_23.html#preparation-assignment",
+    "title": "Class 23 - Continuous Reactor Design",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_23.html#class-23",
+    "href": "class_23.html#class-23",
+    "title": "Class 23 - Continuous Reactor Design",
+    "section": "Class 23",
+    "text": "Class 23\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_23.html#practice-assignment",
+    "href": "class_23.html#practice-assignment",
+    "title": "Class 23 - Continuous Reactor Design",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_32.html#preparation-assignment",
+    "href": "class_32.html#preparation-assignment",
+    "title": "Class 32 - Axial Dispersion Models",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_32.html#class-32",
+    "href": "class_32.html#class-32",
+    "title": "Class 32 - Axial Dispersion Models",
+    "section": "Class 32",
+    "text": "Class 32\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_32.html#practice-assignment",
+    "href": "class_32.html#practice-assignment",
+    "title": "Class 32 - Axial Dispersion Models",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_27.html#preparation-assignment",
+    "href": "class_27.html#preparation-assignment",
+    "title": "Class 27 - Kinetics Data Generation",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_27.html#class-27",
+    "href": "class_27.html#class-27",
+    "title": "Class 27 - Kinetics Data Generation",
+    "section": "Class 27",
+    "text": "Class 27\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_27.html#practice-assignment",
+    "href": "class_27.html#practice-assignment",
+    "title": "Class 27 - Kinetics Data Generation",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "comp_param_est.html",
+    "href": "comp_param_est.html",
+    "title": "Parameter Estimation",
+    "section": "",
+    "text": "Parameter Estimation\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Computational Methods",
+      "Parameter Estimation"
+    ]
+  },
+  {
+    "objectID": "class_25.html#preparation-assignment",
+    "href": "class_25.html#preparation-assignment",
+    "title": "Class 25 - Thermally Back-Mixed PFRs",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 16.3.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_16_3_1.m, and Python, reb_16_3_1.py.\nReaction Engineering Basics, Example 16.3.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_16_3_2.m, and Python, reb_16_3_2.py."
+  },
+  {
+    "objectID": "class_25.html#class-25",
+    "href": "class_25.html#class-25",
+    "title": "Class 25 - Thermally Back-Mixed PFRs",
+    "section": "Class 25",
+    "text": "Class 25\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_25.html#practice-assignment",
+    "href": "class_25.html#practice-assignment",
+    "title": "Class 25 - Thermally Back-Mixed PFRs",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_19.html#preparation-assignment",
+    "href": "class_19.html#preparation-assignment",
+    "title": "Class 19 - Steady-State PFR Response",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 13.7.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_1.m, and Python, reb_13_7_1.py.\nReaction Engineering Basics, Example 13.7.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_2.m, and Python, reb_13_7_2.py.\nReaction Engineering Basics, Example 13.7.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_3.m, and Python, reb_13_7_3.py."
+  },
+  {
+    "objectID": "class_19.html#class-19",
+    "href": "class_19.html#class-19",
+    "title": "Class 19 - Steady-State PFR Response",
+    "section": "Class 19",
+    "text": "Class 19\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_19.html#practice-assignment",
+    "href": "class_19.html#practice-assignment",
+    "title": "Class 19 - Steady-State PFR Response",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_18.html#preparation-assignment",
+    "href": "class_18.html#preparation-assignment",
+    "title": "Class 18 - Steady-State CSTR Stability",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 12.7.6\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_6.m, and Python, reb_12_7_6.py."
+  },
+  {
+    "objectID": "class_18.html#class-18",
+    "href": "class_18.html#class-18",
+    "title": "Class 18 - Steady-State CSTR Stability",
+    "section": "Class 18",
+    "text": "Class 18\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_18.html#practice-assignment",
+    "href": "class_18.html#practice-assignment",
+    "title": "Class 18 - Steady-State CSTR Stability",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_24.html#preparation-assignment",
+    "href": "class_24.html#preparation-assignment",
+    "title": "Class 24 - Reactor Networks",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 15.4.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_15_4_1.m, and Python, reb_15_4_1.py.\nReaction Engineering Basics, Example 15.4.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_15_4_2.m, and Python, reb_15_4_2.py.\nReaction Engineering Basics, Example 15.4.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_15_4_3.m, and Python, reb_15_4_3.py.\nReaction Engineering Basics, Example 15.4.4\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_15_4_4.m, and Python, reb_15_4_4.py."
+  },
+  {
+    "objectID": "class_24.html#class-24",
+    "href": "class_24.html#class-24",
+    "title": "Class 24 - Reactor Networks",
+    "section": "Class 24",
+    "text": "Class 24\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_24.html#practice-assignment",
+    "href": "class_24.html#practice-assignment",
+    "title": "Class 24 - Reactor Networks",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_15.html#preparation-assignment",
+    "href": "class_15.html#preparation-assignment",
+    "title": "Class 15 - Steady-State CSTR Optimization",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 12.7.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_3.m, and Python, reb_12_7_3.py."
+  },
+  {
+    "objectID": "class_15.html#class-15",
+    "href": "class_15.html#class-15",
+    "title": "Class 15 - Steady-State CSTR Optimization",
+    "section": "Class 15",
+    "text": "Class 15\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_15.html#practice-assignment",
+    "href": "class_15.html#practice-assignment",
+    "title": "Class 15 - Steady-State CSTR Optimization",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_14.html#preparation-assignment",
+    "href": "class_14.html#preparation-assignment",
+    "title": "Class 14 - Steady-State CSTR Response",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 12.7.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_1.m, and Python, reb_12_7_1.py.\nReaction Engineering Basics, Example 12.7.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_2.m, and Python, reb_12_7_2.py."
+  },
+  {
+    "objectID": "class_14.html#class-14",
+    "href": "class_14.html#class-14",
+    "title": "Class 14 - Steady-State CSTR Response",
+    "section": "Class 14",
+    "text": "Class 14\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_14.html#practice-assignment",
+    "href": "class_14.html#practice-assignment",
+    "title": "Class 14 - Steady-State CSTR Response",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "getting_started.html",
+    "href": "getting_started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Getting Started\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "class_17.html#preparation-assignment",
+    "href": "class_17.html#preparation-assignment",
+    "title": "Class 17 - Transient CSTR Response",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 12.7.5\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_5.m, and Python, reb_12_7_5.py."
+  },
+  {
+    "objectID": "class_17.html#class-17",
+    "href": "class_17.html#class-17",
+    "title": "Class 17 - Transient CSTR Response",
+    "section": "Class 17",
+    "text": "Class 17\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_17.html#practice-assignment",
+    "href": "class_17.html#practice-assignment",
+    "title": "Class 17 - Transient CSTR Response",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_12.html#preparation-assignment",
+    "href": "class_12.html#preparation-assignment",
+    "title": "Class 12 - SBSTR Optimization",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 10.5.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_10_5_3.m, and Python, reb_10_5_3.py."
+  },
+  {
+    "objectID": "class_12.html#class-12",
+    "href": "class_12.html#class-12",
+    "title": "Class 12 - SBSTR Optimization",
+    "section": "Class 12",
+    "text": "Class 12\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_12.html#practice-assignment",
+    "href": "class_12.html#practice-assignment",
+    "title": "Class 12 - SBSTR Optimization",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "practice.html",
+    "href": "practice.html",
+    "title": "Additional Practice",
+    "section": "",
+    "text": "Additional Practice\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Additional Practice"
+    ]
+  },
+  {
+    "objectID": "class_6.html#preparation-assignment",
+    "href": "class_6.html#preparation-assignment",
+    "title": "Class 6 - Most Abundant Intermediates",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_6.html#class-6",
+    "href": "class_6.html#class-6",
+    "title": "Class 6 - Most Abundant Intermediates",
+    "section": "Class 6",
+    "text": "Class 6\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_6.html#practice-assignment",
+    "href": "class_6.html#practice-assignment",
+    "title": "Class 6 - Most Abundant Intermediates",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "assessment_6.html#preparation",
+    "href": "assessment_6.html#preparation",
+    "title": "Part 6 Self-Assessment",
+    "section": "Preparation",
+    "text": "Preparation\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_6.html#assignment",
+    "href": "assessment_6.html#assignment",
+    "title": "Part 6 Self-Assessment",
+    "section": "Assignment",
+    "text": "Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_6.html#self-assessment",
+    "href": "assessment_6.html#self-assessment",
+    "title": "Part 6 Self-Assessment",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "computation.html",
+    "href": "computation.html",
+    "title": "Computational Methods",
+    "section": "",
+    "text": "Computational Methods\n[content forthcoming]\nCommon Tasks\nSolving ATEs\nSolving IVODEs\nSolving CVODEs\nParameter Estimation\nSolving BVODEs\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_7.html#preparation-assignment",
+    "href": "class_7.html#preparation-assignment",
+    "title": "Class 7 - Reactor Design Equations",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_7.html#class-7",
+    "href": "class_7.html#class-7",
+    "title": "Class 7 - Reactor Design Equations",
+    "section": "Class 7",
+    "text": "Class 7\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_7.html#practice-assignment",
+    "href": "class_7.html#practice-assignment",
+    "title": "Class 7 - Reactor Design Equations",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "part_6.html",
+    "href": "part_6.html",
+    "title": "Part 6 - Ideal Reactor Systems",
+    "section": "",
+    "text": "Part 6 - Ideal Reactor Systems\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Ideal Reactor Systems"
+    ]
+  },
+  {
+    "objectID": "assessment_5.html#preparation",
+    "href": "assessment_5.html#preparation",
+    "title": "Part 5 Self-Assessment",
+    "section": "Preparation",
+    "text": "Preparation\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_5.html#assignment",
+    "href": "assessment_5.html#assignment",
+    "title": "Part 5 Self-Assessment",
+    "section": "Assignment",
+    "text": "Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_5.html#self-assessment",
+    "href": "assessment_5.html#self-assessment",
+    "title": "Part 5 Self-Assessment",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "part_7.html",
+    "href": "part_7.html",
+    "title": "Part 7 - Kinetics Data Analysis",
+    "section": "",
+    "text": "Part 7 - Kinetics Data Analysis\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Kinetics Data Analysis"
+    ]
+  },
+  {
+    "objectID": "part_3.html",
+    "href": "part_3.html",
+    "title": "Part 3 - Ideal Reactor Models",
+    "section": "",
+    "text": "Part 3 - Ideal Reactor Models\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Ideal Reactor Models"
+    ]
+  },
+  {
+    "objectID": "class_1.html#preparation-assignment",
+    "href": "class_1.html#preparation-assignment",
+    "title": "Class 1 - Chemical Reactions",
     "section": "Preparation Assignment",
     "text": "Preparation Assignment\n[content forthcoming]",
     "crumbs": [
       "Reaction Engineering Basics",
-      "Ideal Reactor Models",
-      "Reactor Modeling"
+      "Introduction",
+      "Reaction Engineering"
     ]
   },
   {
-    "objectID": "class_8.html#class-8",
-    "href": "class_8.html#class-8",
-    "title": "Class 8 - Reactor Modeling",
-    "section": "Class 8",
-    "text": "Class 8\n[content forthcoming]",
+    "objectID": "class_1.html#class-1",
+    "href": "class_1.html#class-1",
+    "title": "Class 1 - Chemical Reactions",
+    "section": "Class 1",
+    "text": "Class 1\n[content forthcoming]",
     "crumbs": [
       "Reaction Engineering Basics",
-      "Ideal Reactor Models",
-      "Reactor Modeling"
+      "Introduction",
+      "Reaction Engineering"
     ]
   },
   {
-    "objectID": "class_8.html#practice-assignment",
-    "href": "class_8.html#practice-assignment",
-    "title": "Class 8 - Reactor Modeling",
+    "objectID": "class_1.html#practice-assignment",
+    "href": "class_1.html#practice-assignment",
+    "title": "Class 1 - Chemical Reactions",
     "section": "Practice Assignment",
     "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
     "crumbs": [
       "Reaction Engineering Basics",
-      "Ideal Reactor Models",
-      "Reactor Modeling"
+      "Introduction",
+      "Reaction Engineering"
     ]
+  },
+  {
+    "objectID": "class_3.html#preparation-assignment",
+    "href": "class_3.html#preparation-assignment",
+    "title": "Class 3 - Reaction Mechanisms",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_3.html#class-3",
+    "href": "class_3.html#class-3",
+    "title": "Class 3 - Reaction Mechanisms",
+    "section": "Class 3",
+    "text": "Class 3\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_3.html#practice-assignment",
+    "href": "class_3.html#practice-assignment",
+    "title": "Class 3 - Reaction Mechanisms",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_2.html#preparation-assignment",
+    "href": "class_2.html#preparation-assignment",
+    "title": "Class 2 - Rates and Rate Expressions",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Reactions and Rates",
+      "Reactions and Reactors"
+    ]
+  },
+  {
+    "objectID": "class_2.html#class-2",
+    "href": "class_2.html#class-2",
+    "title": "Class 2 - Rates and Rate Expressions",
+    "section": "Class 2",
+    "text": "Class 2\n[content forthcoming]",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Reactions and Rates",
+      "Reactions and Reactors"
+    ]
+  },
+  {
+    "objectID": "class_2.html#practice-assignment",
+    "href": "class_2.html#practice-assignment",
+    "title": "Class 2 - Rates and Rate Expressions",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Reactions and Rates",
+      "Reactions and Reactors"
+    ]
+  },
+  {
+    "objectID": "part_1.html",
+    "href": "part_1.html",
+    "title": "Part 1 - Introduction to Reaction Engineering",
+    "section": "",
+    "text": "Part 1 - Introduction to Reaction Engineering\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "assessment_3.html#preparation",
+    "href": "assessment_3.html#preparation",
+    "title": "Part 3 Self-Assessment",
+    "section": "Preparation",
+    "text": "Preparation\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_3.html#assignment",
+    "href": "assessment_3.html#assignment",
+    "title": "Part 3 Self-Assessment",
+    "section": "Assignment",
+    "text": "Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_3.html#self-assessment",
+    "href": "assessment_3.html#self-assessment",
+    "title": "Part 3 Self-Assessment",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "part_2.html",
+    "href": "part_2.html",
+    "title": "Part 2 - Reactions and Rates",
+    "section": "",
+    "text": "Part 2 - Reactions and Rates\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Reactions and Rates"
+    ]
+  },
+  {
+    "objectID": "assessment_1.html#preparation",
+    "href": "assessment_1.html#preparation",
+    "title": "Part 1 Self-Assessment",
+    "section": "Preparation",
+    "text": "Preparation\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_1.html#assignment",
+    "href": "assessment_1.html#assignment",
+    "title": "Part 1 Self-Assessment",
+    "section": "Assignment",
+    "text": "Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_1.html#self-assessment",
+    "href": "assessment_1.html#self-assessment",
+    "title": "Part 1 Self-Assessment",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_4.html#preparation-assignment",
+    "href": "class_4.html#preparation-assignment",
+    "title": "Class 4 - Rate-Determining Steps",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_4.html#class-4",
+    "href": "class_4.html#class-4",
+    "title": "Class 4 - Rate-Determining Steps",
+    "section": "Class 4",
+    "text": "Class 4\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_4.html#practice-assignment",
+    "href": "class_4.html#practice-assignment",
+    "title": "Class 4 - Rate-Determining Steps",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "assessment_4.html#preparation",
+    "href": "assessment_4.html#preparation",
+    "title": "Part 4 Self-Assessment",
+    "section": "Preparation",
+    "text": "Preparation\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_4.html#assignment",
+    "href": "assessment_4.html#assignment",
+    "title": "Part 4 Self-Assessment",
+    "section": "Assignment",
+    "text": "Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_4.html#self-assessment",
+    "href": "assessment_4.html#self-assessment",
+    "title": "Part 4 Self-Assessment",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "beyond.html",
+    "href": "beyond.html",
+    "title": "Beyond Reaction Engineering Basics",
+    "section": "",
+    "text": "Beyond Reaction Engineering Basics\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Beyond the Basics"
+    ]
+  },
+  {
+    "objectID": "class_5.html#preparation-assignment",
+    "href": "class_5.html#preparation-assignment",
+    "title": "Class 5 - Catalyst and Charge Conservation",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_5.html#class-5",
+    "href": "class_5.html#class-5",
+    "title": "Class 5 - Catalyst and Charge Conservation",
+    "section": "Class 5",
+    "text": "Class 5\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_5.html#practice-assignment",
+    "href": "class_5.html#practice-assignment",
+    "title": "Class 5 - Catalyst and Charge Conservation",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "part_4.html",
+    "href": "part_4.html",
+    "title": "Part 4 - Non-Continuous Ideal Reactors",
+    "section": "",
+    "text": "Part 4 - Non-Continuous Ideal Reactors\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Non-Continuous Ideal Reactors"
+    ]
+  },
+  {
+    "objectID": "assessment_7.html#preparation",
+    "href": "assessment_7.html#preparation",
+    "title": "Part 7 Self-Assessment",
+    "section": "Preparation",
+    "text": "Preparation\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_7.html#assignment",
+    "href": "assessment_7.html#assignment",
+    "title": "Part 7 Self-Assessment",
+    "section": "Assignment",
+    "text": "Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "assessment_7.html#self-assessment",
+    "href": "assessment_7.html#self-assessment",
+    "title": "Part 7 Self-Assessment",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "part_5.html",
+    "href": "part_5.html",
+    "title": "Part 5 - Continuous Ideal Reactors",
+    "section": "",
+    "text": "Part 5 - Continuous Ideal Reactors\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Continuous Ideal Reactors"
+    ]
+  },
+  {
+    "objectID": "class_11.html#preparation-assignment",
+    "href": "class_11.html#preparation-assignment",
+    "title": "Class 11 - SBSTR Response",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 10.5.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_10_5_1.m, and Python, reb_10_5_1.py.\nReaction Engineering Basics, Example 10.5.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_10_5_2.m, and Python, reb_10_5_2.py."
+  },
+  {
+    "objectID": "class_11.html#class-11",
+    "href": "class_11.html#class-11",
+    "title": "Class 11 - SBSTR Response",
+    "section": "Class 11",
+    "text": "Class 11\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_11.html#practice-assignment",
+    "href": "class_11.html#practice-assignment",
+    "title": "Class 11 - SBSTR Response",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_10.html#preparation-assignment",
+    "href": "class_10.html#preparation-assignment",
+    "title": "Class 10 - BSTR Optimization",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 9.6.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_9_6_3.m, and Python, reb_9_6_3.py.\nReaction Engineering Basics, Example 9.6.4\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_9_6_4.m, and Python, reb_9_6_4.py."
+  },
+  {
+    "objectID": "class_10.html#class-10",
+    "href": "class_10.html#class-10",
+    "title": "Class 10 - BSTR Optimization",
+    "section": "Class 10",
+    "text": "Class 10\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_10.html#practice-assignment",
+    "href": "class_10.html#practice-assignment",
+    "title": "Class 10 - BSTR Optimization",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_13.html#preparation-assignment",
+    "href": "class_13.html#preparation-assignment",
+    "title": "Class 13 - Non-Continuous Reactor Design",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_13.html#class-13",
+    "href": "class_13.html#class-13",
+    "title": "Class 13 - Non-Continuous Reactor Design",
+    "section": "Class 13",
+    "text": "Class 13\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_13.html#practice-assignment",
+    "href": "class_13.html#practice-assignment",
+    "title": "Class 13 - Non-Continuous Reactor Design",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_16.html#preparation-assignment",
+    "href": "class_16.html#preparation-assignment",
+    "title": "Class 16 - CSTR Steady-State Multiplicity",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 12.7.4\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_4.m, and Python, reb_12_7_4.py."
+  },
+  {
+    "objectID": "class_16.html#class-16",
+    "href": "class_16.html#class-16",
+    "title": "Class 16 - CSTR Steady-State Multiplicity",
+    "section": "Class 16",
+    "text": "Class 16\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_16.html#practice-assignment",
+    "href": "class_16.html#practice-assignment",
+    "title": "Class 16 - CSTR Steady-State Multiplicity",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_28.html#preparation-assignment",
+    "href": "class_28.html#preparation-assignment",
+    "title": "Class 28 - BSTR Kinetics Data Analysis",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 19.5.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_19_5_1.m, and Python, reb_19_5_1.py. Data File\nReaction Engineering Basics, Example 19.5.2\nReaction Engineering Basics, Example 19.5.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_19_5_3.m, and Python, reb_19_5_3.py. Data File\nReaction Engineering Basics, Example 19.5.4\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_19_5_4.m, and Python, reb_19_5_4.py. Data File"
+  },
+  {
+    "objectID": "class_28.html#class-28",
+    "href": "class_28.html#class-28",
+    "title": "Class 28 - BSTR Kinetics Data Analysis",
+    "section": "Class 28",
+    "text": "Class 28\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_28.html#practice-assignment",
+    "href": "class_28.html#practice-assignment",
+    "title": "Class 28 - BSTR Kinetics Data Analysis",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Welcome!\n\n\n\n\n\n\nClick Here to See the Evolving Solution\n\n\n\nContent is being added to SCoRE in parallel with the revision of the first draft of Reaction Engineering Basics. I hope to complete both by the end of 2025.\n\n\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "class_29.html#preparation-assignment",
+    "href": "class_29.html#preparation-assignment",
+    "title": "Class 29 - CSTR Kinetics Data Analysis",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 20.5.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_20_5_1.m, and Python, reb_20_5_1.py. Data File\nReaction Engineering Basics, Example 20.5.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_20_5_2.m, and Python, reb_20_5_2.py. Data File\nReaction Engineering Basics, Example 20.5.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_20_5_3.m, and Python, reb_20_5_3.py. Data File"
+  },
+  {
+    "objectID": "class_29.html#class-29",
+    "href": "class_29.html#class-29",
+    "title": "Class 29 - CSTR Kinetics Data Analysis",
+    "section": "Class 29",
+    "text": "Class 29\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_29.html#practice-assignment",
+    "href": "class_29.html#practice-assignment",
+    "title": "Class 29 - CSTR Kinetics Data Analysis",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_30.html#preparation-assignment",
+    "href": "class_30.html#preparation-assignment",
+    "title": "Class 30 - PFR Kinetics Data Analysis",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_30.html#class-30",
+    "href": "class_30.html#class-30",
+    "title": "Class 30 - PFR Kinetics Data Analysis",
+    "section": "Class 30",
+    "text": "Class 30\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_30.html#practice-assignment",
+    "href": "class_30.html#practice-assignment",
+    "title": "Class 30 - PFR Kinetics Data Analysis",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "using.html#navigating-the-score-site",
+    "href": "using.html#navigating-the-score-site",
+    "title": "Using SCoRE",
+    "section": "Navigating the SCoRE Site",
+    "text": "Navigating the SCoRE Site\n[content forthcoming]",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Getting Started",
+      "Using SCoRE"
+    ]
+  },
+  {
+    "objectID": "using.html#suggested-score-workflow-and-learning-strategy",
+    "href": "using.html#suggested-score-workflow-and-learning-strategy",
+    "title": "Using SCoRE",
+    "section": "Suggested SCoRE Workflow and Learning Strategy",
+    "text": "Suggested SCoRE Workflow and Learning Strategy\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Getting Started",
+      "Using SCoRE"
+    ]
+  },
+  {
+    "objectID": "class_31.html#preparation-assignment",
+    "href": "class_31.html#preparation-assignment",
+    "title": "Class 31 - Differential Data Analysis",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_31.html#class-31",
+    "href": "class_31.html#class-31",
+    "title": "Class 31 - Differential Data Analysis",
+    "section": "Class 31",
+    "text": "Class 31\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_31.html#practice-assignment",
+    "href": "class_31.html#practice-assignment",
+    "title": "Class 31 - Differential Data Analysis",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "comp_code_structure.html",
+    "href": "comp_code_structure.html",
+    "title": "SCoRE Code Structure",
+    "section": "",
+    "text": "SCoRE Code Structure\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_33.html#preparation-assignment",
+    "href": "class_33.html#preparation-assignment",
+    "title": "Class 33 - The Age Function",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_33.html#class-33",
+    "href": "class_33.html#class-33",
+    "title": "Class 33 - The Age Function",
+    "section": "Class 33",
+    "text": "Class 33\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_33.html#practice-assignment",
+    "href": "class_33.html#practice-assignment",
+    "title": "Class 33 - The Age Function",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_26.html#preparation-assignment",
+    "href": "class_26.html#preparation-assignment",
+    "title": "Class 26 - Recycle PFRs",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 17.3.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_17_3_1.m, and Python, reb_17_3_1.py."
+  },
+  {
+    "objectID": "class_26.html#class-26",
+    "href": "class_26.html#class-26",
+    "title": "Class 26 - Recycle PFRs",
+    "section": "Class 26",
+    "text": "Class 26\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_26.html#practice-assignment",
+    "href": "class_26.html#practice-assignment",
+    "title": "Class 26 - Recycle PFRs",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_22.html#preparation-assignment",
+    "href": "class_22.html#preparation-assignment",
+    "title": "Class 22 - Packed Bed PFR Response",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 13.7.6\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_6.m, and Python, reb_13_7_6.py."
+  },
+  {
+    "objectID": "class_22.html#class-22",
+    "href": "class_22.html#class-22",
+    "title": "Class 22 - Packed Bed PFR Response",
+    "section": "Class 22",
+    "text": "Class 22\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_22.html#practice-assignment",
+    "href": "class_22.html#practice-assignment",
+    "title": "Class 22 - Packed Bed PFR Response",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "comp_methods.html",
+    "href": "comp_methods.html",
+    "title": "Computational Methods",
+    "section": "",
+    "text": "Computational Methods\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Computational Methods"
+    ]
+  },
+  {
+    "objectID": "class_35.html#preparation-assignment",
+    "href": "class_35.html#preparation-assignment",
+    "title": "Class 35 - Zoned Reactor Models",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_35.html#class-35",
+    "href": "class_35.html#class-35",
+    "title": "Class 35 - Zoned Reactor Models",
+    "section": "Class 35",
+    "text": "Class 35\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_35.html#practice-assignment",
+    "href": "class_35.html#practice-assignment",
+    "title": "Class 35 - Zoned Reactor Models",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
+  },
+  {
+    "objectID": "class_20.html#preparation-assignment",
+    "href": "class_20.html#preparation-assignment",
+    "title": "Class 20 - Steady-State PFR Optimization",
+    "section": "Preparation Assignment",
+    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 13.7.4\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_4.m, and Python, reb_13_7_4.py."
+  },
+  {
+    "objectID": "class_20.html#class-20",
+    "href": "class_20.html#class-20",
+    "title": "Class 20 - Steady-State PFR Optimization",
+    "section": "Class 20",
+    "text": "Class 20\n[content forthcoming]"
+  },
+  {
+    "objectID": "class_20.html#practice-assignment",
+    "href": "class_20.html#practice-assignment",
+    "title": "Class 20 - Steady-State PFR Optimization",
+    "section": "Practice Assignment",
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
   },
   {
     "objectID": "comp_tasks.html#sharing-variables",
@@ -168,1651 +1262,60 @@
     ]
   },
   {
-    "objectID": "class_34.html#preparation-assignment",
-    "href": "class_34.html#preparation-assignment",
-    "title": "Class 34 - Segregated Flow Models",
+    "objectID": "class_8.html#preparation-assignment",
+    "href": "class_8.html#preparation-assignment",
+    "title": "Class 8 - Reactor Modeling",
     "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Segregated Flow Models"
-    ]
+    "text": "Preparation Assignment\n[content forthcoming]"
   },
   {
-    "objectID": "class_34.html#class-34",
-    "href": "class_34.html#class-34",
-    "title": "Class 34 - Segregated Flow Models",
-    "section": "Class 34",
-    "text": "Class 34\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Segregated Flow Models"
-    ]
+    "objectID": "class_8.html#class-8",
+    "href": "class_8.html#class-8",
+    "title": "Class 8 - Reactor Modeling",
+    "section": "Class 8",
+    "text": "Class 8\n[content forthcoming]"
   },
   {
-    "objectID": "class_34.html#practice-assignment",
-    "href": "class_34.html#practice-assignment",
-    "title": "Class 34 - Segregated Flow Models",
+    "objectID": "class_8.html#practice-assignment",
+    "href": "class_8.html#practice-assignment",
+    "title": "Class 8 - Reactor Modeling",
     "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Segregated Flow Models"
-    ]
+    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
   },
   {
-    "objectID": "class_21.html#preparation-assignment",
-    "href": "class_21.html#preparation-assignment",
-    "title": "Class 21 - Transient PFR Response",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 13.7.5\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_5.m, and Python, reb_13_7_5.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Transient PFR Response"
-    ]
+    "objectID": "class_x.html#learning-outcomes",
+    "href": "class_x.html#learning-outcomes",
+    "title": "[Class X - ] Title",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nAfter completing this computational methods appendix you should be able to…\n\n[list of outcomes]."
   },
   {
-    "objectID": "class_21.html#class-21",
-    "href": "class_21.html#class-21",
-    "title": "Class 21 - Transient PFR Response",
-    "section": "Class 21",
-    "text": "Class 21\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Transient PFR Response"
-    ]
+    "objectID": "class_x.html#preparation-assignment-or-learning-resources",
+    "href": "class_x.html#preparation-assignment-or-learning-resources",
+    "title": "[Class X - ] Title",
+    "section": "Preparation Assignment or Learning Resources",
+    "text": "Preparation Assignment or Learning Resources\n\nReaction Engineering Basics, [Reading Assignment].\n Preparation Video Link\n Example Video Link\n\n Python Video Link,  Python Code Link\n Matlab Video Link,  Matlab Code Link\n\n[Repeat for additional examples]"
   },
   {
-    "objectID": "class_21.html#practice-assignment",
-    "href": "class_21.html#practice-assignment",
-    "title": "Class 21 - Transient PFR Response",
+    "objectID": "class_x.html#class-x",
+    "href": "class_x.html#class-x",
+    "title": "[Class X - ] Title",
+    "section": "Class X",
+    "text": "Class X\n\n Class Video Link\n Data or other file link."
+  },
+  {
+    "objectID": "class_x.html#practice-assignment",
+    "href": "class_x.html#practice-assignment",
+    "title": "[Class X - ] Title",
     "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Transient PFR Response"
-    ]
+    "text": "Practice Assignment\n\n Assignment Narrative link.\n Assignment Solution link.\n Python Code Link\n Matlab Code Link\n\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)."
   },
   {
-    "objectID": "class_22.html#preparation-assignment",
-    "href": "class_22.html#preparation-assignment",
-    "title": "Class 22 - Packed Bed PFR Response",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 13.7.6\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_6.m, and Python, reb_13_7_6.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Packed Bed PFR Response"
-    ]
-  },
-  {
-    "objectID": "class_22.html#class-22",
-    "href": "class_22.html#class-22",
-    "title": "Class 22 - Packed Bed PFR Response",
-    "section": "Class 22",
-    "text": "Class 22\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Packed Bed PFR Response"
-    ]
-  },
-  {
-    "objectID": "class_22.html#practice-assignment",
-    "href": "class_22.html#practice-assignment",
-    "title": "Class 22 - Packed Bed PFR Response",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Packed Bed PFR Response"
-    ]
-  },
-  {
-    "objectID": "class_26.html#preparation-assignment",
-    "href": "class_26.html#preparation-assignment",
-    "title": "Class 26 - Recycle PFRs",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 17.3.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_17_3_1.m, and Python, reb_17_3_1.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Recycle PFRs"
-    ]
-  },
-  {
-    "objectID": "class_26.html#class-26",
-    "href": "class_26.html#class-26",
-    "title": "Class 26 - Recycle PFRs",
-    "section": "Class 26",
-    "text": "Class 26\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Recycle PFRs"
-    ]
-  },
-  {
-    "objectID": "class_26.html#practice-assignment",
-    "href": "class_26.html#practice-assignment",
-    "title": "Class 26 - Recycle PFRs",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Recycle PFRs"
-    ]
-  },
-  {
-    "objectID": "class_33.html#preparation-assignment",
-    "href": "class_33.html#preparation-assignment",
-    "title": "Class 33 - The Age Function",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "The Age Function"
-    ]
-  },
-  {
-    "objectID": "class_33.html#class-33",
-    "href": "class_33.html#class-33",
-    "title": "Class 33 - The Age Function",
-    "section": "Class 33",
-    "text": "Class 33\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "The Age Function"
-    ]
-  },
-  {
-    "objectID": "class_33.html#practice-assignment",
-    "href": "class_33.html#practice-assignment",
-    "title": "Class 33 - The Age Function",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "The Age Function"
-    ]
-  },
-  {
-    "objectID": "comp_code_structure.html",
-    "href": "comp_code_structure.html",
-    "title": "SCoRE Code Structure",
-    "section": "",
-    "text": "SCoRE is not yet complete\n\n\n\nI am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. When it is completed, SCoRE will be a complete self-study course on reaction engineering that covers essentially the same information as is typically included in an undergraduate chemical engineering course on reaction engineering. It will be tightly integrated with the book, Reaction Engineering Basics. It will have 36 classes, and each class will include a preparation assignment including readings from the book and videos, a class “meeting” video, and a practice assignment.\nRight now I’m mostly adding Matlab and Python code for the example problems in Reaction Engineering Basics. I hope to start adding videos soon. I’ll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon Reaction Engineering Basics. Then I will create the class videos. I’ll be adding to the introductory material and the Computational Methods in parallel with the other content. I’ll take down this alert when all of the content has been added.\n\n\n\nSCoRE Code Structure\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Computational Methods",
-      "SCoRE Code Structure"
-    ]
-  },
-  {
-    "objectID": "class_31.html#preparation-assignment",
-    "href": "class_31.html#preparation-assignment",
-    "title": "Class 31 - Differential Data Analysis",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "Differential Data Analysis"
-    ]
-  },
-  {
-    "objectID": "class_31.html#class-31",
-    "href": "class_31.html#class-31",
-    "title": "Class 31 - Differential Data Analysis",
-    "section": "Class 31",
-    "text": "Class 31\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "Differential Data Analysis"
-    ]
-  },
-  {
-    "objectID": "class_31.html#practice-assignment",
-    "href": "class_31.html#practice-assignment",
-    "title": "Class 31 - Differential Data Analysis",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "Differential Data Analysis"
-    ]
-  },
-  {
-    "objectID": "about.html#navigating-the-score-website",
-    "href": "about.html#navigating-the-score-website",
-    "title": "About SCoRE",
-    "section": "Navigating the SCoRE Website",
-    "text": "Navigating the SCoRE Website\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Welcome",
-      "About SCoRE"
-    ]
-  },
-  {
-    "objectID": "about.html#suggested-score-workflow",
-    "href": "about.html#suggested-score-workflow",
-    "title": "About SCoRE",
-    "section": "Suggested SCoRE Workflow",
-    "text": "Suggested SCoRE Workflow\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Welcome",
-      "About SCoRE"
-    ]
-  },
-  {
-    "objectID": "about.html#score-practice-assignment-paradigm",
-    "href": "about.html#score-practice-assignment-paradigm",
-    "title": "About SCoRE",
-    "section": "SCoRE Practice Assignment Paradigm",
-    "text": "SCoRE Practice Assignment Paradigm\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Welcome",
-      "About SCoRE"
-    ]
-  },
-  {
-    "objectID": "class_30.html#preparation-assignment",
-    "href": "class_30.html#preparation-assignment",
-    "title": "Class 30 - PFR Kinetics Data Analysis",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "PFR Kinetics Data Analysis"
-    ]
-  },
-  {
-    "objectID": "class_30.html#class-30",
-    "href": "class_30.html#class-30",
-    "title": "Class 30 - PFR Kinetics Data Analysis",
-    "section": "Class 30",
-    "text": "Class 30\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "PFR Kinetics Data Analysis"
-    ]
-  },
-  {
-    "objectID": "class_30.html#practice-assignment",
-    "href": "class_30.html#practice-assignment",
-    "title": "Class 30 - PFR Kinetics Data Analysis",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "PFR Kinetics Data Analysis"
-    ]
-  },
-  {
-    "objectID": "class_29.html#preparation-assignment",
-    "href": "class_29.html#preparation-assignment",
-    "title": "Class 29 - CSTR Kinetics Data Analysis",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 20.5.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_20_5_1.m, and Python, reb_20_5_1.py. Data File\nReaction Engineering Basics, Example 20.5.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_20_5_2.m, and Python, reb_20_5_2.py. Data File\nReaction Engineering Basics, Example 20.5.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_20_5_3.m, and Python, reb_20_5_3.py. Data File",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "CSTR Kinetics Data Analysis"
-    ]
-  },
-  {
-    "objectID": "class_29.html#class-29",
-    "href": "class_29.html#class-29",
-    "title": "Class 29 - CSTR Kinetics Data Analysis",
-    "section": "Class 29",
-    "text": "Class 29\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "CSTR Kinetics Data Analysis"
-    ]
-  },
-  {
-    "objectID": "class_29.html#practice-assignment",
-    "href": "class_29.html#practice-assignment",
-    "title": "Class 29 - CSTR Kinetics Data Analysis",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "CSTR Kinetics Data Analysis"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to SCoRE",
-    "section": "",
-    "text": "SCoRE is not yet complete\n\n\n\nI am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. When it is completed, SCoRE will be a complete self-study course on reaction engineering that covers essentially the same information as is typically included in an undergraduate chemical engineering course on reaction engineering. It will be tightly integrated with the book, Reaction Engineering Basics. It will have 36 classes, and each class will include a preparation assignment including readings from the book and videos, a class “meeting” video, and a practice assignment.\nRight now I’m mostly adding Matlab and Python code for the example problems in Reaction Engineering Basics. I hope to start adding videos soon. I’ll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon Reaction Engineering Basics. Then I will create the class videos. I’ll be adding to the introductory material and the Computational Methods in parallel with the other content. I’ll take down this alert when all of the content has been added.\n\n\n\nWelcome to SCoRE\n[content forthcoming]\nAbout SCoRE\nBefore Starting SCoRE\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "class_28.html#preparation-assignment",
-    "href": "class_28.html#preparation-assignment",
-    "title": "Class 28 - BSTR Kinetics Data Analysis",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 19.5.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_19_5_1.m, reb_19_5_1_diff.m, and Python, reb_19_5_1.py and reb_19_5_1_diff.py. Data File\nReaction Engineering Basics, Example 19.5.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_19_5_2.m, reb_19_5_2_linear.m and Python, reb_19_5_2.py and reb_19_5_2_linear.py. Data File\nReaction Engineering Basics, Example 19.5.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_19_5_3.m, and Python, reb_19_5_3.py. Data File\nReaction Engineering Basics, Example 19.5.4\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_19_5_4.m, and Python, reb_19_5_4.py. Data File",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "BSTR Kinetics Data Analysis"
-    ]
-  },
-  {
-    "objectID": "class_28.html#class-28",
-    "href": "class_28.html#class-28",
-    "title": "Class 28 - BSTR Kinetics Data Analysis",
-    "section": "Class 28",
-    "text": "Class 28\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "BSTR Kinetics Data Analysis"
-    ]
-  },
-  {
-    "objectID": "class_28.html#practice-assignment",
-    "href": "class_28.html#practice-assignment",
-    "title": "Class 28 - BSTR Kinetics Data Analysis",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "BSTR Kinetics Data Analysis"
-    ]
-  },
-  {
-    "objectID": "class_17.html#preparation-assignment",
-    "href": "class_17.html#preparation-assignment",
-    "title": "Class 17 - Transient CSTR Response",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 12.7.5\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_5.m, and Python, reb_12_7_5.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Transient CSTR Response"
-    ]
-  },
-  {
-    "objectID": "class_17.html#class-17",
-    "href": "class_17.html#class-17",
-    "title": "Class 17 - Transient CSTR Response",
-    "section": "Class 17",
-    "text": "Class 17\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Transient CSTR Response"
-    ]
-  },
-  {
-    "objectID": "class_17.html#practice-assignment",
-    "href": "class_17.html#practice-assignment",
-    "title": "Class 17 - Transient CSTR Response",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Transient CSTR Response"
-    ]
-  },
-  {
-    "objectID": "class_12.html#preparation-assignment",
-    "href": "class_12.html#preparation-assignment",
-    "title": "Class 12 - SBSTR Optimization",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 10.5.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_10_5_3.m, and Python, reb_10_5_3.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "SBSTR Optimization"
-    ]
-  },
-  {
-    "objectID": "class_12.html#class-12",
-    "href": "class_12.html#class-12",
-    "title": "Class 12 - SBSTR Optimization",
-    "section": "Class 12",
-    "text": "Class 12\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "SBSTR Optimization"
-    ]
-  },
-  {
-    "objectID": "class_12.html#practice-assignment",
-    "href": "class_12.html#practice-assignment",
-    "title": "Class 12 - SBSTR Optimization",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "SBSTR Optimization"
-    ]
-  },
-  {
-    "objectID": "practice.html",
-    "href": "practice.html",
-    "title": "Additional Practice",
-    "section": "",
-    "text": "SCoRE is not yet complete\n\n\n\nI am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. When it is completed, SCoRE will be a complete self-study course on reaction engineering that covers essentially the same information as is typically included in an undergraduate chemical engineering course on reaction engineering. It will be tightly integrated with the book, Reaction Engineering Basics. It will have 36 classes, and each class will include a preparation assignment including readings from the book and videos, a class “meeting” video, and a practice assignment.\nRight now I’m mostly adding Matlab and Python code for the example problems in Reaction Engineering Basics. I hope to start adding videos soon. I’ll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon Reaction Engineering Basics. Then I will create the class videos. I’ll be adding to the introductory material and the Computational Methods in parallel with the other content. I’ll take down this alert when all of the content has been added.\n\n\n\nAdditional Practice\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Additional Practice"
-    ]
-  },
-  {
-    "objectID": "class_6.html#preparation-assignment",
-    "href": "class_6.html#preparation-assignment",
-    "title": "Class 6 - Most Abundant Intermediates",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Most Abundant Intermediates"
-    ]
-  },
-  {
-    "objectID": "class_6.html#class-6",
-    "href": "class_6.html#class-6",
-    "title": "Class 6 - Most Abundant Intermediates",
-    "section": "Class 6",
-    "text": "Class 6\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Most Abundant Intermediates"
-    ]
-  },
-  {
-    "objectID": "class_6.html#practice-assignment",
-    "href": "class_6.html#practice-assignment",
-    "title": "Class 6 - Most Abundant Intermediates",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Most Abundant Intermediates"
-    ]
-  },
-  {
-    "objectID": "assessment_6.html#preparation",
-    "href": "assessment_6.html#preparation",
-    "title": "Part 6 Self-Assessment",
-    "section": "Preparation",
-    "text": "Preparation\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "Part 6 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_6.html#assignment",
-    "href": "assessment_6.html#assignment",
-    "title": "Part 6 Self-Assessment",
-    "section": "Assignment",
-    "text": "Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "Part 6 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_6.html#self-assessment",
-    "href": "assessment_6.html#self-assessment",
-    "title": "Part 6 Self-Assessment",
-    "section": "Self-Assessment",
-    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "Part 6 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "computation.html",
-    "href": "computation.html",
-    "title": "Computational Methods",
-    "section": "",
-    "text": "SCoRE is not yet complete\n\n\n\nI am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. When it is completed, SCoRE will be a complete self-study course on reaction engineering that covers essentially the same information as is typically included in an undergraduate chemical engineering course on reaction engineering. It will be tightly integrated with the book, Reaction Engineering Basics. It will have 36 classes, and each class will include a preparation assignment including readings from the book and videos, a class “meeting” video, and a practice assignment.\nRight now I’m mostly adding Matlab and Python code for the example problems in Reaction Engineering Basics. I hope to start adding videos soon. I’ll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon Reaction Engineering Basics. Then I will create the class videos. I’ll be adding to the introductory material and the Computational Methods in parallel with the other content. I’ll take down this alert when all of the content has been added.\n\n\n\nComputational Methods\n[content forthcoming]\nCommon Tasks\nSolving ATEs\nSolving IVODEs\nSolving DAEs\nParameter Estimation\nSolving BVODEs\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Computational Methods"
-    ]
-  },
-  {
-    "objectID": "class_7.html#preparation-assignment",
-    "href": "class_7.html#preparation-assignment",
-    "title": "Class 7 - Reactor Design Equations",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Models",
-      "Reactor Design Equations"
-    ]
-  },
-  {
-    "objectID": "class_7.html#class-7",
-    "href": "class_7.html#class-7",
-    "title": "Class 7 - Reactor Design Equations",
-    "section": "Class 7",
-    "text": "Class 7\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Models",
-      "Reactor Design Equations"
-    ]
-  },
-  {
-    "objectID": "class_7.html#practice-assignment",
-    "href": "class_7.html#practice-assignment",
-    "title": "Class 7 - Reactor Design Equations",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Models",
-      "Reactor Design Equations"
-    ]
-  },
-  {
-    "objectID": "part_6.html#classes-in-part-6",
-    "href": "part_6.html#classes-in-part-6",
-    "title": "Part 6 - Kinetics Data Analysis",
-    "section": "Classes in Part 6",
-    "text": "Classes in Part 6\nClass 27 - Kinetics Data Generation\nClass 28 - BSTR Kinetics Data Analysis\nClass 29 - CSTR Kinetics Data Analysis\nClass 30 - PFR Kinetics Data Analysis\nClass 31 - Differential Data Analysis\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis"
-    ]
-  },
-  {
-    "objectID": "assessment_5.html#preparation",
-    "href": "assessment_5.html#preparation",
-    "title": "Part 5 Self-Assessment",
-    "section": "Preparation",
-    "text": "Preparation\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Part 5 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_5.html#assignment",
-    "href": "assessment_5.html#assignment",
-    "title": "Part 5 Self-Assessment",
-    "section": "Assignment",
-    "text": "Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Part 5 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_5.html#self-assessment",
-    "href": "assessment_5.html#self-assessment",
-    "title": "Part 5 Self-Assessment",
-    "section": "Self-Assessment",
-    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Part 5 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "part_7.html#classes-in-part-7",
-    "href": "part_7.html#classes-in-part-7",
-    "title": "Part 7 - Non-Ideal Reactors",
-    "section": "Classes in Part 7",
-    "text": "Classes in Part 7\nClass 32 - Axial Dispersion Models\nClass 33 - The Age Function\nClass 34 - Segregated Flow Models\nClass 35 - Zoned Reactor Models\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors"
-    ]
-  },
-  {
-    "objectID": "part_3.html#classes-in-part-3",
-    "href": "part_3.html#classes-in-part-3",
-    "title": "Part 3 - Non-Continuous Ideal Reactors",
-    "section": "Classes in Part 3",
-    "text": "Classes in Part 3\nClass 9 - BSTR Response\nClass 10 - BSTR Optimization\nClass 11 - SBSTR Response\nClass 12 - SBSTR Optimization\nClass 13 - Non-Continuous Reactor Design\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors"
-    ]
-  },
-  {
-    "objectID": "class_1.html#preparation-assignment",
-    "href": "class_1.html#preparation-assignment",
-    "title": "Class 1 - Chemical Reactions",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Chemical Reactions"
-    ]
-  },
-  {
-    "objectID": "class_1.html#class-1",
-    "href": "class_1.html#class-1",
-    "title": "Class 1 - Chemical Reactions",
-    "section": "Class 1",
-    "text": "Class 1\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Chemical Reactions"
-    ]
-  },
-  {
-    "objectID": "class_1.html#practice-assignment",
-    "href": "class_1.html#practice-assignment",
-    "title": "Class 1 - Chemical Reactions",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Chemical Reactions"
-    ]
-  },
-  {
-    "objectID": "class_3.html#preparation-assignment",
-    "href": "class_3.html#preparation-assignment",
-    "title": "Class 3 - Reaction Mechanisms",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Reaction Mechanisms"
-    ]
-  },
-  {
-    "objectID": "class_3.html#class-3",
-    "href": "class_3.html#class-3",
-    "title": "Class 3 - Reaction Mechanisms",
-    "section": "Class 3",
-    "text": "Class 3\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Reaction Mechanisms"
-    ]
-  },
-  {
-    "objectID": "class_3.html#practice-assignment",
-    "href": "class_3.html#practice-assignment",
-    "title": "Class 3 - Reaction Mechanisms",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Reaction Mechanisms"
-    ]
-  },
-  {
-    "objectID": "class_2.html#preparation-assignment",
-    "href": "class_2.html#preparation-assignment",
-    "title": "Class 2 - Rates and Rate Expressions",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Rates and Rate Expressions"
-    ]
-  },
-  {
-    "objectID": "class_2.html#class-2",
-    "href": "class_2.html#class-2",
-    "title": "Class 2 - Rates and Rate Expressions",
-    "section": "Class 2",
-    "text": "Class 2\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Rates and Rate Expressions"
-    ]
-  },
-  {
-    "objectID": "class_2.html#practice-assignment",
-    "href": "class_2.html#practice-assignment",
-    "title": "Class 2 - Rates and Rate Expressions",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Rates and Rate Expressions"
-    ]
-  },
-  {
-    "objectID": "part_1.html#classes-in-part-1",
-    "href": "part_1.html#classes-in-part-1",
-    "title": "Part 1 - Reactions and Rates",
-    "section": "Classes in Part 1",
-    "text": "Classes in Part 1\nClass 1 - Chemical Reactions\nClass 2 - Rates and Rate Expressions\nClass 3 - Reaction Mechanisms\nClass 4 - Rate Determining Steps\nClass 5 - Catalyst and Charge Conservation\nClass 6 - Most Abundant Intermediates\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates"
-    ]
-  },
-  {
-    "objectID": "assessment_3.html#preparation",
-    "href": "assessment_3.html#preparation",
-    "title": "Part 3 Self-Assessment",
-    "section": "Preparation",
-    "text": "Preparation\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "Part 3 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_3.html#assignment",
-    "href": "assessment_3.html#assignment",
-    "title": "Part 3 Self-Assessment",
-    "section": "Assignment",
-    "text": "Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "Part 3 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_3.html#self-assessment",
-    "href": "assessment_3.html#self-assessment",
-    "title": "Part 3 Self-Assessment",
-    "section": "Self-Assessment",
-    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "Part 3 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "part_2.html#classes-in-part-2",
-    "href": "part_2.html#classes-in-part-2",
-    "title": "Part 2 - Ideal Reactor Models",
-    "section": "Classes in Part 2",
-    "text": "Classes in Part 2\nClass 7 - Reactor Design Equations\nClass 8 - Reactor Modeling\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Models"
-    ]
-  },
-  {
-    "objectID": "assessment_1.html#preparation",
-    "href": "assessment_1.html#preparation",
-    "title": "Part 1 Self-Assessment",
-    "section": "Preparation",
-    "text": "Preparation\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Part 1 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_1.html#assignment",
-    "href": "assessment_1.html#assignment",
-    "title": "Part 1 Self-Assessment",
-    "section": "Assignment",
-    "text": "Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Part 1 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_1.html#self-assessment",
-    "href": "assessment_1.html#self-assessment",
-    "title": "Part 1 Self-Assessment",
-    "section": "Self-Assessment",
-    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Part 1 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "class_4.html#preparation-assignment",
-    "href": "class_4.html#preparation-assignment",
-    "title": "Class 4 - Rate-Determining Steps",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Rate Determining Steps"
-    ]
-  },
-  {
-    "objectID": "class_4.html#class-4",
-    "href": "class_4.html#class-4",
-    "title": "Class 4 - Rate-Determining Steps",
-    "section": "Class 4",
-    "text": "Class 4\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Rate Determining Steps"
-    ]
-  },
-  {
-    "objectID": "class_4.html#practice-assignment",
-    "href": "class_4.html#practice-assignment",
-    "title": "Class 4 - Rate-Determining Steps",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Rate Determining Steps"
-    ]
-  },
-  {
-    "objectID": "assessment_4.html#preparation",
-    "href": "assessment_4.html#preparation",
-    "title": "Part 4 Self-Assessment",
-    "section": "Preparation",
-    "text": "Preparation\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Part 4 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_4.html#assignment",
-    "href": "assessment_4.html#assignment",
-    "title": "Part 4 Self-Assessment",
-    "section": "Assignment",
-    "text": "Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Part 4 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_4.html#self-assessment",
-    "href": "assessment_4.html#self-assessment",
-    "title": "Part 4 Self-Assessment",
-    "section": "Self-Assessment",
-    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Part 4 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "beyond.html",
-    "href": "beyond.html",
-    "title": "Beyond Reaction Engineering Basics",
-    "section": "",
-    "text": "SCoRE is not yet complete\n\n\n\nI am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. When it is completed, SCoRE will be a complete self-study course on reaction engineering that covers essentially the same information as is typically included in an undergraduate chemical engineering course on reaction engineering. It will be tightly integrated with the book, Reaction Engineering Basics. It will have 36 classes, and each class will include a preparation assignment including readings from the book and videos, a class “meeting” video, and a practice assignment.\nRight now I’m mostly adding Matlab and Python code for the example problems in Reaction Engineering Basics. I hope to start adding videos soon. I’ll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon Reaction Engineering Basics. Then I will create the class videos. I’ll be adding to the introductory material and the Computational Methods in parallel with the other content. I’ll take down this alert when all of the content has been added.\n\n\n\nBeyond Reaction Engineering Basics\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Beyond the Basics"
-    ]
-  },
-  {
-    "objectID": "class_5.html#preparation-assignment",
-    "href": "class_5.html#preparation-assignment",
-    "title": "Class 5 - Catalyst and Charge Conservation",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Catalyst and Charge Conservation"
-    ]
-  },
-  {
-    "objectID": "class_5.html#class-5",
-    "href": "class_5.html#class-5",
-    "title": "Class 5 - Catalyst and Charge Conservation",
-    "section": "Class 5",
-    "text": "Class 5\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Catalyst and Charge Conservation"
-    ]
-  },
-  {
-    "objectID": "class_5.html#practice-assignment",
-    "href": "class_5.html#practice-assignment",
-    "title": "Class 5 - Catalyst and Charge Conservation",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Reactions and Rates",
-      "Catalyst and Charge Conservation"
-    ]
-  },
-  {
-    "objectID": "part_4.html#classes-in-part-4",
-    "href": "part_4.html#classes-in-part-4",
-    "title": "Part 4 - Continuous Ideal Reactors",
-    "section": "Classes in Part 4",
-    "text": "Classes in Part 4\nClass 14 - Steady-State CSTR Response\nClass 15 - Steady-State CSTR Optimization\nClass 16 - CSTR Steady-State Multiplicity\nClass 17 - Transient CSTR Response\nClass 18 - Steady-State CSTR Stability\nClass 19 - Steady-State PFR Response\nClass 20 - Steady-State PFR Optimization\nClass 21 - Transient PFR Response\nClass 22 - Packed Bed PFR Response\nClass 23 - Continuous Reactor Design\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors"
-    ]
-  },
-  {
-    "objectID": "assessment_7.html#preparation",
-    "href": "assessment_7.html#preparation",
-    "title": "Part 7 Self-Assessment",
-    "section": "Preparation",
-    "text": "Preparation\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Part 7 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_7.html#assignment",
-    "href": "assessment_7.html#assignment",
-    "title": "Part 7 Self-Assessment",
-    "section": "Assignment",
-    "text": "Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Part 7 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "assessment_7.html#self-assessment",
-    "href": "assessment_7.html#self-assessment",
-    "title": "Part 7 Self-Assessment",
-    "section": "Self-Assessment",
-    "text": "Self-Assessment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Part 7 Self-Assessment"
-    ]
-  },
-  {
-    "objectID": "part_5.html#classes-in-part-5",
-    "href": "part_5.html#classes-in-part-5",
-    "title": "Part 5 - Ideal Reactor Systems",
-    "section": "Classes in Part 5",
-    "text": "Classes in Part 5\nClass 24 - Reactor Networks\nClass 25 - Thermally Back-Mixed PFRs\nClass 26 - Recycle PFRs\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems"
-    ]
-  },
-  {
-    "objectID": "class_11.html#preparation-assignment",
-    "href": "class_11.html#preparation-assignment",
-    "title": "Class 11 - SBSTR Response",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 10.5.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_10_5_1.m, and Python, reb_10_5_1.py.\nReaction Engineering Basics, Example 10.5.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_10_5_2.m, and Python, reb_10_5_2.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "SBSTR Response"
-    ]
-  },
-  {
-    "objectID": "class_11.html#class-11",
-    "href": "class_11.html#class-11",
-    "title": "Class 11 - SBSTR Response",
-    "section": "Class 11",
-    "text": "Class 11\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "SBSTR Response"
-    ]
-  },
-  {
-    "objectID": "class_11.html#practice-assignment",
-    "href": "class_11.html#practice-assignment",
-    "title": "Class 11 - SBSTR Response",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "SBSTR Response"
-    ]
-  },
-  {
-    "objectID": "class_10.html#preparation-assignment",
-    "href": "class_10.html#preparation-assignment",
-    "title": "Class 10 - BSTR Optimization",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 9.6.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_9_6_3.m, and Python, reb_9_6_3.py.\nReaction Engineering Basics, Example 9.6.4\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_9_6_4.m, and Python, reb_9_6_4.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "BSTR Optimization"
-    ]
-  },
-  {
-    "objectID": "class_10.html#class-10",
-    "href": "class_10.html#class-10",
-    "title": "Class 10 - BSTR Optimization",
-    "section": "Class 10",
-    "text": "Class 10\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "BSTR Optimization"
-    ]
-  },
-  {
-    "objectID": "class_10.html#practice-assignment",
-    "href": "class_10.html#practice-assignment",
-    "title": "Class 10 - BSTR Optimization",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "BSTR Optimization"
-    ]
-  },
-  {
-    "objectID": "class_13.html#preparation-assignment",
-    "href": "class_13.html#preparation-assignment",
-    "title": "Class 13 - Non-Continuous Reactor Design",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "Non-Continuous Reactor Design"
-    ]
-  },
-  {
-    "objectID": "class_13.html#class-13",
-    "href": "class_13.html#class-13",
-    "title": "Class 13 - Non-Continuous Reactor Design",
-    "section": "Class 13",
-    "text": "Class 13\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "Non-Continuous Reactor Design"
-    ]
-  },
-  {
-    "objectID": "class_13.html#practice-assignment",
-    "href": "class_13.html#practice-assignment",
-    "title": "Class 13 - Non-Continuous Reactor Design",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Continuous Ideal Reactors",
-      "Non-Continuous Reactor Design"
-    ]
-  },
-  {
-    "objectID": "class_16.html#preparation-assignment",
-    "href": "class_16.html#preparation-assignment",
-    "title": "Class 16 - CSTR Steady-State Multiplicity",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 12.7.4\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_4.m, and Python, reb_12_7_4.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "CSTR Steady-State Multiplicity"
-    ]
-  },
-  {
-    "objectID": "class_16.html#class-16",
-    "href": "class_16.html#class-16",
-    "title": "Class 16 - CSTR Steady-State Multiplicity",
-    "section": "Class 16",
-    "text": "Class 16\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "CSTR Steady-State Multiplicity"
-    ]
-  },
-  {
-    "objectID": "class_16.html#practice-assignment",
-    "href": "class_16.html#practice-assignment",
-    "title": "Class 16 - CSTR Steady-State Multiplicity",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "CSTR Steady-State Multiplicity"
-    ]
-  },
-  {
-    "objectID": "class_14.html#preparation-assignment",
-    "href": "class_14.html#preparation-assignment",
-    "title": "Class 14 - Steady-State CSTR Response",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 12.7.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_1.m, and Python, reb_12_7_1.py.\nReaction Engineering Basics, Example 12.7.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_2.m, and Python, reb_12_7_2.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State CSTR Response"
-    ]
-  },
-  {
-    "objectID": "class_14.html#class-14",
-    "href": "class_14.html#class-14",
-    "title": "Class 14 - Steady-State CSTR Response",
-    "section": "Class 14",
-    "text": "Class 14\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State CSTR Response"
-    ]
-  },
-  {
-    "objectID": "class_14.html#practice-assignment",
-    "href": "class_14.html#practice-assignment",
-    "title": "Class 14 - Steady-State CSTR Response",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State CSTR Response"
-    ]
-  },
-  {
-    "objectID": "class_15.html#preparation-assignment",
-    "href": "class_15.html#preparation-assignment",
-    "title": "Class 15 - Steady-State CSTR Optimization",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 12.7.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_3.m, and Python, reb_12_7_3.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State CSTR Optimization"
-    ]
-  },
-  {
-    "objectID": "class_15.html#class-15",
-    "href": "class_15.html#class-15",
-    "title": "Class 15 - Steady-State CSTR Optimization",
-    "section": "Class 15",
-    "text": "Class 15\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State CSTR Optimization"
-    ]
-  },
-  {
-    "objectID": "class_15.html#practice-assignment",
-    "href": "class_15.html#practice-assignment",
-    "title": "Class 15 - Steady-State CSTR Optimization",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State CSTR Optimization"
-    ]
-  },
-  {
-    "objectID": "class_24.html#preparation-assignment",
-    "href": "class_24.html#preparation-assignment",
-    "title": "Class 24 - Reactor Networks",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 15.4.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_15_4_1.m, and Python, reb_15_4_1.py.\nReaction Engineering Basics, Example 15.4.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_15_4_2.m, and Python, reb_15_4_2.py.\nReaction Engineering Basics, Example 15.4.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_15_4_3.m, and Python, reb_15_4_3.py.\nReaction Engineering Basics, Example 15.4.4\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_15_4_4.m, and Python, reb_15_4_4.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Reactor Networks"
-    ]
-  },
-  {
-    "objectID": "class_24.html#class-24",
-    "href": "class_24.html#class-24",
-    "title": "Class 24 - Reactor Networks",
-    "section": "Class 24",
-    "text": "Class 24\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Reactor Networks"
-    ]
-  },
-  {
-    "objectID": "class_24.html#practice-assignment",
-    "href": "class_24.html#practice-assignment",
-    "title": "Class 24 - Reactor Networks",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Reactor Networks"
-    ]
-  },
-  {
-    "objectID": "class_18.html#preparation-assignment",
-    "href": "class_18.html#preparation-assignment",
-    "title": "Class 18 - Steady-State CSTR Stability",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 12.7.6\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_12_7_6.m, and Python, reb_12_7_6.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State CSTR Stability"
-    ]
-  },
-  {
-    "objectID": "class_18.html#class-18",
-    "href": "class_18.html#class-18",
-    "title": "Class 18 - Steady-State CSTR Stability",
-    "section": "Class 18",
-    "text": "Class 18\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State CSTR Stability"
-    ]
-  },
-  {
-    "objectID": "class_18.html#practice-assignment",
-    "href": "class_18.html#practice-assignment",
-    "title": "Class 18 - Steady-State CSTR Stability",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State CSTR Stability"
-    ]
-  },
-  {
-    "objectID": "class_19.html#preparation-assignment",
-    "href": "class_19.html#preparation-assignment",
-    "title": "Class 19 - Steady-State PFR Response",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 13.7.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_1.m, and Python, reb_13_7_1.py.\nReaction Engineering Basics, Example 13.7.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_2.m, and Python, reb_13_7_2.py.\nReaction Engineering Basics, Example 13.7.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_3.m, and Python, reb_13_7_3.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State PFR Response"
-    ]
-  },
-  {
-    "objectID": "class_19.html#class-19",
-    "href": "class_19.html#class-19",
-    "title": "Class 19 - Steady-State PFR Response",
-    "section": "Class 19",
-    "text": "Class 19\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State PFR Response"
-    ]
-  },
-  {
-    "objectID": "class_19.html#practice-assignment",
-    "href": "class_19.html#practice-assignment",
-    "title": "Class 19 - Steady-State PFR Response",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State PFR Response"
-    ]
-  },
-  {
-    "objectID": "class_25.html#preparation-assignment",
-    "href": "class_25.html#preparation-assignment",
-    "title": "Class 25 - Thermally Back-Mixed PFRs",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 16.3.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_16_3_1.m, and Python, reb_16_3_1.py.\nReaction Engineering Basics, Example 16.3.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_16_3_2.m, and Python, reb_16_3_2.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Thermally Back-Mixed PFRs"
-    ]
-  },
-  {
-    "objectID": "class_25.html#class-25",
-    "href": "class_25.html#class-25",
-    "title": "Class 25 - Thermally Back-Mixed PFRs",
-    "section": "Class 25",
-    "text": "Class 25\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Thermally Back-Mixed PFRs"
-    ]
-  },
-  {
-    "objectID": "class_25.html#practice-assignment",
-    "href": "class_25.html#practice-assignment",
-    "title": "Class 25 - Thermally Back-Mixed PFRs",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Ideal Reactor Systems",
-      "Thermally Back-Mixed PFRs"
-    ]
-  },
-  {
-    "objectID": "comp_param_est.html",
-    "href": "comp_param_est.html",
-    "title": "Parameter Estimation",
-    "section": "",
-    "text": "SCoRE is not yet complete\n\n\n\nI am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. When it is completed, SCoRE will be a complete self-study course on reaction engineering that covers essentially the same information as is typically included in an undergraduate chemical engineering course on reaction engineering. It will be tightly integrated with the book, Reaction Engineering Basics. It will have 36 classes, and each class will include a preparation assignment including readings from the book and videos, a class “meeting” video, and a practice assignment.\nRight now I’m mostly adding Matlab and Python code for the example problems in Reaction Engineering Basics. I hope to start adding videos soon. I’ll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon Reaction Engineering Basics. Then I will create the class videos. I’ll be adding to the introductory material and the Computational Methods in parallel with the other content. I’ll take down this alert when all of the content has been added.\n\n\n\nParameter Estimation\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Computational Methods",
-      "Parameter Estimation"
-    ]
-  },
-  {
-    "objectID": "class_27.html#preparation-assignment",
-    "href": "class_27.html#preparation-assignment",
-    "title": "Class 27 - Kinetics Data Generation",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "Kinetics Data Generation"
-    ]
-  },
-  {
-    "objectID": "class_27.html#class-27",
-    "href": "class_27.html#class-27",
-    "title": "Class 27 - Kinetics Data Generation",
-    "section": "Class 27",
-    "text": "Class 27\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "Kinetics Data Generation"
-    ]
-  },
-  {
-    "objectID": "class_27.html#practice-assignment",
-    "href": "class_27.html#practice-assignment",
-    "title": "Class 27 - Kinetics Data Generation",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Kinetics Data Analysis",
-      "Kinetics Data Generation"
-    ]
-  },
-  {
-    "objectID": "class_32.html#preparation-assignment",
-    "href": "class_32.html#preparation-assignment",
-    "title": "Class 32 - Axial Dispersion Models",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Axial Dispersion Models"
-    ]
-  },
-  {
-    "objectID": "class_32.html#class-32",
-    "href": "class_32.html#class-32",
-    "title": "Class 32 - Axial Dispersion Models",
-    "section": "Class 32",
-    "text": "Class 32\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Axial Dispersion Models"
-    ]
-  },
-  {
-    "objectID": "class_32.html#practice-assignment",
-    "href": "class_32.html#practice-assignment",
-    "title": "Class 32 - Axial Dispersion Models",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Axial Dispersion Models"
-    ]
-  },
-  {
-    "objectID": "class_23.html#preparation-assignment",
-    "href": "class_23.html#preparation-assignment",
-    "title": "Class 23 - Continuous Reactor Design",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Continuous Reactor Design"
-    ]
-  },
-  {
-    "objectID": "class_23.html#class-23",
-    "href": "class_23.html#class-23",
-    "title": "Class 23 - Continuous Reactor Design",
-    "section": "Class 23",
-    "text": "Class 23\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Continuous Reactor Design"
-    ]
-  },
-  {
-    "objectID": "class_23.html#practice-assignment",
-    "href": "class_23.html#practice-assignment",
-    "title": "Class 23 - Continuous Reactor Design",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Continuous Reactor Design"
-    ]
-  },
-  {
-    "objectID": "class_35.html#preparation-assignment",
-    "href": "class_35.html#preparation-assignment",
-    "title": "Class 35 - Zoned Reactor Models",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Zoned Reactor Models"
-    ]
-  },
-  {
-    "objectID": "class_35.html#class-35",
-    "href": "class_35.html#class-35",
-    "title": "Class 35 - Zoned Reactor Models",
-    "section": "Class 35",
-    "text": "Class 35\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Zoned Reactor Models"
-    ]
-  },
-  {
-    "objectID": "class_35.html#practice-assignment",
-    "href": "class_35.html#practice-assignment",
-    "title": "Class 35 - Zoned Reactor Models",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Non-Ideal Reactors",
-      "Zoned Reactor Models"
-    ]
-  },
-  {
-    "objectID": "class_20.html#preparation-assignment",
-    "href": "class_20.html#preparation-assignment",
-    "title": "Class 20 - Steady-State PFR Optimization",
-    "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]\nReaction Engineering Basics, Example 13.7.4\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_13_7_4.m, and Python, reb_13_7_4.py.",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State PFR Optimization"
-    ]
-  },
-  {
-    "objectID": "class_20.html#class-20",
-    "href": "class_20.html#class-20",
-    "title": "Class 20 - Steady-State PFR Optimization",
-    "section": "Class 20",
-    "text": "Class 20\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State PFR Optimization"
-    ]
-  },
-  {
-    "objectID": "class_20.html#practice-assignment",
-    "href": "class_20.html#practice-assignment",
-    "title": "Class 20 - Steady-State PFR Optimization",
-    "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Continuous Ideal Reactors",
-      "Steady-State PFR Optimization"
-    ]
-  },
-  {
-    "objectID": "NOTES.html",
-    "href": "NOTES.html",
-    "title": "SCoRE",
-    "section": "",
-    "text": "Make sure there is a PFR kinetics assignment that uses the volume as the dependent variable.\nCompare linear least squares, non-linear least squares using absolute errors, and non-linear least squares using relative errors."
-  },
-  {
-    "objectID": "before_starting.html#score-prerequisite-knowledge",
-    "href": "before_starting.html#score-prerequisite-knowledge",
-    "title": "Before Starting SCoRE",
-    "section": "SCoRE Prerequisite Knowledge",
-    "text": "SCoRE Prerequisite Knowledge\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Welcome",
-      "Before Starting SCoRE"
-    ]
-  },
-  {
-    "objectID": "before_starting.html#score-notation",
-    "href": "before_starting.html#score-notation",
-    "title": "Before Starting SCoRE",
-    "section": "SCoRE Notation",
-    "text": "SCoRE Notation\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Welcome",
-      "Before Starting SCoRE"
-    ]
-  },
-  {
-    "objectID": "before_starting.html#score-resources",
-    "href": "before_starting.html#score-resources",
-    "title": "Before Starting SCoRE",
-    "section": "SCoRE Resources",
-    "text": "SCoRE Resources\n[content forthcoming]",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Welcome",
-      "Before Starting SCoRE"
-    ]
-  },
-  {
-    "objectID": "before_starting.html#score-computer-setup",
-    "href": "before_starting.html#score-computer-setup",
-    "title": "Before Starting SCoRE",
-    "section": "SCoRE Computer Setup",
-    "text": "SCoRE Computer Setup\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
-    "crumbs": [
-      "Reaction Engineering Basics",
-      "Welcome",
-      "Before Starting SCoRE"
-    ]
-  },
-  {
-    "objectID": "comp_ivodes.html",
-    "href": "comp_ivodes.html",
+    "objectID": "comp_ivodes.html#learning-outcomes",
+    "href": "comp_ivodes.html#learning-outcomes",
     "title": "Numerical Solution of IVODEs",
-    "section": "",
-    "text": "SCoRE is not yet complete\n\n\n\nI am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. When it is completed, SCoRE will be a complete self-study course on reaction engineering that covers essentially the same information as is typically included in an undergraduate chemical engineering course on reaction engineering. It will be tightly integrated with the book, Reaction Engineering Basics. It will have 36 classes, and each class will include a preparation assignment including readings from the book and videos, a class “meeting” video, and a practice assignment.\nRight now I’m mostly adding Matlab and Python code for the example problems in Reaction Engineering Basics. I hope to start adding videos soon. I’ll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon Reaction Engineering Basics. Then I will create the class videos. I’ll be adding to the introductory material and the Computational Methods in parallel with the other content. I’ll take down this alert when all of the content has been added.\n\n\n\nNumerical Solution of IVODEs\n[content forthcoming]\nReaction Engineering Basics, Example J.6.1\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_J_6_1.m, and Python, reb_J_6_1.py.\nReaction Engineering Basics, Example J.6.2\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_J_6_2.m, and Python, reb_J_6_2.py.\nReaction Engineering Basics, Example J.6.3\n[links to videos forthcoming]\nNumerical implementations of the solution using Matlab, reb_J_6_3.m, and Python, reb_J_6_3.py.\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nAfter completing this computational methods appendix you should be able to…\n\nIdentify a set of IVODEs,\nKnow what you must provide to an IVODE solver and what it will return,\nSpecify initial values and a stopping criterion to pass to an IVODE solver,\nSpecify a derivatives function to pass to an IVODE solver,\nSpecify the algorithm steps for using an IVODE solver, and\nSolve a set of IVODEs and display, save, or plot the results using Python or Matlab.",
     "crumbs": [
       "Reaction Engineering Basics",
       "Computational Methods",
@@ -1820,11 +1323,59 @@
     ]
   },
   {
-    "objectID": "comp_bvodes.html",
-    "href": "comp_bvodes.html",
+    "objectID": "comp_ivodes.html#reading-assignment",
+    "href": "comp_ivodes.html#reading-assignment",
+    "title": "Numerical Solution of IVODEs",
+    "section": "Reading Assignment",
+    "text": "Reading Assignment\nReaction Engineering Basics, Appendix J.",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Computational Methods",
+      "Solving IVODEs"
+    ]
+  },
+  {
+    "objectID": "comp_ivodes.html#learning-resources",
+    "href": "comp_ivodes.html#learning-resources",
+    "title": "Numerical Solution of IVODEs",
+    "section": "Learning Resources",
+    "text": "Learning Resources\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Computational Methods",
+      "Solving IVODEs"
+    ]
+  },
+  {
+    "objectID": "comp_bvodes.html#learning-outcomes",
+    "href": "comp_bvodes.html#learning-outcomes",
     "title": "Numerical Solution of BVODEs",
-    "section": "",
-    "text": "SCoRE is not yet complete\n\n\n\nI am still creating the content for SCoRE. I am making it available in this partially complete format because I use it in a course I teach. When it is completed, SCoRE will be a complete self-study course on reaction engineering that covers essentially the same information as is typically included in an undergraduate chemical engineering course on reaction engineering. It will be tightly integrated with the book, Reaction Engineering Basics. It will have 36 classes, and each class will include a preparation assignment including readings from the book and videos, a class “meeting” video, and a practice assignment.\nRight now I’m mostly adding Matlab and Python code for the example problems in Reaction Engineering Basics. I hope to start adding videos soon. I’ll create a YouTube channel for that and add links to the videos here. My plan is to first complete the preparation assignments. They will be based directly upon Reaction Engineering Basics. Then I will create the class videos. I’ll be adding to the introductory material and the Computational Methods in parallel with the other content. I’ll take down this alert when all of the content has been added.\n\n\n\nNumerical Solution of BVODEs\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nAfter completing this computational methods appendix you should be able to…\n\nIdentify a set of BVODEs,\nKnow what you must provide to a BVODE solver and what it will return,\nSpecify a derivatives function to pass to a BVODE solver,\nSpecify a boundary conditions residuals function to pass to a BVODE solver,\nSpecify the algorithm steps for using a BVODE solver, and\nSolve a set of BVODEs and display, save, or plot the results using Python or Matlab.",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Computational Methods",
+      "Solving BVODEs"
+    ]
+  },
+  {
+    "objectID": "comp_bvodes.html#reading-assignment",
+    "href": "comp_bvodes.html#reading-assignment",
+    "title": "Numerical Solution of BVODEs",
+    "section": "Reading Assignment",
+    "text": "Reading Assignment\nReaction Engineering Basics, Appendix M.",
+    "crumbs": [
+      "Reaction Engineering Basics",
+      "Computational Methods",
+      "Solving BVODEs"
+    ]
+  },
+  {
+    "objectID": "comp_bvodes.html#learning-resources",
+    "href": "comp_bvodes.html#learning-resources",
+    "title": "Numerical Solution of BVODEs",
+    "section": "Learning Resources",
+    "text": "Learning Resources\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
     "crumbs": [
       "Reaction Engineering Basics",
       "Computational Methods",

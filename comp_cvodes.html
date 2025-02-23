@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>part_1 – SCoRE</title>
+<title>comp_cvodes – SCoRE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part_1.html">Introduction</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./comp_methods.html">Computational Methods</a></li><li class="breadcrumb-item"><a href="./comp_cvodes.html">Solving CVODEs</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -166,13 +166,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part_1.html" class="sidebar-item-text sidebar-link active">
+            <a href="./part_1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./class_1.html" class="sidebar-item-text sidebar-link">
@@ -306,11 +306,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./comp_methods.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Computational Methods</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./comp_tasks.html" class="sidebar-item-text sidebar-link">
@@ -331,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./comp_cvodes.html" class="sidebar-item-text sidebar-link">
+  <a href="./comp_cvodes.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Solving CVODEs</span></a>
   </div>
 </li>
@@ -359,7 +359,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#part-1---introduction-to-reaction-engineering" id="toc-part-1---introduction-to-reaction-engineering" class="nav-link active" data-scroll-target="#part-1---introduction-to-reaction-engineering">Part 1 - Introduction to Reaction Engineering</a></li>
+  <li><a href="#numerical-solution-of-cvodes" id="toc-numerical-solution-of-cvodes" class="nav-link active" data-scroll-target="#numerical-solution-of-cvodes">Numerical Solution of CVODEs</a>
+  <ul class="collapse">
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  <li><a href="#reading-assignment" id="toc-reading-assignment" class="nav-link" data-scroll-target="#reading-assignment">Reading Assignment</a></li>
+  <li><a href="#learning-resources" id="toc-learning-resources" class="nav-link" data-scroll-target="#learning-resources">Learning Resources</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -374,13 +379,31 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="graphics/SCoRE_Logo_with_text.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Hockey Net with SCoRE written over it" width="400"></p>
 </figure>
 </div>
-<section id="part-1---introduction-to-reaction-engineering" class="level1 ct">
-<h1 class="ct">Part 1 - Introduction to Reaction Engineering</h1>
-<p>[content forthcoming]</p>
+<section id="numerical-solution-of-cvodes" class="level1 ct">
+<h1 class="ct">Numerical Solution of CVODEs</h1>
+<p>The design equations for some of the reactors considered in SCoRE are coupled-value ordinary differential equations, or CVODEs, for short. This computational methods page will show you how to solve CVODEs numerically.</p>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<p>After completing this computational methods appendix you should be able to…</p>
+<ol type="1">
+<li>Identify a set of CVODEs,</li>
+<li>Know what you must provide to a CVODE solver and what it will return,</li>
+<li>Specify…,</li>
+<li>Specify the algorithm steps for using a CVODE solver, and</li>
+<li>Solve a set of CVODEs and display, save, or plot the results using Python or Matlab.</li>
+</ol>
+</section>
+<section id="reading-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="reading-assignment">Reading Assignment</h2>
+<p><em>Reaction Engineering Basics,</em> Appendix K.</p>
+</section>
+<section id="learning-resources" class="level2">
+<h2 class="anchored" data-anchor-id="learning-resources">Learning Resources</h2>
 <hr>
 <p>This website is licensed under the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License</a> (CC BY-NC-ND 4.0).</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

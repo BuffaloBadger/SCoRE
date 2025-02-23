@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # given and known constants
 V = 50.0E-3 # L
 
-# make current values of Vmax and Km available to all functions
+# globally available variables
 global Vmax_current, Km_current
 Vmax_current = float('nan')
 Km_current = float('nan')
@@ -83,6 +83,27 @@ def predicted_responses(adj_inputs, log_Vmax_guess, log_Km_guess):
     # return the responses
     return resp
 
+# quantities of interest function
+def quantities_of_interest(adjusted_inputs, CPf):
+    # make a guess for log_10 of k
+    par_guess = [0.0, 0.0]
+
+    # estimate the kinetics parameters
+    beta, beta_ci, r_squared = fit_to_SR_data(par_guess, adjusted_inputs, CPf, 
+            predicted_responses, False)
+
+    # extract the results
+    Vmax = 10**beta[0]
+    Vmax_CI = 10**beta_ci[0,:]
+    Km = 10**beta[1]
+    Km_CI = 10**beta_ci[1,:]
+
+    # calculate the model-predicted responses and the experiment residuals
+    CP_model = predicted_responses(adjusted_inputs,beta[0],beta[1])
+    epsilon_expt = CPf - CP_model
+
+    return Vmax, Vmax_CI, Km, Km_CI, r_squared, CP_model, epsilon_expt
+
 # function that performs the calculations
 def perform_the_calculations():
     # Read the experimental data into a dataframe
@@ -97,50 +118,33 @@ def perform_the_calculations():
     # combine the adjusted inputs in a matrix
     adjusted_inputs = np.transpose(np.array([CS0, tf]))
 
-    # make a guess for log_10 of k
-    par_guess = [0.0, 0.0]
-
-    # estimate the kinetics parameters
-    beta, beta_ci, r_squared = fit_to_SR_data(par_guess, adjusted_inputs, CPf, 
-            predicted_responses, False)
-
-    # extract the results
-    Vmax = 10**beta[0]
-    Vmax_lower = 10**beta_ci[0,0]
-    Vmax_upper = 10**beta_ci[0,1]
-    Km = 10**beta[1]
-    Km_lower = 10**beta_ci[1,0]
-    Km_upper = 10**beta_ci[1,1]
-
+    Vmax, Vmax_CI, Km, Km_CI, r_squared, CP_model, epsilon_expt \
+        = quantities_of_interest(adjusted_inputs, CPf)
+    
     # report the results
     print(' ')
     print(f'Vmax: {Vmax:.3g} mmol/L/min, 95% CI ['\
-        + f'{Vmax_lower:.3g}, {Vmax_upper:.3g}]')
-    print(f'Km: {Km:.3g} mmol/L, 95% CI [{Km_lower:.3g}, {Km_upper:.3g}]')
+        + f'{Vmax_CI[0]:.3g}, {Vmax_CI[1]:.3g}]')
+    print(f'Km: {Km:.3g} mmol/L, 95% CI [{Km_CI[0]:.3g}, {Km_CI[1]:.3g}]')
     print(f'R-squared: {r_squared:.3g}')
     print(' ')
 
     # save the results to a .csv file
     data = [['Vmax', f'{Vmax:.3g}', 'mmol L^-1^ min^-1^'],
-        ['Vmax_lower_limit', f'{Vmax_lower:.3g}', 'mmol L^-1^ min^-1^'],
-        ['Vmax_upper_limit', f'{Vmax_upper:.3g}', 'mmol L^-1^ min^-1^'],
+        ['Vmax_lower_limit', f'{Vmax_CI[0]:.3g}', 'mmol L^-1^ min^-1^'],
+        ['Vmax_upper_limit', f'{Vmax_CI[1]:.3g}', 'mmol L^-1^ min^-1^'],
         ['Km', f'{Km:.3g}', 'mmol L^-1^'],
-        ['Km_lower_limit', f'{Km_lower:.3g}', 'mmol L^-1^'],
-        ['Km_upper_limit', f'{Km_upper:.3g}', 'mmol L^-1^'],
+        ['Km_lower_limit', f'{Km_CI[0]:.3g}', 'mmol L^-1^'],
+        ['Km_upper_limit', f'{Km_CI[1]:.3g}', 'mmol L^-1^'],
         ['R_squared', f'{r_squared:.3g}', '']]
     result = pd.DataFrame(data, columns=['item','value','units'])
     result.to_csv("reb_19_5_4/python/reb_19_5_4_results.csv", index=False)
 
-    # calculate the model-predicted responses
-    CP_model = predicted_responses(adjusted_inputs,beta[0],beta[1])
-
-    # calculate the residuals
-    residuals = CPf - CP_model
-
     # create a parity plot
     plt.figure(1) 
-    plt.plot(CPf, CP_model, color = 'k', marker='o', ls='')
-    plt.plot([np.min(CPf), np.max(CPf)], [np.min(CPf), np.max(CPf)], color = 'r')
+    plt.plot(CPf, CP_model, color = 'k', marker='o', ls='', label='Data')
+    plt.plot([np.min(CPf), np.max(CPf)], [np.min(CPf), np.max(CPf)], color = 'r'
+             , label='Parity Line')
     plt.xlabel("experimental response (mmol L$^{-1}$)")
     plt.ylabel("model-predicted response (mmol L$^{-1}$)")
 
@@ -150,7 +154,7 @@ def perform_the_calculations():
 
     # create a residuals plot for the reaction time
     plt.figure(2) 
-    plt.plot(tf, residuals, color = 'k', marker='o', ls='')
+    plt.plot(tf, epsilon_expt, color = 'k', marker='o', ls='')
     plt.axhline(y=0, color = 'r')
     plt.xlabel("Reaction time (min)")
     plt.ylabel("Residual (mmol L$^{-1}$)")
@@ -161,7 +165,7 @@ def perform_the_calculations():
 
     # create a residuals plot for the initial substrate concentration
     plt.figure(3) 
-    plt.plot(CS0, residuals, color = 'k', marker='o', ls='')
+    plt.plot(CS0, epsilon_expt, color = 'k', marker='o', ls='')
     plt.axhline(y=0, color = 'r')
     plt.xlabel("Initial Substrate Concentration (mmol L$^{-1}$)")
     plt.ylabel("Residual (mmol L$^{-1}$)")

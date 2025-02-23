@@ -1,10 +1,10 @@
 function reb_19_5_4()
 %reb_16_5_4 Reaction Engineering Basics Example 19.5.4
 
-    % given and known 
+    % given and known constants
     V = 50.0E-3; % L
 
-    % make current values of Vmax and Km available to all functions
+    % globally available variables
     Vmax_current = nan;
     Km_current = nan;
 
@@ -78,7 +78,29 @@ function reb_19_5_4()
         end
     end
 
-    % function that performs the calculations
+    % quantities of interest function
+    function [Vmax, Vmax_CI, Km, Km_CI, r_squared, CPf_model...
+            , epsilon_expt] = quantities_of_interest(adj_inputs, CPf)
+        % guess the base 10 log of the parametersparameters
+        par_guess = [0.0; 0.0];
+
+        % estimate the parameters
+        useRelErr = false;
+        [beta, betaCI, r_squared] = fit_to_SR_data(par_guess...
+                , adj_inputs, CPf, @predicted_responses, useRelErr);
+
+        % extract the results
+        Vmax = 10^beta(1);
+        Vmax_CI = 10.^betaCI(1,:);
+        Km = 10^beta(2);
+        Km_CI = 10.^betaCI(2,:);
+        
+        % calculate the model-predicted response and the residuals
+        CPf_model = predicted_responses(beta, adj_inputs);
+        epsilon_expt = CPf - CPf_model;
+    end
+
+    % master function
     function perform_the_calculations()
         % read the experimental data
         data_file = '../reb_19_5_4_data.csv';
@@ -90,36 +112,20 @@ function reb_19_5_4()
         adj_inputs = data(:,1:2);
         CPf = data(:,3);
 
-        % guess the base 10 log of the parametersparameters
-        par_guess = [0.0; 0.0];
-
-        % estimate the parameters
-        useRelErr = false;
-        [beta, betaCI, r_squared] = fit_to_SR_data(par_guess...
-                , adj_inputs, CPf, @predicted_responses, useRelErr);
-
-        % extract the results
-        Vmax = 10^beta(1);
-        Vmax_ll = 10^betaCI(1,1);
-        Vmax_ul = 10^betaCI(1,2);
-        Km = 10^beta(2);
-        Km_ll = 10^betaCI(2,1);
-        Km_ul = 10^betaCI(2,2);
+        [Vmax, Vmax_CI, Km, Km_CI, r_squared, CPf_model...
+            , epsilon_expt] = quantities_of_interest(adj_inputs, CPf);
         
         % tabulate, show, and save the results
         item = ["Vmax"; "Vmax_lower_limit"; "Vmax_upper_limit";
             "Km"; "Km_lower_limit"; "Km_upper_limit"; "R_squared"];
-        value = [Vmax; Vmax_ll; Vmax_ul; Km; Km_ll; Km_ul; r_squared];
+        value = [Vmax; Vmax_CI(1); Vmax_CI(2); Km; Km_CI(1); Km_CI(2)...
+            ; r_squared];
         units = ["mmol L^-1^ min^-1^"; "mmol L^-1^ min^-1^"; 
             "mmol L^-1^ min^-1^"; "mmol L^-1^"; "mmol L^-1^"; 
             "mmol L^-1^"; ""];
         results_table = table(item, value, units);
         disp(results_table)
         writetable(results_table,'reb_19_5_4_results.csv')
-        
-        % calculate the model-predicted response and the residuals
-        CPf_model = predicted_responses(beta, adj_inputs);
-        residual = CPf - CPf_model;
 
         % create, show, and save a parity plot
         figure
@@ -131,12 +137,14 @@ function reb_19_5_4()
         set(gca, 'FontSize', 14);
         xlabel('Experimental P Concentration (mmol/L)','FontSize', 14)
         ylabel('Predicted P Concentration (mmol/L)','FontSize', 14)
+        legend({'Parity Line','Data'},'Location','northwest'...
+            ,'FontSize',14)
         saveas(gcf,'reb_19_5_4_parity.png')
 
         % create show, and save residuals plots
         figure
         CS0 = adj_inputs(:,1);
-        plot(CS0, residual,'ok','MarkerSize',10,'LineWidth',2)
+        plot(CS0, epsilon_expt,'ok','MarkerSize',10,'LineWidth',2)
         yline(0.0,'r','LineWidth',2)
         set(gca, 'FontSize', 14);
         xlabel('Initial S Concentration (mmol/L','FontSize', 14)
@@ -145,7 +153,7 @@ function reb_19_5_4()
 
         figure
         tf = adj_inputs(:,2);
-        plot(tf, residual,'ok','MarkerSize',10,'LineWidth',2)
+        plot(tf, epsilon_expt,'ok','MarkerSize',10,'LineWidth',2)
         yline(0.0,'r','LineWidth',2)
         set(gca, 'FontSize', 14);
         xlabel('Final time (min)','FontSize', 14)
