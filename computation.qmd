@@ -11,7 +11,7 @@
 
 [Solving IVODEs](comp_ivodes.qmd)
 
-[Solving DAEs](comp_daes.qmd)
+[Solving CVODEs](comp_cvodes.qmd)
 
 [Parameter Estimation](comp_param_est.qmd)
 

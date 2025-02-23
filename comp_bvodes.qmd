@@ -3,7 +3,7 @@
 
 # Numerical Solution of BVODEs {.ct}
 
-The design equations for some of the reactors considered in SCoRE are boundary-value ordinary differential equations, or BVODEs, for short. This computational methods page will show you how to solve BVODEs numerically.
+The design equations for some of the reactors considered in SCoRE are boundary-value ordinary differential equations, or BVODEs, for short. This supplemental computational methods lesson will show you how to solve BVODEs numerically.
 
 ## Learning Outcomes
 
@@ -16,11 +16,11 @@ After completing this computational methods appendix you should be able to...
 5. Specify the algorithm steps for using a BVODE solver, and
 6. Solve a set of BVODEs and display, save, or plot the results using Python or Matlab.
 
-## Reading Assignment
-
-*Reaction Engineering Basics,* Appendix M.
-
 ## Learning Resources
+
+* *Reaction Engineering Basics,* Appendix M.
+
+
 
 
 

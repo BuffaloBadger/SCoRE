@@ -21,4 +21,6 @@ After completing this computational methods appendix you should be able to...
 
 ## Learning Resources
 
+
+
 {{< include includes/_bottom_license.qmd >}}
