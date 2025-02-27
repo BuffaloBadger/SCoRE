@@ -3,7 +3,22 @@
 
 # SCoRE Code Structure {.ct}
 
-[content forthcoming]
+When computer calculations are needed to complete a SCoRE example, activity or assignment, a file containing a master script (for Python) or master function (for Matlab) is written to perform them. This supplemental computational methods lesson describes the structure of SCoRE master scripts/functions.
+
+## Learning Outcomes
+
+1. Understand that the calculations for each example, learning activity, and practice assignment presented in SCoRE the calculations are performed in a single python script or in a single Matlab function.
+2. Name the  primary sections of a SCoRE master script/function and describe their purpose:
+    a. Global Constants Section
+    b. Global Variables Section
+    c. Reactor Model Section
+    d. Other Models Section
+    e. Quantities of Interest Section
+    f. Execution Statement
+
+## Learning Resource
+
+* ![](graphics/video-89397-the-noun-project-icon-size_24.png) [SCoRE Code Structure (YouTube)](URL to be added)
 
 {{< include includes/_bottom_license.qmd >}}
 

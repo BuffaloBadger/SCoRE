@@ -36,66 +36,48 @@ website:
       - text: "Welcome"
         href: index.qmd
       - section: "Getting Started"
-        href: getting_started.qmd
         contents:
           - text: "Preparing for SCoRE"
-            href: preparing.qmd
           - text: "Using SCoRE"
-            href: using.qmd
       - section: "___"
       - section: "Introduction"
-        href: part_1.qmd
         contents: 
           - text: "Reaction Engineering"
-            href: class_1.qmd
       - section: "Reactions and Rates"
-        href: part_2.qmd
         contents:
           - text: "Reactions and Reactors"
-            href: class_2.qmd
       - section: "Ideal Reactor Models"
-        href: part_3.qmd
         contents:
           - text: "Reactor Design Equations"
       - section: "Non-Continuous Ideal Reactors"
-        href: part_4.qmd
         contents:
           - text: "BSTR Response"
       - section: "Continuous Ideal Reactors"
-        href: part_5.qmd
         contents:
           - text: "Steady-State CSTR Response"
       - section: "Ideal Reactor Systems"
-        href: part_6.qmd
         contents:
           - text: "Reactor Networks"
       - section: "Kinetics Data Analysis"
-        href: part_7.qmd
         contents:
           - text: "Kinetics Data Generation"
       - section: "Non-Ideal Reactors"
-        href: part_8.qmd
         contents:
           - text: "The Age Function"
       - section: "___"
       - text: "Beyond the Basics"
-        href: beyond.qmd
       - text: "Additional Practice"
-        href: practice.qmd
       - section: "___"
       - section: "Computational Methods"
         href: comp_methods.qmd
         contents:
+          - text: "SCoRE Code Structure"
+            href: comp_code_structure.qmd
           - text: "Common Tasks"
-            href: comp_tasks.qmd
           - text: "Solving ATEs"
-            href: comp_ates.qmd
           - text: "Solving IVODEs"
-            href: comp_ivodes.qmd
           - text: "Solving CVODEs"
-            href: comp_cvodes.qmd
           - text: "Parameter Estimation"
-            href: comp_param_est.qmd
           - text: "Solving BVODEs"
             href: comp_bvodes.qmd
 

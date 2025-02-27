@@ -10,6 +10,13 @@ Content is being added to [SC]{style="color:blue"}o[RE]{style="color:red"} in pa
 
 :::
 
-[content forthcoming]
+Eventually this page will contain a link to a welcome video. For now, however, I will be using it to log content as it is added to the site.
+
+2/24/25
+: Introduction for Computational Methods
+
+TBD
+: [SC]{style="color:blue"}o[RE]{style="color:red"} Code Structure
+: Solving BVODEs
 
 {{< include includes/_bottom_license.qmd >}}
