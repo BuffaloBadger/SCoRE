@@ -13,13 +13,16 @@ After completing this computational methods appendix you should be able to...
 2. Know what you must provide to a BVODE solver and what it will return,
 3. Specify a derivatives function to pass to a BVODE solver,
 4. Specify a boundary conditions residuals function to pass to a BVODE solver,
-5. Specify the algorithm steps for using a BVODE solver, and
+5. Specify the algorithm for using a BVODE solver, and
 6. Solve a set of BVODEs and display, save, or plot the results using Python or Matlab.
 
 ## Learning Resources
 
 * *Reaction Engineering Basics,* Appendix M.
-
+* ![](graphics/icon_video.png) [BVODEs and BVODE Solvers (YouTube)](URL to be added)
+* ![](graphics/icon_video.png) [Solving BVODEs Example (YouTube)](URL to be added)
+    * ![](graphics/icon_video.png) [Implementation Using Python (YouTube)](URL to be added), ![](graphics/icon_code.png) [Python Code](URL to be added)
+    * ![](graphics/icon_video.png) [Implementation Using Matlab (YouTube)](URL to be added), ![](graphics/icon_code.png) [Matlab Code](URL to be added)
 
 
 

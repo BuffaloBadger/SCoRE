@@ -8,7 +8,7 @@ When computer calculations are needed to complete a SCoRE example, activity or a
 ## Learning Outcomes
 
 1. Understand that the calculations for each example, learning activity, and practice assignment presented in SCoRE the calculations are performed in a single python script or in a single Matlab function.
-2. Name the  primary sections of a SCoRE master script/function and describe their purpose:
+2. Understand the code in the following primary sections of a SCoRE master script/function and be able to describe its purpose:
     a. Global Constants Section
     b. Global Variables Section
     c. Reactor Model Section
@@ -18,7 +18,7 @@ When computer calculations are needed to complete a SCoRE example, activity or a
 
 ## Learning Resource
 
-* ![](graphics/video-89397-the-noun-project-icon-size_24.png) [SCoRE Code Structure (YouTube)](URL to be added)
+* ![](graphics/icon_video.png) [SCoRE Code Structure (YouTube)](URL to be added)
 
 {{< include includes/_bottom_license.qmd >}}
 

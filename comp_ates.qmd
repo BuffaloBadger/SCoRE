@@ -3,23 +3,29 @@
 
 # Numerical Solution of ATEs {.ct}
 
-The design equations for some of the reactors considered in SCoRE are algebraic-transcendental equations, or ATEs, for short. This computational methods page will show you how to solve ATEs numerically.
+The design equations for some of the reactors considered in SCoRE are algebraic-transcendental equations, or ATEs, for short. This computational methods lesson will show you how to solve ATEs numerically.
 
 ## Learning Outcomes
 
-After completing this computational methods appendix you should be able to...
+After completing this computational methods lesson you should be able to...
 
 1. Identify a set of ATEs,
 2. Know what you must provide to an ATE solver and what it will return,
 3. Specify an initial guess to pass to an ATE solver,
-4. Specify a residuals function to pass to an ATE solver,
-5. Specify the algorithm steps for using an ATE solver, and
-6. Solve a set of ATEs and display, save, or plot the results using Python or Matlab.
+4. Write specifications for a residuals function that will be passed to an ATE solver,
+5. Write specifications for a reactor (or other equipment) function that will solve its ATE design equations by calling an ATE solver, and
+6. Solve a set of ATEs and display and save the results using Python or Matlab.
 
 ## Reading Assignment
 
 *Reaction Engineering Basics,* Appendix I.
 
 ## Learning Resources
+
+* ![](graphics/icon_video.png) [SCoRE Code Structure (YouTube)](URL to be added)
+* ![](graphics/icon_video.png) [Solving ATEs (YouTube)](URL to be added)
+* ![](graphics/icon_video.png) [Solving ATEs Example (YouTube)](URL to be added)
+* ![](graphics/icon_video.png) [Solving ATEs Example using Python (YouTube)](URL to be added), ![](graphics/icon_code.png) [Solving ATEs Example Python code](URL to be added)
+* ![](graphics/icon_video.png) [Solving ATEs Example using Matlab (YouTube)](URL to be added), ![](graphics/icon_code.png) [Solving ATEs Example Matlab code](URL to be added)
 
 {{< include includes/_bottom_license.qmd >}}
