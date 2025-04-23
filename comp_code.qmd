@@ -1,9 +1,9 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# SCoRE Code Structure {.ct}
+# SCoRE Computer Code {.ct}
 
-When computer calculations are needed to complete a SCoRE example, activity or assignment, a file containing a master script (for Python) or master function (for Matlab) is written to perform them. This supplemental computational methods lesson describes the structure of SCoRE master scripts/functions.
+For any SCoRE example, activity or assignment that requires computer calculations, a single master file is created to perform the calculations. This supplemental computational methods lesson describes the programming conventions and code structure that are used in SCoRE master files.
 
 ## Learning Outcomes
 
@@ -16,9 +16,9 @@ When computer calculations are needed to complete a SCoRE example, activity or a
     e. Quantities of Interest Section
     f. Execution Statement
 
-## Learning Resource
+## Video
 
-* ![](graphics/icon_video.png) [SCoRE Code Structure (YouTube)](URL to be added)
+* ![](graphics/icon_video.png) [SCoRE Computer Code (YouTube)](https://www.youtube.com/watch?v=a4r_m9zOznk)
 
 {{< include includes/_bottom_license.qmd >}}
 

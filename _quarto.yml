@@ -72,14 +72,12 @@ website:
         href: comp_methods.qmd
         contents:
           - text: "SCoRE Code Structure"
-            href: comp_code_structure.qmd
-          - text: "Common Tasks"
+            href: comp_code.qmd
           - text: "Solving ATEs"
           - text: "Solving IVODEs"
           - text: "Solving CVODEs"
           - text: "Parameter Estimation"
           - text: "Solving BVODEs"
-            href: comp_bvodes.qmd
 
 format:
   html:
