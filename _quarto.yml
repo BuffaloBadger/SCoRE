@@ -71,7 +71,7 @@ website:
       - section: "Computational Methods"
         href: comp_methods.qmd
         contents:
-          - text: "SCoRE Code Structure"
+          - text: "SCoRE Computer Code"
             href: comp_code.qmd
           - text: "Solving ATEs"
           - text: "Solving IVODEs"
