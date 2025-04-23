@@ -15,8 +15,8 @@ Eventually this page will contain a link to a welcome video. For now, however, I
 2/24/25
 : Introduction for Computational Methods
 
-TBD
-: [SC]{style="color:blue"}o[RE]{style="color:red"} Code Structure
-: Solving BVODEs
+4/23/25
+: [SC]{style="color:blue"}o[RE]{style="color:red"} Computer Code page under Computational Methods
+
 
 {{< include includes/_bottom_license.qmd >}}
