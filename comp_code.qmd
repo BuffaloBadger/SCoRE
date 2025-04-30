@@ -18,7 +18,7 @@ For any SCoRE example, activity or assignment that requires computer calculation
 
 ## Video
 
-* ![](graphics/icon_video.png) [SCoRE Computer Code (YouTube)](https://www.youtube.com/watch?v=a4r_m9zOznk)
+* ![](graphics/icon_video.png) [SCoRE Computer Code (YouTube)](https://youtu.be/3vl2y4mqRrg)
 
 {{< include includes/_bottom_license.qmd >}}
 
