@@ -1,0 +1,8 @@
+
+{{< include includes/_top_logo.qmd >}}
+
+# Computational Methods {.ct} 
+
+The lessons in this supplemental part of [SC]{style="color:blue"}o[RE]{style="color:red"} show how to solve different kinds of equations using either Python or Matlab. The first lesson describes the workflow used in [SC]{style="color:blue"}o[RE]{style="color:red"} when completing reaction engineering assignments. The second lesson describes the programming conventions and code structure that are used in [SC]{style="color:blue"}o[RE]{style="color:red"} when performing reaction engineering computations. The remaining lessons describe solving algebraic-transcendental equations (ATEs), solving initial-value ordinary differential equations (IVODEs), solving coupled-value ordinary differential equations (CVODEs), estimating model parmeters using experimental data, and solving boundary-value ordinary differential equations (BVODEs).
+
+{{< include includes/_bottom_license.qmd >}}

@@ -1,8 +1,0 @@
-
-{{< include includes/_top_logo.qmd >}}
-
-# Computational Methods {.ct} 
-
-The lessons in this supplemental part of [SC]{style="color:blue"}o[RE]{style="color:red"} show how to solve different kinds of equations using either Python or Matlab. The first lesson describes describes the programming conventions and code structure that are used in [SC]{style="color:blue"}o[RE]{style="color:red"}. The remaining lessons describe solving algebraic-transcendental equations (ATEs), solving initial-value ordinary differential equations (IVODEs), solving coupled-value ordinary differential equations (CVODEs), estimating model parmeters using experimental data, and solving boundary-value ordinary differential equations (BVODEs).
-
-{{< include includes/_bottom_license.qmd >}}

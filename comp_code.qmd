@@ -7,6 +7,8 @@ For any SCoRE example, activity or assignment that requires computer calculation
 
 ## Learning Outcomes
 
+After completing this computational methods lesson you should...
+
 1. Understand that the calculations for each example, learning activity, and practice assignment presented in SCoRE the calculations are performed in a single python script or in a single Matlab function.
 2. Understand the code in the following primary sections of a SCoRE master script/function and be able to describe its purpose:
     a. Global Constants Section
@@ -16,9 +18,13 @@ For any SCoRE example, activity or assignment that requires computer calculation
     e. Quantities of Interest Section
     f. Execution Statement
 
+## Learning Resources
+
+* ![](graphics/icon_video.png) [SCoRE Assignment Workflow (YouTube)]()
+
 ## Video
 
-* ![](graphics/icon_video.png) [SCoRE Computer Code (YouTube)](https://youtu.be/3vl2y4mqRrg)
+* ![](graphics/icon_video.png) [SCoRE Computer Code (YouTube)]()
 
 {{< include includes/_bottom_license.qmd >}}
 

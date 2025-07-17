@@ -1,0 +1,31 @@
+
+{{< include includes/_top_logo.qmd >}}
+
+# Numerical Solution of ATEs {.ct}
+
+Reaction engineering analyses sometimes require the solution of algebraic-transcendental equations, or ATEs, for short. This supplemental computational methods lesson will show you how to solve ATEs numerically.
+
+## Learning Outcomes
+
+After completing this computational methods lesson you should...
+
+1. Be able to identify a set of ATEs,
+2. Know that when you call and ATE solver you must provide a guess for the ATE unknowns and a residuals function.
+3. Know that when you write a residuals function the only argument must be a guess for the ATE unknowns and it must return only the corresponding values of the ATE residuals.
+4. Know that an ATE solver may not converge to a solution.
+5. Know that ATEs can have more than one solution, but if it converges, an ATE solver will only return one solution.
+6. Be able to use Python or Matlab to solve a set of ATEs.
+
+## Learning Resources
+
+* ![](graphics/icon_document.png) [*Reaction Engineering Basics,* Appendix I](https://buffalobadger.github.io/RE_Basics/apndx_solve_ates.html)
+* ![](graphics/icon_video.png) [SCoRE Assignment Workflow (YouTube)]()
+* ![](graphics/icon_video.png) [SCoRE Computer Code (YouTube)]()
+
+## Videos and Code
+
+* ![](graphics/icon_video.png) [Preparing to Solve ATEs (YouTube)](URL to be added)
+* ![](graphics/icon_video.png) [Solving ATEs using Python (YouTube)](URL to be added), ![](graphics/icon_code.png) [Solving ATEs Using Python code](comp_meth_code/solving_ATEs_using_Python.py)
+* ![](graphics/icon_video.png) [Solving ATEs using Matlab (YouTube)](URL to be added), ![](graphics/icon_code.png) [Solving ATEs Using Matlab code](comp_meth_code/solving_ATEs_using_Matlab.m)
+
+{{< include includes/_bottom_license.qmd >}}
