@@ -68,16 +68,22 @@ website:
       - text: "Beyond the Basics"
       - text: "Additional Practice"
       - section: "___"
-      - section: "Computational Methods"
-        href: comp_methods.qmd
+      - section: "Computational Supplements"
         contents:
-          - text: "SCoRE Computer Code"
+          - text: "Equations and Solvers"
+            href: eqns_and_solvers.qmd
+          - text: "Computer Code"
             href: comp_code.qmd
           - text: "Solving ATEs"
+          - href: solving_ates.qmd
           - text: "Solving IVODEs"
-          - text: "Solving CVODEs"
-          - text: "Parameter Estimation"
+          - href: solving_ivodes.qmd
+          - text: "Solving DAEs"
+          - href: solving_daes.qmd
           - text: "Solving BVODEs"
+          - href: solving_bvodes.qmd
+          - text: "Parameter Estimation"
+          - href: parameter_est.qmd
 
 format:
   html:
