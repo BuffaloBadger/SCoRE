@@ -1,30 +1,26 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# SCoRE Computer Code {.ct}
+# Computer Code {.ct} 
 
-For any SCoRE example, activity or assignment that requires computer calculations, a single master file is created to perform the calculations. This supplemental computational methods lesson describes the programming conventions and code structure that are used in SCoRE master files.
+This lesson discusses coding practices that are employed when writing computer code in [SC]{style="color:blue"}o[RE]{style="color:red"}. It then describes the code structure used in the master file for each example included in [SC]{style="color:blue"}o[RE]{style="color:red"}. The information presented in this lesson is encountered in every [SC]{style="color:blue"}o[RE]{style="color:red"} class where equations are solved using either Matlab or Python.
 
 ## Learning Outcomes
 
-After completing this computational methods lesson you should...
+After completing this supplemental lesson you should...
 
-1. Understand that the calculations for each example, learning activity, and practice assignment presented in SCoRE the calculations are performed in a single python script or in a single Matlab function.
-2. Understand the code in the following primary sections of a SCoRE master script/function and be able to describe its purpose:
-    a. Global Constants Section
-    b. Global Variables Section
-    c. Reactor Model Section
-    d. Other Models Section
-    e. Quantities of Interest Section
-    f. Execution Statement
+1. Understand that the execution speed and size of computer code presented in [SC]{style="color:blue"}o[RE]{style="color:red"} could often be improved because it is written to be easy to understand.
+2. Appreciate the difference between global constants and global variables as implemented in [SC]{style="color:blue"}o[RE]{style="color:red"} code.
+3. Be able to use global variables to make quantities available to a function when they cannot be passed to it as arguments.
+4. Understand the code structure used in [SC]{style="color:blue"}o[RE]{style="color:red"} and realize that you can structure your code differently if you wish.
 
-## Learning Resources
+## Preparation
 
-* ![](graphics/icon_video.png) [SCoRE Assignment Workflow (YouTube)]()
+* Read [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/), Chapter 8.
 
-## Video
+## Computer Code Lesson
 
-* ![](graphics/icon_video.png) [SCoRE Computer Code (YouTube)]()
+* ![](graphics/icon_video.png) [Coding Conventions and Structure (YouTube)](https://youtu.be/fYpC7mjSe_8)
 
 {{< include includes/_bottom_license.qmd >}}
 

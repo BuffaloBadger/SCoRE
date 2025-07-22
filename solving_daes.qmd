@@ -1,26 +1,28 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Numerical Solution of CVODEs {.ct}
+# Solving DAEs {.ct}
 
-The design equations for some of the reactors considered in SCoRE are coupled-value ordinary differential equations, or CVODEs, for short. This computational methods page will show you how to solve CVODEs numerically.
+This lesson considers the numerical solution of differential-algebraic equations, or DAEs. It describes how to formulate the calculations so that the DAEs can be solved using an ATE solver and an IVODE solver. It also demonstrates how to solve DAEs using Python and Matlab.
 
 ## Learning Outcomes
 
-After completing this computational methods appendix you should be able to...
+After completing this supplemental lesson you should...
 
-1. Identify a set of CVODEs,
-2. Know what you must provide to a CVODE solver and what it will return,
-3. Specify...,
-5. Specify the algorithm steps for using a CVODE solver, and
-6. Solve a set of CVODEs and display, save, or plot the results using Python or Matlab.
+1. Be able to write an implicit equation that relates an unknown constant or initial value in a set of IVODEs to a known final value.
+2. Be able to write specifications for the functions that are needed for solving DAEs.
+3. Be able to solve a set of DAEs using Python or Matlab.
 
-## Reading Assignment
+## Preparation
 
-*Reaction Engineering Basics,* Appendix K.
+* Read [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/), Appendices F.3.2 and F.5.3.
 
-## Learning Resources
+## Equations and Solvers Lesson
 
-
+* ![](graphics/icon_video.png) [Solving DAEs (YouTube)]()
+* ![](graphics/icon_video.png) [Using Python to Solve DAEs (YouTube)]()
+    * ![](graphics/icon_code.png) [using_Python_to_solve_DAEs.py](comp_meth_code/using_Python_to_solve_DAEs.py)
+* ![](graphics/icon_video.png) [Using Matlab to Solve DAEs (YouTube)]()
+    * ![](graphics/icon_code.png) [using_Matlab_to_solve_DAEs.m](comp_meth_code/using_Matlab_to_solve_DAEs.m)
 
 {{< include includes/_bottom_license.qmd >}}

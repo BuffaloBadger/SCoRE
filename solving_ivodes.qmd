@@ -1,25 +1,33 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Numerical Solution of IVODEs {.ct}
+# Solving IVODEs {.ct}
 
-The design equations for some of the reactors considered in SCoRE are initial-value ordinary differential equations, or IVODEs, for short. This computational methods page will show you how to solve IVODEs numerically.
+This lesson considers the numerical solution of initial value ordinary differential equations or IVODEs. It describes IVODE solvers and presents the [SC]{style="color:blue"}o[RE]{style="color:red"} utility function for solving IVODEs. It discusses the input that must be provided, and the results that are returned. It presents an overview of how IVODE solvers work and describes how to prepare to use them. Finally it demonstrates how to solve IVODEs using Python and Matlab.
 
 ## Learning Outcomes
 
-After completing this computational methods appendix you should be able to...
+After completing this supplemental lesson you should...
 
-1. Identify a set of IVODEs,
-2. Know what you must provide to an IVODE solver and what it will return,
-3. Specify initial values and a stopping criterion to pass to an IVODE solver,
-4. Specify a derivatives function to pass to an IVODE solver,
-5. Specify the algorithm steps for using an IVODE solver, and
-6. Solve a set of IVODEs and display, save, or plot the results using Python or Matlab.
+1. Know what input must be provided to solve_ivodes.
+2. Know what a derivatives function is, the input it requires and what it returns.
+3. Understand why input must sometimes be made available to a derivatives function by means other than as an argument.
+4. Be able to write specifications for the functions that are needed for solving IVODEs.
+5. Be able to solve a set of IVODEs using Python or Matlab.
 
-## Reading Assignment
+## Preparation
 
-*Reaction Engineering Basics,* Appendix J.
+* Read [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/), Chapter 8 and Appendices F.1, F.3.1, F.4.2, and F.5.2.
+* Watch ![](graphics/icon_video.png) [Important Equation Formats (YouTube)](https://youtu.be/NWYMUbRJqfE)
 
-## Learning Resources
+## Equations and Solvers Lesson
+
+* ![](graphics/icon_video.png) [Solving IVODEs (YouTube)](https://youtu.be/Au6yOFBNbkE)
+* ![](graphics/icon_video.png) [Using Python to Solve IVODEs (YouTube)](https://youtu.be/engoweTV9SM)
+    * ![](graphics/icon_code.png) [score_utils.py](comp_meth_code/score_utils.py)
+    * ![](graphics/icon_code.png) [using_Python_to_solve_IVODEs.py](comp_meth_code/using_Python_to_solve_IVODEs.py)
+* ![](graphics/icon_video.png) [Using Matlab to Solve IVODEs (YouTube)](https://youtu.be/1HBhuYNT7qs)
+    * ![](graphics/icon_code.png) [solve_ivodes.m](comp_meth_code/solve_ivodes.m)
+    * ![](graphics/icon_code.png) [using_Matlab_to_solve_IVODEs.m](comp_meth_code/using_Matlab_to_solve_IVODEs.m)
 
 {{< include includes/_bottom_license.qmd >}}

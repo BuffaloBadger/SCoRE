@@ -1,8 +1,32 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Parameter Estimation {.ct}
+# Estimating Parameters {.ct}
 
-[content forthcoming]
+This lesson examines the estimation of parameter values using experimental data. Parameter estimation is sometimes referred to as fitting a model to data. This lesson describes fitting functions, the input that must be provided to them, and the results they return. It presents an overview of how they work and describes how to prepare to use them. Finally it demonstrates how to estimate parameters using Python and Matlab.
+
+## Learning Outcomes
+
+After completing this supplemental lesson you should...
+
+1. Know what input must be provided to a fitting function and what it returns.
+2. Know what a predicted responses function is, the input it requires, and what it returns.
+3. Be able to write specifications for functions that are needed for estimating parameters.
+4. Be able to estimate parameters using Python or Matlab.
+
+## Preparation
+
+* Read [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/), Appendix F.6.
+
+## Equations and Solvers Lesson
+
+* ![](graphics/icon_video.png) [Estimating Parameters (YouTube)]()
+* ![](graphics/icon_video.png) [Using Python to Estimate Parameters (YouTube)]()
+    * ![](graphics/icon_code.png) [score_utils.py](comp_meth_code/score_utils.py)
+    * ![](graphics/icon_code.png) [using_Python_to_estimate_parameters.py](comp_meth_code/using_Python_to_estimate_parameters.py)
+* ![](graphics/icon_video.png) [Using Matlab to Estimate Parameters (YouTube)]()
+    * ![](graphics/icon_code.png) [fit_to_SR_data.m](comp_meth_code/fit_to_SR_data.m)
+    * ![](graphics/icon_code.png) [using_Matlab_to_estimate_parameters.m](comp_meth_code/using_Matlab_to_estimate_parameters.m)
+
 
 {{< include includes/_bottom_license.qmd >}}

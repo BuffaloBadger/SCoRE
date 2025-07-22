@@ -1,30 +1,30 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Numerical Solution of BVODEs {.ct}
+# Solving BVODEs {.ct}
 
-The design equations for some of the reactors considered in SCoRE are boundary-value ordinary differential equations, or BVODEs, for short. This supplemental computational methods lesson will show you how to solve BVODEs numerically.
+This lesson considers the numerical solution of boundary value ordinary differential equations or BVODEs. It describes BVODE solvers, the input that must be provided to them, and the results they return. It presents an overview of how they work and describes how to prepare to use them. Finally it demonstrates how to solve BVODEs using Python and Matlab.
 
 ## Learning Outcomes
 
-After completing this computational methods appendix you should be able to...
+After completing this supplemental lesson you should...
 
-1. Identify a set of BVODEs,
-2. Know what you must provide to a BVODE solver and what it will return,
-3. Specify a derivatives function to pass to a BVODE solver,
-4. Specify a boundary conditions residuals function to pass to a BVODE solver,
-5. Specify the algorithm for using a BVODE solver, and
-6. Solve a set of BVODEs and display, save, or plot the results using Python or Matlab.
+1. Know what input must be provided to a BVODE solver.
+2. Know what a derivatives function is, the input it requires and what it returns.
+3. Know what a boundary conditions residuals function is, the input it requires and what it returns.
+4 Be able to write specifications for the functions that are needed for solving BVODEs.
+5. Be able to solve a set of BVODEs using Python or Matlab.
 
-## Learning Resources
+## Preparation
 
-* *Reaction Engineering Basics,* Appendix M.
-* ![](graphics/icon_video.png) [BVODEs and BVODE Solvers (YouTube)](URL to be added)
-* ![](graphics/icon_video.png) [Solving BVODEs Example (YouTube)](URL to be added)
-    * ![](graphics/icon_video.png) [Implementation Using Python (YouTube)](URL to be added), ![](graphics/icon_code.png) [Python Code](URL to be added)
-    * ![](graphics/icon_video.png) [Implementation Using Matlab (YouTube)](URL to be added), ![](graphics/icon_code.png) [Matlab Code](URL to be added)
+* Read [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/), Appendices F.3.3 and F.5.4.
 
+## Equations and Solvers Lesson
 
-
+* ![](graphics/icon_video.png) [Solving BVODEs (YouTube)]()
+* ![](graphics/icon_video.png) [Using Python to Solve BVODEs (YouTube)]()
+    * ![](graphics/icon_code.png) [using_Python_to_solve_BVODEs.py](comp_meth_code/using_Python_to_solve_BVODEs.py)
+* ![](graphics/icon_video.png) [Using Matlab to Solve BVODEs (YouTube)]()
+    * ![](graphics/icon_code.png) [using_Matlab_to_solve_BVODEs.m](comp_meth_code/using_Matlab_to_solve_BVODEs.m)
 
 {{< include includes/_bottom_license.qmd >}}

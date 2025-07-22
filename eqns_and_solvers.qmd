@@ -1,8 +1,29 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Computational Methods {.ct} 
+# Equations and Solvers {.ct} 
 
-The lessons in this supplemental part of [SC]{style="color:blue"}o[RE]{style="color:red"} show how to solve different kinds of equations using either Python or Matlab. The first lesson describes the workflow used in [SC]{style="color:blue"}o[RE]{style="color:red"} when completing reaction engineering assignments. The second lesson describes the programming conventions and code structure that are used in [SC]{style="color:blue"}o[RE]{style="color:red"} when performing reaction engineering computations. The remaining lessons describe solving algebraic-transcendental equations (ATEs), solving initial-value ordinary differential equations (IVODEs), solving coupled-value ordinary differential equations (CVODEs), estimating model parmeters using experimental data, and solving boundary-value ordinary differential equations (BVODEs).
+This lesson considers equations that will be solved numerically in [SC]{style="color:blue"}o[RE]{style="color:red"}. It categorizes the quantities that appear in equations, describes the different types of equations that will be encountered, defines two important equation formats, and introduces the software that is used to solve equations numerically. The information presented in this lesson is used every time equations are solved numerically in [SC]{style="color:blue"}o[RE]{style="color:red"}.
+
+## Learning Outcomes
+
+After completing this supplemental lesson you should...
+
+1. Be able to describe the categories of quantities that appear in equations.
+2. Be able to identify a set of equations as either ATEs, IVODEs, BVODEs, or DAEs.
+3. Be able to rewrite an ATE as an equivalent residual expression.
+4. Be able to rewrite a set of ODEs as an equivalent set of derivative expressions.
+5. Understand that the software being used places constraints on functions you must write to solve equations numerically.
+
+## Preparation
+
+* Read [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/), Appendices F.1 through F.4.
+
+## Equations and Solvers Lesson
+
+* ![](graphics/icon_video.png) [Quantities Appearing in Equations (YouTube)](https://youtu.be/W-0BYrGoHEU)
+* ![](graphics/icon_video.png) [Equation Types (YouTube)](https://youtu.be/DhyqcdV0BSc)
+* ![](graphics/icon_video.png) [Important Equation Formats (YouTube)](https://youtu.be/NWYMUbRJqfE)
+* ![](graphics/icon_video.png) [Equations Solvers (YouTube)](https://youtu.be/a9aM8df8YP8)
 
 {{< include includes/_bottom_license.qmd >}}
