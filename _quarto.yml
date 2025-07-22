@@ -75,15 +75,15 @@ website:
           - text: "Computer Code"
             href: comp_code.qmd
           - text: "Solving ATEs"
-          - href: solving_ates.qmd
+            href: solving_ates.qmd
           - text: "Solving IVODEs"
-          - href: solving_ivodes.qmd
+            href: solving_ivodes.qmd
           - text: "Solving DAEs"
-          - href: solving_daes.qmd
+            href: solving_daes.qmd
           - text: "Solving BVODEs"
-          - href: solving_bvodes.qmd
-          - text: "Parameter Estimation"
-          - href: parameter_est.qmd
+            href: solving_bvodes.qmd
+          - text: "Estimating Parameters"
+            href: parameter_est.qmd
 
 format:
   html:

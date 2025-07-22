@@ -1,18 +1,32 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 1 - Chemical Reactions {.ct}
+# Class 1 {.ct}
+
+Class 1 defines reaction engineering. Codes of engineering ethics are presented and the importance of safety in chemical processing is stressed.
+
+## Learning Outcomes {.ch}
+
+After completing Class 1 you should...
+
+1. have some understanding of what reaction engineering is
+2. be aware of the AIChE code of ethics and your responsibility to adhere to it
+3. know that failure to operate chemical processes ethically and safely can lead to death or injury
+4. have identified ways you can act ethically and address safety in your current situation
 
 ## Preparation Assignment {.ch} 
 
-[content forthcoming]
+* Read [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/), Chapter 1.
+* Watch ![](graphics/icon_video.png) [Class 1 Preparation Video (YouTube)]()
 
 ## Class 1 {.ch}
 
-[content forthcoming]
+* ![](graphics/icon_video.png) [Class 1 Video (YouTube)]()
 
 ## Practice Assignment {.ch}
 
-[content forthcoming]
+The practice assignment for Class 1 is personal in nature. Accordingly, a solution is not provided because there isn’t a “correct” solution.
+
+* ![](graphics/icon_document.png) [Class 1 Practice Assignment]()
 
 {{< include includes/_bottom_license.qmd >}}
