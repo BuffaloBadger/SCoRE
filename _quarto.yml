@@ -42,7 +42,12 @@ website:
       - section: "___"
       - section: "Introduction"
         contents: 
-          - text: "Reaction Engineering"
+          - text: "Reaction Engineering, Ethics, and Safety"
+            href: class_1.qmd
+          - text: "Reactions and Reactors"
+            href: class_2.qmd
+          - text: "Reaction Progress"
+            href: class_3.qmd
       - section: "Reactions and Rates"
         contents:
           - text: "Reactions and Reactors"

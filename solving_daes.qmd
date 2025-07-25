@@ -19,10 +19,10 @@ After completing this supplemental lesson you should...
 
 ## Equations and Solvers Lesson
 
-* ![](graphics/icon_video.png) [Solving DAEs (YouTube)]()
-* ![](graphics/icon_video.png) [Using Python to Solve DAEs (YouTube)]()
+* ![](graphics/icon_video.png) [Solving DAEs (YouTube)](https://youtu.be/UBTlhohM70U)
+* ![](graphics/icon_video.png) [Using Python to Solve DAEs (YouTube)](https://youtu.be/almbSRrH1m0)
     * ![](graphics/icon_code.png) [using_Python_to_solve_DAEs.py](comp_meth_code/using_Python_to_solve_DAEs.py)
-* ![](graphics/icon_video.png) [Using Matlab to Solve DAEs (YouTube)]()
+* ![](graphics/icon_video.png) [Using Matlab to Solve DAEs (YouTube)](https://youtu.be/2i0D1LqRdZo)
     * ![](graphics/icon_code.png) [using_Matlab_to_solve_DAEs.m](comp_meth_code/using_Matlab_to_solve_DAEs.m)
 
 {{< include includes/_bottom_license.qmd >}}

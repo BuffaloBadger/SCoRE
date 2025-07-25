@@ -21,10 +21,10 @@ After completing this supplemental lesson you should...
 
 ## Equations and Solvers Lesson
 
-* ![](graphics/icon_video.png) [Solving BVODEs (YouTube)]()
-* ![](graphics/icon_video.png) [Using Python to Solve BVODEs (YouTube)]()
+* ![](graphics/icon_video.png) [Solving BVODEs (YouTube)](https://youtu.be/Z-a1n7F4YFQ)
+* ![](graphics/icon_video.png) [Using Python to Solve BVODEs (YouTube)](https://youtu.be/jWq7L6dt1FU)
     * ![](graphics/icon_code.png) [using_Python_to_solve_BVODEs.py](comp_meth_code/using_Python_to_solve_BVODEs.py)
-* ![](graphics/icon_video.png) [Using Matlab to Solve BVODEs (YouTube)]()
+* ![](graphics/icon_video.png) [Using Matlab to Solve BVODEs (YouTube)](https://youtu.be/SJolP37fePA)
     * ![](graphics/icon_code.png) [using_Matlab_to_solve_BVODEs.m](comp_meth_code/using_Matlab_to_solve_BVODEs.m)
 
 {{< include includes/_bottom_license.qmd >}}
