@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 3 - Reaction Mechanisms {.ct}
+# Class 3 - Rates and Rate Expressions {.ct}
 
 ## Preparation Assignment {.ch} 
 

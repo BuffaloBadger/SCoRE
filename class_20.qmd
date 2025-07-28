@@ -1,20 +1,13 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 20 - Steady-State PFR Optimization {.ct}
+# Class 20 - CSTR Steady-State Stability and Sensitivity {.ct}
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-**Reaction Engineering Basics, Example 13.7.4**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_13_7_4.m](reb_examples/reb_13_7_4/reb_13_7_4.m), and Python, [reb_13_7_4.py](reb_examples/reb_13_7_4/reb_13_7_4.py).
-
-
-## Class 20 {.ch}
+## Class 2 {.ch}
 
 [content forthcoming]
 

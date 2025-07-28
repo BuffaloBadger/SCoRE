@@ -1,33 +1,13 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 28 - BSTR Kinetics Data Analysis {.ct}
+# Class 28 - Recycle PFRs {.ct}
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-**Reaction Engineering Basics, Example 19.5.1**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_19_5_1.m](reb_examples/reb_19_5_1/reb_19_5_1.m), and Python, [reb_19_5_1.py](reb_examples/reb_19_5_1/reb_19_5_1.py). [Data File](reb_examples/reb_19_5_1/reb_19_5_1_data.csv_)
-
-**Reaction Engineering Basics, Example 19.5.2**
-
-**Reaction Engineering Basics, Example 19.5.3**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_19_5_3.m](reb_examples/reb_19_5_3/reb_19_5_3.m), and Python, [reb_19_5_3.py](reb_examples/reb_19_5_3/reb_19_5_3.py). [Data File](reb_examples/reb_19_5_3/reb_19_5_3_data.csv_)
-
-**Reaction Engineering Basics, Example 19.5.4**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_19_5_4.m](reb_examples/reb_19_5_4/reb_19_5_4.m), and Python, [reb_19_5_4.py](reb_examples/reb_19_5_4/reb_19_5_4.py). [Data File](reb_examples/reb_19_5_4/reb_19_5_4_data.csv_)
-
-## Class 28 {.ch}
+## Class 2 {.ch}
 
 [content forthcoming]
 

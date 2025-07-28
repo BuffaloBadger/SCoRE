@@ -42,35 +42,100 @@ website:
       - section: "___"
       - section: "Introduction"
         contents: 
-          - text: "Reaction Engineering, Ethics, and Safety"
+          - text: "Class 1: Reaction Engineering, Ethics, and Safety"
             href: class_1.qmd
-          - text: "Reactions and Reactors"
+          - text: "Class 2: Reactions and Reaction Progress"
             href: class_2.qmd
-          - text: "Reaction Progress"
+      - section: "Rate Expressions"
+        contents:
+          - text: "Class 3: Rates and Rate Expressions"
             href: class_3.qmd
-      - section: "Reactions and Rates"
+          - text: "Class 4: Reaction Mechanisms"
+            href: class_4.qmd
+          - text: "Class 5: Rate-Determining Steps"
+            href: class_5.qmd
+          - text: "Class 6: Catalyst and Charge Conservation"
+            href: class_6.qmd
+          - text: "Class 7: Most Abundant Intermediate"
+            href: class_7.qmd
+      - section: "Reaction Engineering Analysis"
         contents:
-          - text: "Reactions and Reactors"
-      - section: "Ideal Reactor Models"
-        contents:
-          - text: "Reactor Design Equations"
+          - text: "Class 8: Reaction Engineering Models"
+            href: class_8.qmd
+          - text: "Class 9: Reaction Engineering Tasks"
+            href: class_9.qmd
+          - text: "Class 10: Completing Reaction Engineering Tasks"
+            href: class_10.qmd
       - section: "Non-Continuous Ideal Reactors"
         contents:
-          - text: "BSTR Response"
+          - text: "Class 11: BSTR Response"
+            href: class_11.qmd
+          - text: "Class 12: BSTR Optimization"
+            href: class_12.qmd
+          - text: "Class 13: SBSTR Response"
+            href: class_13.qmd
+          - text: "Class 14: SBSTR Optimization"
+            href: class_14.qmd
+          - text: "Class 15: Design of Non-Continuous Reactors"
+            href: class_15.qmd
       - section: "Continuous Ideal Reactors"
         contents:
-          - text: "Steady-State CSTR Response"
+          - text: "Class 16: Steady-State CSTR Response"
+            href: class_16.qmd
+          - text: "Class 17: Steady-State CSTR Optimization"
+            href: class_17.qmd
+          - text: "Class 18: CSTR Steady-State Multiplicity"
+            href: class_18.qmd
+          - text: "Class 19: Transient CSTR Response"
+            href: class_19.qmd
+          - text: "Class 20: CSTR Steady-State Stability and Sensitivity"
+            href: class_20.qmd
+          - text: "Class 21: Steady-State PFR Response"
+            href: class_21.qmd
+          - text: "Class 22: Steady-State PFR Optimization"
+            href: class_22.qmd
+          - text: "Class 23: Transient PFR Response"
+            href: class_23.qmd
+          - text: "Class 24: Packed Bed PFRs"
+            href: class_24.qmd
+          - text: "Class 25: Design of Continuous Reactors"
+            href: class_25.qmd
       - section: "Ideal Reactor Systems"
         contents:
-          - text: "Reactor Networks"
+          - text: "Class 26: Reactor Networks"
+            href: class_26.qmd
+          - text: "Class 27: Thermally Back-Mixed PFRs"
+            href: class_27.qmd
+          - text: "Class 28: Recycle PFRs"
+            href: class_28.qmd
       - section: "Kinetics Data Analysis"
         contents:
-          - text: "Kinetics Data Generation"
+          - text: "Class 29: Generation and Analysis of Kinetics Data"
+            href: class_29.qmd
+          - text: "Class 30: Kinetics Data Analysis Using Linearized Models"
+            href: class_30.qmd
+          - text: "Class 31: Differential Kinetics Data Analysis"
+            href: class_31.qmd
+          - text: "Class 32: Analysis of Kinetics Data from a BSTR"
+            href: class_32.qmd
+          - text: "Class 33: Analysis of Kinetics Data from a CSTR"
+            href: class_33.qmd
+          - text: "Class 34: Analysis of Kinetics Data from a PFR"
+            href: class_34.qmd
       - section: "Non-Ideal Reactors"
         contents:
-          - text: "The Age Function"
-      - section: "___"
-      - text: "Beyond the Basics"
+          - text: "Class 35: Age Distribution Functions"
+            href: class_35.qmd
+          - text: "Class 36: A Segregated Flow Reactor Model"
+            href: class_36.qmd
+          - text: "Class 37: Steady-State Axial Dispersion Reactor Model"
+            href: class_37.qmd
+          - text: "Class 38: Zoned Reactor Models"
+            href: class_38.qmd
+      - section: "Beyond the Basics"
+        contents:
+          - text: "Class 93: Intermediate Reaction Engineering"
+            href: class_39.qmd
       - text: "Additional Practice"
       - section: "___"
       - section: "Computational Supplements"

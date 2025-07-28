@@ -1,8 +1,0 @@
-
-{{< include includes/_top_logo.qmd >}}
-
-# Beyond *Reaction Engineering Basics* {.ct}
-
-[content forthcoming]
-
-{{< include includes/_bottom_license.qmd >}}

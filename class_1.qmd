@@ -3,6 +3,8 @@
 
 # Class 1 {.ct}
 
+## Reaction Engineering, Ethics, and Safety {.ch}
+
 Class 1 defines reaction engineering. Codes of engineering ethics are presented and the importance of safety in chemical processing is stressed.
 
 ## Learning Outcomes {.ch}

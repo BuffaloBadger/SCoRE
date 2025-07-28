@@ -1,19 +1,13 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 15 - Steady-State CSTR Optimization {.ct}
+# Class 15 - Design of Non-Continuous Reactors {.ct}
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-**Reaction Engineering Basics, Example 12.7.3**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_12_7_3.m](reb_examples/reb_12_7_3/reb_12_7_3.m), and Python, [reb_12_7_3.py](reb_examples/reb_12_7_3/reb_12_7_3.py).
-
-## Class 15 {.ch}
+## Class 2 {.ch}
 
 [content forthcoming]
 

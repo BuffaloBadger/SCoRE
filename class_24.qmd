@@ -1,37 +1,13 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 24 - Reactor Networks {.ct}
+# Class 24 - Packed Bed PFRs {.ct}
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-**Reaction Engineering Basics, Example 15.4.1**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_15_4_1.m](reb_examples/reb_15_4_1/reb_15_4_1.m), and Python, [reb_15_4_1.py](reb_examples/reb_15_4_1/reb_15_4_1.py).
-
-**Reaction Engineering Basics, Example 15.4.2**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_15_4_2.m](reb_examples/reb_15_4_2/reb_15_4_2.m), and Python, [reb_15_4_2.py](reb_examples/reb_15_4_2/reb_15_4_2.py).
-
-**Reaction Engineering Basics, Example 15.4.3**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_15_4_3.m](reb_examples/reb_15_4_3/reb_15_4_3.m), and Python, [reb_15_4_3.py](reb_examples/reb_15_4_3/reb_15_4_3.py).
-
-**Reaction Engineering Basics, Example 15.4.4**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_15_4_4.m](reb_examples/reb_15_4_4/reb_15_4_4.m), and Python, [reb_15_4_4.py](reb_examples/reb_15_4_4/reb_15_4_4.py).
-
-## Class 24 {.ch}
+## Class 2 {.ch}
 
 [content forthcoming]
 

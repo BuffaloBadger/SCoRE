@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 32 - Axial Dispersion Models {.ct}
+# Class 32 - Analysis of Kinetics Data from a BSTR {.ct}
 
 ## Preparation Assignment {.ch} 
 

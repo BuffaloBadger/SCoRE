@@ -1,25 +1,13 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 25 - Thermally Back-Mixed PFRs {.ct}
+# Class 25 - Design of Continuous Reactors {.ct}
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-**Reaction Engineering Basics, Example 16.3.1**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_16_3_1.m](reb_examples/reb_16_3_1/reb_16_3_1.m), and Python, [reb_16_3_1.py](reb_examples/reb_16_3_1/reb_16_3_1.py).
-
-**Reaction Engineering Basics, Example 16.3.2**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_16_3_2.m](reb_examples/reb_16_3_2/reb_16_3_2.m), and Python, [reb_16_3_2.py](reb_examples/reb_16_3_2/reb_16_3_2.py).
-
-## Class 25 {.ch}
+## Class 2 {.ch}
 
 [content forthcoming]
 

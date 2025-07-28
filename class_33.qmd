@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 33 - The Age Function {.ct}
+# Class 33 - Analysis of Kinetics Data from a CSTR {.ct}
 
 ## Preparation Assignment {.ch} 
 

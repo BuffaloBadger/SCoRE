@@ -1,19 +1,13 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 18 - Steady-State CSTR Stability {.ct}
+# Class 18 - CSTR Steady-State Multiplicity {.ct}
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-**Reaction Engineering Basics, Example 12.7.6**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_12_7_6.m](reb_examples/reb_12_7_6/reb_12_7_6.m), and Python, [reb_12_7_6.py](reb_examples/reb_12_7_6/reb_12_7_6.py).
-
-## Class 18 {.ch}
+## Class 2 {.ch}
 
 [content forthcoming]
 

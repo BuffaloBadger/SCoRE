@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 13 - Non-Continuous Reactor Design {.ct}
+# Class 13 - SBSTR Response {.ct}
 
 ## Preparation Assignment {.ch} 
 

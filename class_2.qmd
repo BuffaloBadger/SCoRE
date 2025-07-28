@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 2 - Rates and Rate Expressions {.ct}
+# Class 2 - Reactions and Reaction Progress {.ct}
 
 ## Preparation Assignment {.ch} 
 

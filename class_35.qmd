@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 35 - Zoned Reactor Models {.ct}
+# Class 35 - Age Distribution Functions {.ct}
 
 ## Preparation Assignment {.ch} 
 

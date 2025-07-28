@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 8 - Reactor Modeling {.ct}
+# Class 8 - Reaction Engineering Models {.ct}
 
 ## Preparation Assignment {.ch} 
 

@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 27 - Kinetics Data Generation {.ct}
+# Class 27 - Thermally Back-Mixed PFRs {.ct}
 
 ## Preparation Assignment {.ch} 
 

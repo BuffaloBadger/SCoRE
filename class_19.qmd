@@ -1,31 +1,13 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 19 - Steady-State PFR Response {.ct}
+# Class 19 - Transient CSTR Response {.ct}
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-**Reaction Engineering Basics, Example 13.7.1**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_13_7_1.m](reb_examples/reb_13_7_1/reb_13_7_1.m), and Python, [reb_13_7_1.py](reb_examples/reb_13_7_1/reb_13_7_1.py).
-
-**Reaction Engineering Basics, Example 13.7.2**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_13_7_2.m](reb_examples/reb_13_7_2/reb_13_7_2.m), and Python, [reb_13_7_2.py](reb_examples/reb_13_7_2/reb_13_7_2.py).
-
-**Reaction Engineering Basics, Example 13.7.3**
-
-[links to videos forthcoming]
-
-Numerical implementations of the solution using Matlab, [reb_13_7_3.m](reb_examples/reb_13_7_3/reb_13_7_3.m), and Python, [reb_13_7_3.py](reb_examples/reb_13_7_3/reb_13_7_3.py).
-
-## Class 19 {.ch}
+## Class 2 {.ch}
 
 [content forthcoming]
 

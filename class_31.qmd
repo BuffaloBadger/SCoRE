@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 31 - Differential Data Analysis {.ct}
+# Class 31 - Differential Kinetics Data Analysis {.ct}
 
 ## Preparation Assignment {.ch} 
 

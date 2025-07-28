@@ -12,11 +12,8 @@ Content is being added to [SC]{style="color:blue"}o[RE]{style="color:red"} in pa
 
 Eventually this page will contain a link to a welcome video. For now, however, I will be using it to log content as it is added to the site.
 
-2/24/25
-: Introduction for Computational Methods
-
-4/23/25
-: [SC]{style="color:blue"}o[RE]{style="color:red"} Computer Code page under Computational Methods
+7/25
+: Added Computational Supplements Section and pages for all classes
 
 
 {{< include includes/_bottom_license.qmd >}}

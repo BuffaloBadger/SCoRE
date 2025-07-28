@@ -1,13 +1,13 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 29 - Generation and Analysis of Kinetics Data {.ct}
+# Class 36 - A Segregated Flow Reactor Model {.ct}
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-## Class 2 {.ch}
+## Class 35 {.ch}
 
 [content forthcoming]
 

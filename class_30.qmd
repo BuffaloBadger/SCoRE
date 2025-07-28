@@ -1,7 +1,7 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 30 - PFR Kinetics Data Analysis {.ct}
+# Class 30 - Kinetics Data Analysis Using Linearized Models {.ct}
 
 ## Preparation Assignment {.ch} 
 
