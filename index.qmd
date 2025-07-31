@@ -10,10 +10,23 @@ Content is being added to [SC]{style="color:blue"}o[RE]{style="color:red"} in pa
 
 :::
 
-Eventually this page will contain a link to a welcome video. For now, however, I will be using it to log content as it is added to the site.
+## [SC]{style="color:blue"}o[RE]{style="color:red"} Site Status {.ch}
+
+
+
+Eventually this sub-section will be replaced with a link to a welcome video. For now, however, I will be using it to log content as it is added to the site.
 
 7/25
-: Added Computational Supplements Section and pages for all classes
+: Added Computational Supplements Section and placeholder pages for all classes
 
+## [SC]{style="color:blue"}o[RE]{style="color:red"} Learning Outcomes {.ch}
+
+Upon successful completion of this course, students will possess the component knowledge and skills necessary for reaction engineering analysis and be able to use them to
+
+1. Postulate an empirical, mechanistic or theoretical rate expression for a given reaction.
+2. Using kinetics data from an ideal reactor, estimate values for rate expression parameters, assess the accuracy of the rate expression, and evaluate its suitability.
+3. Formulate steady-state and/or transient models of ideal batch, semi-batch, and continuous flow stirred tank reactors and plug flow reactors, use them to predict the response of, optimize, or design a reactor, and qualitatively rationalize or explain the results on a physical/chemical basis.
+4. Formulate steady-state models of simple CSTR and/or PFR systems that may include multiple reactors, stream splits, stream mixing and heat exchangers, use them to predict the response of, optimize or design a system of that type, and qualitatively rationalize or explain the results on a physical/chemical basis.
+5. Formulate steady-state zoned reactor models, segregated-flow reactor models (including, when necessary, numerical approximation of the age function using experimental stimulus/response data) and steady-state axial dispersion reactor models and use them to predict reactor response.
 
 {{< include includes/_bottom_license.qmd >}}

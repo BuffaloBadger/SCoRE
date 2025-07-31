@@ -3,14 +3,24 @@
 
 # Using [SC]{style="color:blue"}o[RE]{style="color:red"} {.ct}
 
-[content forthcoming]
-
 ## Navigating the [SC]{style="color:blue"}o[RE]{style="color:red"} Site {.ch}
 
-[content forthcoming]
+Three menus appear on every page of the [SC]{style="color:blue"}o[RE]{style="color:red"} website. The menu at the top of the page contains links to other web sites. One of those links is for the free, online book that [SC]{style="color:blue"}o[RE]{style="color:red"} is based on, “Reaction Engineering Basics.
 
-## Suggested [SC]{style="color:blue"}o[RE]{style="color:red"} Workflow and Learning Strategy {.ch}
+The menu on the left side of each page serves as the Table of Contents. Items with the symbol, $\gt$, following them will reveal a sub-menu if you click on them. When you first navigate to a [SC]{style="color:blue"}o[RE] page, the sub-menu that contains it will be open (i. e. followed by the symbol, $\lor$) and all the other sub-menus will be closed. Items that are not followed by a symbol are links to a single page.
 
-[content forthcoming]
+Finally, the menu on the right side of each page provides links to the sub-sections of the page you are viewing.
 
+## Suggested Learning Strategy {.ch}
+
+[SC]{style="color:blue"}o[RE]{style="color:red"} is a self-study version of an in-person course. The in-person course is taught as a so-called “flipped” class. Unfortunately, complete replication of the in-person course isn’t possible, necessitating some adaptation. The following video suggests a learning strategy for using [SC]{style="color:blue"}o[RE]{style="color:red"}, suggesting adaptations for aspects of the in-person course that can not be replicated.
+
+* ![](graphics/icon_video.png) Suggested Learning Strategy Video (forthcoming on YouTube)
+
+## Acronyms and Notation
+
+Several acronyms are used throughout both [SC]{style="color:blue"}o[RE]{style="color:red"} and “Reaction Engineering Basics.” They are summarized in Appendix B of “Reaction Engineering Basics” and in the video below. That appendix and the video below also describe some of the notation used when writing equations. Apologies if some of the notation is used in a non-conventional manner.
+
+* ![](graphics/icon_video.png) Acronyms and Notation Video (forthcoming on YouTube)
+ 
 {{< include includes/_bottom_license.qmd >}}

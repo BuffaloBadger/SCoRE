@@ -38,7 +38,9 @@ website:
       - section: "Getting Started"
         contents:
           - text: "Preparing for SCoRE"
+            href: preparing.qmd
           - text: "Using SCoRE"
+            href: using.qmd
       - section: "___"
       - section: "Introduction"
         contents: 
@@ -137,6 +139,7 @@ website:
           - text: "Class 39: Intermediate Reaction Engineering"
             href: class_39.qmd
       - text: "Additional Practice"
+        href: practice.qmd
       - section: "___"
       - section: "Computational Supplements"
         contents:

@@ -19,16 +19,16 @@ After completing Class 1 you should...
 ## Preparation Assignment {.ch} 
 
 * Read [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/), Chapter 1.
-* Watch ![](graphics/icon_video.png) [Class 1 Preparation Video (YouTube)]()
+* Watch ![](graphics/icon_video.png) Class 1 Preparation Video (forthcoming on YouTube)
 
 ## Class 1 {.ch}
 
-* ![](graphics/icon_video.png) [Class 1 Video (YouTube)]()
+* ![](graphics/icon_video.png) Class 1 Video (forthcoming on YouTube)
 
 ## Practice Assignment {.ch}
 
 The practice assignment for Class 1 is personal in nature. Accordingly, a solution is not provided because there isn’t a “correct” solution.
 
-* ![](graphics/icon_document.png) [Class 1 Practice Assignment]()
+* ![](graphics/icon_document.png) Class 1 Practice Assignment (forthcoming)
 
 {{< include includes/_bottom_license.qmd >}}

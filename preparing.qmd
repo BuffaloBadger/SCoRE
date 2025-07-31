@@ -1,24 +1,27 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Preparing for [SC]{style="color:blue"}o[RE]{style="color:red"} {.ct} 
-
-[content forthcoming]
+# Preparing to Start [SC]{style="color:blue"}o[RE]{style="color:red"} {.ct}
 
 ## Prerequisite Knowledge {.ch}
 
-[content forthcoming]
+[SC]{style="color:blue"}o[RE]{style="color:red"} is very similar to the introductory reaction engineering courses found in the undergraduate curricula of chemical engineering departments in the United States. In those curricula, the reaction engineering course is typically taken by students in their third or fourth year. They are typically expected to posess prerequisite knowledge from courses taken earlier in their curriculum. [SC]{style="color:blue"}o[RE]{style="color:red"} assumes that its learners have similar prerequisite knowledge as described in the following video.
 
-## [SC]{style="color:blue"}o[RE]{style="color:red"} Resources {.ch}
+![](graphics/icon_video.png) Prerequisite Knowledge Video (forthcoming on YouTube)
 
-[content forthcoming]
+## Computer Setup {.ch}
 
-## [SC]{style="color:blue"}o[RE]{style="color:red"} Computer Setup {.ch}
+In [SC]{style="color:blue"}o[RE]{style="color:red"} you will need to use computer software to solve different kinds of equations numerically. [SC]{style="color:blue"}o[RE]{style="color:red"} shows how to do this using either Python or Matlab. You can use whatever software you choose, but unless you are quite knowledgeable about numerical methods, it is recommended that you set up either Python or Matlab.
 
-[content forthcoming]
+### Setting up Python for Use in [SC]{style="color:blue"}o[RE]{style="color:red"}
 
-## [SC]{style="color:blue"}o[RE]{style="color:red"} Notation {.ch}
+* ![](graphics/icon_video.png) Setting up Python Video (forthcoming on YouTube)
+* ![](graphics/icon_code.png) [score_utils.py](comp_meth_code/score_utils.py)
 
-[content forthcoming]
+### Setting up Matlab for Use in [SC]{style="color:blue"}o[RE]{style="color:red"}
+
+* ![](graphics/icon_video.png) Setting up Matlab Video (forthcoming on YouTube)
+* ![](graphics/icon_code.png) [solve_ivodes.m](comp_meth_code/solve_ivodes.m)
+* ![](graphics/icon_code.png) [fit_to_SR_data.m](comp_meth_code/fit_to_SR_data.m)
 
 {{< include includes/_bottom_license.qmd >}}
