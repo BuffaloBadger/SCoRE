@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -119,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./getting_started.html">Getting Started</a></li><li class="breadcrumb-item"><a href="./using.html">Using SCoRE</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./preparing.html">Getting Started</a></li><li class="breadcrumb-item"><a href="./using.html">Using SCoRE</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -139,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./getting_started.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Getting Started</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -166,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part_1.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
  <span class="menu-text">Introduction</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -176,15 +205,21 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./class_1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Reaction Engineering</span></a>
+ <span class="menu-text">Class 1: Reaction Engineering, Ethics, and Safety</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 2: Reactions and Reaction Progress</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part_2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Reactions and Rates</span></a>
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Rate Expressions</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -192,29 +227,68 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./class_2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Reactions and Reactors</span></a>
+  <a href="./class_3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 3: Rates and Rate Expressions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 4: Reaction Mechanisms</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 5: Rate-Determining Steps</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 6: Catalyst and Charge Conservation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 7: Most Abundant Intermediate</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part_3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ideal Reactor Models</span></a>
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Reaction Engineering Analysis</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
- <span class="menu-text">Reactor Design Equations</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./class_8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 8: Reaction Engineering Models</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 9: Reaction Engineering Tasks</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 10: Completing Reaction Engineering Tasks</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part_4.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
  <span class="menu-text">Non-Continuous Ideal Reactors</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -222,13 +296,40 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
- <span class="menu-text">BSTR Response</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./class_11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 11: BSTR Response</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 12: BSTR Optimization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 13: SBSTR Response</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 14: SBSTR Optimization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 15: Design of Non-Continuous Reactors</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part_5.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
  <span class="menu-text">Continuous Ideal Reactors</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -236,13 +337,70 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
- <span class="menu-text">Steady-State CSTR Response</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./class_16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 16: Steady-State CSTR Response</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_17.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 17: Steady-State CSTR Optimization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_18.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 18: CSTR Steady-State Multiplicity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_19.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 19: Transient CSTR Response</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_20.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 20: CSTR Steady-State Stability and Sensitivity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_21.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 21: Steady-State PFR Response</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_22.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 22: Steady-State PFR Optimization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_23.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 23: Transient PFR Response</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_24.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 24: Packed Bed PFRs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_25.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 25: Design of Continuous Reactors</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part_6.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
  <span class="menu-text">Ideal Reactor Systems</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -250,13 +408,28 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
- <span class="menu-text">Reactor Networks</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./class_26.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 26: Reactor Networks</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_27.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 27: Thermally Back-Mixed PFRs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_28.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 28: Recycle PFRs</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part_7.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
  <span class="menu-text">Kinetics Data Analysis</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -264,13 +437,46 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
- <span class="menu-text">Kinetics Data Generation</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./class_29.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 29: Generation and Analysis of Kinetics Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_30.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 30: Kinetics Data Analysis Using Linearized Models</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_31.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 31: Differential Kinetics Data Analysis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_32.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 32: Analysis of Kinetics Data from a BSTR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_33.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 33: Analysis of Kinetics Data from a CSTR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_34.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 34: Analysis of Kinetics Data from a PFR</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part_8.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
  <span class="menu-text">Non-Ideal Reactors</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -278,20 +484,48 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
- <span class="menu-text">The Age Function</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./class_35.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 35: Age Distribution Functions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_36.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 36: A Segregated Flow Reactor Model</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_37.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 37: Steady-State Axial Dispersion Reactor Model</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_38.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 38: Zoned Reactor Models</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">___</span></span>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./beyond.html" class="sidebar-item-text sidebar-link">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
  <span class="menu-text">Beyond the Basics</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./class_39.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class 39: Intermediate Reaction Engineering</span></a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./practice.html" class="sidebar-item-text sidebar-link">
@@ -304,8 +538,8 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./comp_methods.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Computational Methods</span></a>
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+ <span class="menu-text">Computational Supplements</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -313,38 +547,44 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./comp_tasks.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Common Tasks</span></a>
+  <a href="./eqns_and_solvers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Equations and Solvers</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./comp_ates.html" class="sidebar-item-text sidebar-link">
+  <a href="./comp_code.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Computer Code</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./solving_ates.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Solving ATEs</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./comp_ivodes.html" class="sidebar-item-text sidebar-link">
+  <a href="./solving_ivodes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Solving IVODEs</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./comp_cvodes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Solving CVODEs</span></a>
+  <a href="./solving_daes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Solving DAEs</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./comp_param_est.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Parameter Estimation</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./comp_bvodes.html" class="sidebar-item-text sidebar-link">
+  <a href="./solving_bvodes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Solving BVODEs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./parameter_est.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Estimating Parameters</span></a>
   </div>
 </li>
       </ul>
@@ -362,7 +602,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#using-score" id="toc-using-score" class="nav-link active" data-scroll-target="#using-score">Using <span style="color:blue">SC</span>o<span style="color:red">RE</span></a>
   <ul class="collapse">
   <li><a href="#navigating-the-score-site" id="toc-navigating-the-score-site" class="nav-link" data-scroll-target="#navigating-the-score-site">Navigating the <span style="color:blue">SC</span>o<span style="color:red">RE</span> Site</a></li>
-  <li><a href="#suggested-score-workflow-and-learning-strategy" id="toc-suggested-score-workflow-and-learning-strategy" class="nav-link" data-scroll-target="#suggested-score-workflow-and-learning-strategy">Suggested <span style="color:blue">SC</span>o<span style="color:red">RE</span> Workflow and Learning Strategy</a></li>
+  <li><a href="#suggested-learning-strategy" id="toc-suggested-learning-strategy" class="nav-link" data-scroll-target="#suggested-learning-strategy">Suggested Learning Strategy</a></li>
+  <li><a href="#acronyms-and-notation" id="toc-acronyms-and-notation" class="nav-link" data-scroll-target="#acronyms-and-notation">Acronyms and Notation</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -380,14 +621,25 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="using-score" class="level1 ct">
 <h1 class="ct">Using <span style="color:blue">SC</span>o<span style="color:red">RE</span></h1>
-<p>[content forthcoming]</p>
 <section id="navigating-the-score-site" class="level2 ch">
 <h2 class="ch anchored" data-anchor-id="navigating-the-score-site">Navigating the <span style="color:blue">SC</span>o<span style="color:red">RE</span> Site</h2>
-<p>[content forthcoming]</p>
+<p>Three menus appear on every page of the <span style="color:blue">SC</span>o<span style="color:red">RE</span> website. The menu at the top of the page contains links to other web sites. One of those links is for the free, online book that <span style="color:blue">SC</span>o<span style="color:red">RE</span> is based on, “Reaction Engineering Basics.</p>
+<p>The menu on the left side of each page serves as the Table of Contents. Items with the symbol, <span class="math inline">\(\gt\)</span>, following them will reveal a sub-menu if you click on them. When you first navigate to a <span style="color:blue">SC</span>o[RE] page, the sub-menu that contains it will be open (i. e. followed by the symbol, <span class="math inline">\(\lor\)</span>) and all the other sub-menus will be closed. Items that are not followed by a symbol are links to a single page.</p>
+<p>Finally, the menu on the right side of each page provides links to the sub-sections of the page you are viewing.</p>
 </section>
-<section id="suggested-score-workflow-and-learning-strategy" class="level2 ch">
-<h2 class="ch anchored" data-anchor-id="suggested-score-workflow-and-learning-strategy">Suggested <span style="color:blue">SC</span>o<span style="color:red">RE</span> Workflow and Learning Strategy</h2>
-<p>[content forthcoming]</p>
+<section id="suggested-learning-strategy" class="level2 ch">
+<h2 class="ch anchored" data-anchor-id="suggested-learning-strategy">Suggested Learning Strategy</h2>
+<p><span style="color:blue">SC</span>o<span style="color:red">RE</span> is a self-study version of an in-person course. The in-person course is taught as a so-called “flipped” class. Unfortunately, complete replication of the in-person course isn’t possible, necessitating some adaptation. The following video suggests a learning strategy for using <span style="color:blue">SC</span>o<span style="color:red">RE</span>, suggesting adaptations for aspects of the in-person course that can not be replicated.</p>
+<ul>
+<li><img src="graphics/icon_video.png" class="img-fluid"> Suggested Learning Strategy Video (forthcoming on YouTube)</li>
+</ul>
+</section>
+<section id="acronyms-and-notation" class="level2">
+<h2 class="anchored" data-anchor-id="acronyms-and-notation">Acronyms and Notation</h2>
+<p>Several acronyms are used throughout both <span style="color:blue">SC</span>o<span style="color:red">RE</span> and “Reaction Engineering Basics.” They are summarized in Appendix B of “Reaction Engineering Basics” and in the video below. That appendix and the video below also describe some of the notation used when writing equations. Apologies if some of the notation is used in a non-conventional manner.</p>
+<ul>
+<li><img src="graphics/icon_video.png" class="img-fluid"> Acronyms and Notation Video (forthcoming on YouTube)</li>
+</ul>
 <hr>
 <p>This website is licensed under the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License</a> (CC BY-NC-ND 4.0).</p>
 
