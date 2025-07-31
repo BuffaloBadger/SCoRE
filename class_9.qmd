@@ -1,13 +1,23 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 9 - Reaction Engineering Tasks {.ct}
+# Class 9 {.ct}
+
+## Reaction Engineering Tasks {.ch}
+
+[description forthcoming]
+
+## Learning Outcomes {.ch}
+
+After completing Class 9 you should...
+
+1. [outcomes forthcoming]
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-## Class 2 {.ch}
+## Class 9 {.ch}
 
 [content forthcoming]
 

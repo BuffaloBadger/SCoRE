@@ -1,13 +1,23 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 37 - Steady-State Axial Dispersion Reactor Model {.ct}
+# Class 37 {.ct}
+
+## Steady-State Axial Dispersion Reactor Model {.ch}
+
+[description forthcoming]
+
+## Learning Outcomes {.ch}
+
+After completing Class 37 you should...
+
+1. [outcomes forthcoming]
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-## Class 35 {.ch}
+## Class 37 {.ch}
 
 [content forthcoming]
 

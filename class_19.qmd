@@ -1,13 +1,23 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 19 - Transient CSTR Response {.ct}
+# Class 19 {.ct}
+
+## Transient CSTR Response {.ch}
+
+[description forthcoming]
+
+## Learning Outcomes {.ch}
+
+After completing Class 19 you should...
+
+1. [outcomes forthcoming]
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-## Class 2 {.ch}
+## Class 19 {.ch}
 
 [content forthcoming]
 

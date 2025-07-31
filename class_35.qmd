@@ -1,7 +1,17 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 35 - Age Distribution Functions {.ct}
+# Class 35 {.ct}
+
+## Age Distribution Functions {.ch}
+
+[description forthcoming]
+
+## Learning Outcomes {.ch}
+
+After completing Class 35 you should...
+
+1. [outcomes forthcoming]
 
 ## Preparation Assignment {.ch} 
 

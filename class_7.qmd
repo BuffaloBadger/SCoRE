@@ -1,7 +1,17 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 7 - Most Abundant Intermediate {.ct}
+# Class 7 {.ct}
+
+## Most Abundant Intermediate {.ch}
+
+[description forthcoming]
+
+## Learning Outcomes {.ch}
+
+After completing Class 7 you should...
+
+1. [outcomes forthcoming]
 
 ## Preparation Assignment {.ch} 
 

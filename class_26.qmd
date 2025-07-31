@@ -1,13 +1,23 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 26 - Reactor Networks {.ct}
+# Class 26 {.ct}
+
+## Reactor Networks {.ch}
+
+[description forthcoming]
+
+## Learning Outcomes {.ch}
+
+After completing Class 26 you should...
+
+1. [outcomes forthcoming]
 
 ## Preparation Assignment {.ch} 
 
 [content forthcoming]
 
-## Class 2 {.ch}
+## Class 26 {.ch}
 
 [content forthcoming]
 

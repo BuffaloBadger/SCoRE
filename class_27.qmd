@@ -1,7 +1,17 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 27 - Thermally Back-Mixed PFRs {.ct}
+# Class 27 {.ct}
+
+## Thermally Back-Mixed PFRs {.ch}
+
+[description forthcoming]
+
+## Learning Outcomes {.ch}
+
+After completing Class 27 you should...
+
+1. [outcomes forthcoming]
 
 ## Preparation Assignment {.ch} 
 

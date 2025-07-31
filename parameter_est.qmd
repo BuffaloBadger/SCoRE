@@ -20,11 +20,11 @@ After completing this supplemental lesson you should...
 
 ## Equations and Solvers Lesson
 
-* ![](graphics/icon_video.png) [Estimating Parameters (YouTube)]()
-* ![](graphics/icon_video.png) [Using Python to Estimate Parameters (YouTube)]()
+* ![](graphics/icon_video.png) [Estimating Parameters (YouTube)](https://youtu.be/G6C2k56I6is)
+* ![](graphics/icon_video.png) [Using Python to Estimate Parameters (YouTube)](https://youtu.be/eWHW4XxXjZ8)
     * ![](graphics/icon_code.png) [score_utils.py](comp_meth_code/score_utils.py)
     * ![](graphics/icon_code.png) [using_Python_to_estimate_parameters.py](comp_meth_code/using_Python_to_estimate_parameters.py)
-* ![](graphics/icon_video.png) [Using Matlab to Estimate Parameters (YouTube)]()
+* ![](graphics/icon_video.png) [Using Matlab to Estimate Parameters (YouTube)](https://youtu.be/5fKsZsjILww)
     * ![](graphics/icon_code.png) [fit_to_SR_data.m](comp_meth_code/fit_to_SR_data.m)
     * ![](graphics/icon_code.png) [using_Matlab_to_estimate_parameters.m](comp_meth_code/using_Matlab_to_estimate_parameters.m)
 

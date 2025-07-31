@@ -3,8 +3,8 @@
 
 # Welcome! {.ct} 
 
-:::{.callout-warning icon=true}
-## Click Here to See the Evolving Solution
+:::{.callout-important icon=true}
+## [SC]{style="color:blue"}o[RE]{style="color:red"} is not yet complete
 
 Content is being added to [SC]{style="color:blue"}o[RE]{style="color:red"} in parallel with the revision of the first draft of *Reaction Engineering Basics.* I hope to complete both by the end of 2025.
 

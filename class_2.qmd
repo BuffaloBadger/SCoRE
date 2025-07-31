@@ -1,7 +1,17 @@
 
 {{< include includes/_top_logo.qmd >}}
 
-# Class 2 - Reactions and Reaction Progress {.ct}
+# Class 2 {.ct}
+
+## Reactions and Reaction Progress {.ch}
+
+[description forthcoming]
+
+## Learning Outcomes {.ch}
+
+After completing Class 2 you should...
+
+1. [outcomes forthcoming]
 
 ## Preparation Assignment {.ch} 
 
