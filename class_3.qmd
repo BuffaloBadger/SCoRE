@@ -5,24 +5,44 @@
 
 ## Rates and Rate Expressions {.ch}
 
-[description forthcoming]
+Class 3 defines the rate of reaction and rate expressions. It discusses the mathematical form of rate expressions and the ways they can be developed.
 
 ## Learning Outcomes {.ch}
 
 After completing Class 3 you should...
 
-1. [outcomes forthcoming]
+1. know the definitions of and relationship between the general rate of reaction and the rate of generation of a reagent
+2. know what a rate expression is and how a rate expression is validated
+3. be able to use the Arrhenius expression for a rate coefficient
+4. be able to explain the difference between theoretical, empirical, and mechanistic rate expressions
+5. know the mathematical form of a theoretical rate expression
 
 ## Preparation Assignment {.ch} 
 
-[content forthcoming]
+* Read Chapter 4 and Appendix D of [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/)
+* Watch ![](graphics/icon_video.png) [Class 3 Preparation Video](https://youtu.be/UvlIsbP0dgU)
+* Watch either
+    * ![](graphics/icon_video.png) [Example 4.5.4 Python Calculations Video](https://youtu.be/2IiF-Tz24zU)
+    * ![](graphics/icon_video.png) [Example 4.5.4 Matlab Calculations Video](https://youtu.be/t1MjENUPBrU)
+
+<center>**Preparation Assignment Computer Code**</center>
+
+* Python
+    * ![](graphics/icon_code.png) [score_utils.py](comp_meth_code/score_utils.py)
+    * ![](graphics/icon_code.png) [example_4_5_4_python_calculations.py](docs_and_code/class_3/example_4_5_4_python_calculations.py)
+* Matlab
+    * ![](graphics/icon_code.png) [Arrhenius_parameters.m](docs_and_code/class_3/Arrhenius_parameters.m)
+    * ![](graphics/icon_code.png) [example_4_5_4_matlab_calculations.m](docs_and_code/class_3/example_4_5_4_matlab_calculations.m)
 
 ## Class 3 {.ch}
 
-[content forthcoming]
+* ![](graphics/icon_video.png) Class 3 Video (forthcoming on YouTube)
+
+<center>**Class 3 Computer Code**</center>
 
 ## Practice Assignment {.ch}
 
-[content forthcoming]
+* ![](graphics/icon_document.png) Class 3 Practice Assignment Narrative (forthcoming)
+* ![](graphics/icon_document.png) Class 3 Practice Assignment Solution (forthcoming)
 
 {{< include includes/_bottom_license.qmd >}}

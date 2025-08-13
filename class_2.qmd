@@ -5,24 +5,30 @@
 
 ## Reactions and Reaction Progress {.ch}
 
-[description forthcoming]
+Class 2 reviews important concepts related to chemical reactions that you are expected to know from previous courses and be able to apply.
 
 ## Learning Outcomes {.ch}
 
 After completing Class 2 you should...
 
-1. [outcomes forthcoming]
+1. be able to balance a chemical reaction and state the values of the stoichiometric coefficients it contains, including their sign
+2. be able to identify limiting reactants
+3. be able to write expressions for the heat of reaction
+4. know and be able to use different measures of composition and reaction progress
+5. be able to use the extent of reaction to describe the composition of a reacting system
 
 ## Preparation Assignment {.ch} 
 
-[content forthcoming]
+* Read Chapters 2 and 3 and Appendix C of [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/)
+* Watch ![](graphics/icon_video.png) [Class 2 Preparation Video](https://youtu.be/vCYA7bWKvdY)
 
 ## Class 2 {.ch}
 
-[content forthcoming]
+* ![](graphics/icon_video.png) Class 2 Video (forthcoming on YouTube)
 
 ## Practice Assignment {.ch}
 
-[content forthcoming]
+* ![](graphics/icon_document.png) Class 2 Assignment Narrative (forthcoming)
+* ![](graphics/icon_document.png) Class 2 Assignment Solution (forthcoming)
 
 {{< include includes/_bottom_license.qmd >}}

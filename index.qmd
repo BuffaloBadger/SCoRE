@@ -19,6 +19,9 @@ Eventually this sub-section will be replaced with a link to a welcome video. For
 7/25
 : Added Computational Supplements Section and placeholder pages for all classes
 
+8/14/25
+: Added Preparation Assignments for Classes 1, 2, and 3 and Practice Assignment for Class 1.
+
 ## [SC]{style="color:blue"}o[RE]{style="color:red"} Learning Outcomes {.ch}
 
 Upon successful completion of this course, students will possess the component knowledge and skills necessary for reaction engineering analysis and be able to use them to
