@@ -707,7 +707,7 @@
     "href": "index.html#score-site-status",
     "title": "Welcome!",
     "section": "SCoRE Site Status",
-    "text": "SCoRE Site Status\nEventually this sub-section will be replaced with a link to a welcome video. For now, however, I will be using it to log content as it is added to the site.\n\n7/25\n\nAdded Computational Supplements Section and placeholder pages for all classes",
+    "text": "SCoRE Site Status\nEventually this sub-section will be replaced with a link to a welcome video. For now, however, I will be using it to log content as it is added to the site.\n\n7/25\n\nAdded Computational Supplements Section and placeholder pages for all classes\n\n8/14/25\n\nAdded Preparation Assignments for Classes 1, 2, and 3 and Practice Assignment for Class 1.",
     "crumbs": [
       "Reaction Engineering Basics",
       "Welcome"
@@ -1302,7 +1302,7 @@
     "href": "class_4.html#reaction-mechanisms",
     "title": "Class 4",
     "section": "Reaction Mechanisms",
-    "text": "Reaction Mechanisms\n[description forthcoming]",
+    "text": "Reaction Mechanisms\nClass 4 introduces reaction mechanisms and mechanistic rate expressions. It describes how reaction mechanisms can be used to generate rate expressions and explains the Bodenstein steady-state approximation.",
     "crumbs": [
       "Reaction Engineering Basics",
       "Rate Expressions",
@@ -1314,7 +1314,7 @@
     "href": "class_4.html#learning-outcomes",
     "title": "Class 4",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nAfter completing Class 4 you should…\n\n[outcomes forthcoming]",
+    "text": "Learning Outcomes\nAfter completing Class 4 you should…\n\nbe able to describe what a reaction mechanism is\nknow the different kinds of steps in a chain reaction mechanism\nbe able to identify reactive intermediates in a reaction mechanism\nbe able to write the rate expression for a mechanistic step\nknow how to write an expression for the rate of generation of a reactant or product in a non-elementary reaction in terms of the rates of the steps in the reaction mechanism\nknow how to simplify the rate expressions for mechanistic steps that are kinetically insignificant or effectively irreversible\nknow how to use the Bodenstein steady-state approximation to eliminate concentrations of reactive intermediates from a mechanistic rate expression",
     "crumbs": [
       "Reaction Engineering Basics",
       "Rate Expressions",
@@ -1326,7 +1326,7 @@
     "href": "class_4.html#preparation-assignment",
     "title": "Class 4",
     "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
+    "text": "Preparation Assignment\n\nRead Chapter 5 through section 5.2.3, Section 5.2.8, and Examples 5.3.1 and 5.3.2 of Reaction Engineering Basics\nWatch  Class 4 Preparation Video(forthcoming on YouTube)",
     "crumbs": [
       "Reaction Engineering Basics",
       "Rate Expressions",
@@ -1338,7 +1338,7 @@
     "href": "class_4.html#class-4-1",
     "title": "Class 4",
     "section": "Class 4",
-    "text": "Class 4\n[content forthcoming]",
+    "text": "Class 4\n\n Class 4 Video (forthcoming on YouTube)",
     "crumbs": [
       "Reaction Engineering Basics",
       "Rate Expressions",
@@ -1350,7 +1350,7 @@
     "href": "class_4.html#practice-assignment",
     "title": "Class 4",
     "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "text": "Practice Assignment\n\n Class 4 Practice Assignment Narrative (forthcoming)\n Class 4 Practice Assignment Solution (forthcoming)\n\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
     "crumbs": [
       "Reaction Engineering Basics",
       "Rate Expressions",
@@ -1386,7 +1386,7 @@
     "href": "class_1.html#preparation-assignment",
     "title": "Class 1",
     "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n\nRead Reaction Engineering Basics, Chapter 1.\nWatch  Class 1 Preparation Video (forthcoming on YouTube)",
+    "text": "Preparation Assignment\n\nRead Chapter 1 of Reaction Engineering Basics.\nWatch  Class 1 Preparation Video",
     "crumbs": [
       "Reaction Engineering Basics",
       "Introduction",
@@ -1410,7 +1410,7 @@
     "href": "class_1.html#practice-assignment",
     "title": "Class 1",
     "section": "Practice Assignment",
-    "text": "Practice Assignment\nThe practice assignment for Class 1 is personal in nature. Accordingly, a solution is not provided because there isn’t a “correct” solution.\n\n Class 1 Practice Assignment (forthcoming)\n\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "text": "Practice Assignment\n\n Class 1 Practice Assignment Narrative\n Class 1 Practice Assignment Solution\n\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
     "crumbs": [
       "Reaction Engineering Basics",
       "Introduction",
@@ -1443,7 +1443,7 @@
     "href": "class_2.html#reactions-and-reaction-progress",
     "title": "Class 2",
     "section": "Reactions and Reaction Progress",
-    "text": "Reactions and Reaction Progress\n[description forthcoming]",
+    "text": "Reactions and Reaction Progress\nClass 2 reviews important concepts related to chemical reactions that you are expected to know from previous courses and be able to apply.",
     "crumbs": [
       "Reaction Engineering Basics",
       "Introduction",
@@ -1455,7 +1455,7 @@
     "href": "class_2.html#learning-outcomes",
     "title": "Class 2",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nAfter completing Class 2 you should…\n\n[outcomes forthcoming]",
+    "text": "Learning Outcomes\nAfter completing Class 2 you should…\n\nbe able to balance a chemical reaction and state the values of the stoichiometric coefficients it contains, including their sign\nbe able to identify limiting reactants\nbe able to write expressions for the heat of reaction\nknow and be able to use different measures of composition and reaction progress\nbe able to use the extent of reaction to describe the composition of a reacting system",
     "crumbs": [
       "Reaction Engineering Basics",
       "Introduction",
@@ -1467,7 +1467,7 @@
     "href": "class_2.html#preparation-assignment",
     "title": "Class 2",
     "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
+    "text": "Preparation Assignment\n\nRead Chapters 2 and 3 and Appendix C of Reaction Engineering Basics\nWatch  Class 2 Preparation Video",
     "crumbs": [
       "Reaction Engineering Basics",
       "Introduction",
@@ -1479,7 +1479,7 @@
     "href": "class_2.html#class-2-1",
     "title": "Class 2",
     "section": "Class 2",
-    "text": "Class 2\n[content forthcoming]",
+    "text": "Class 2\n\n Class 2 Video (forthcoming on YouTube)",
     "crumbs": [
       "Reaction Engineering Basics",
       "Introduction",
@@ -1491,7 +1491,7 @@
     "href": "class_2.html#practice-assignment",
     "title": "Class 2",
     "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "text": "Practice Assignment\n\n Class 2 Assignment Narrative (forthcoming)\n Class 2 Assignment Solution (forthcoming)\n\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
     "crumbs": [
       "Reaction Engineering Basics",
       "Introduction",
@@ -1503,7 +1503,7 @@
     "href": "class_3.html#rates-and-rate-expressions",
     "title": "Class 3",
     "section": "Rates and Rate Expressions",
-    "text": "Rates and Rate Expressions\n[description forthcoming]",
+    "text": "Rates and Rate Expressions\nClass 3 defines the rate of reaction and rate expressions. It discusses the mathematical form of rate expressions and the ways they can be developed.",
     "crumbs": [
       "Reaction Engineering Basics",
       "Rate Expressions",
@@ -1515,7 +1515,7 @@
     "href": "class_3.html#learning-outcomes",
     "title": "Class 3",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nAfter completing Class 3 you should…\n\n[outcomes forthcoming]",
+    "text": "Learning Outcomes\nAfter completing Class 3 you should…\n\nknow the definitions of and relationship between the general rate of reaction and the rate of generation of a reagent\nknow what a rate expression is and how a rate expression is validated\nbe able to use the Arrhenius expression for a rate coefficient\nbe able to explain the difference between theoretical, empirical, and mechanistic rate expressions\nknow the mathematical form of a theoretical rate expression",
     "crumbs": [
       "Reaction Engineering Basics",
       "Rate Expressions",
@@ -1527,7 +1527,7 @@
     "href": "class_3.html#preparation-assignment",
     "title": "Class 3",
     "section": "Preparation Assignment",
-    "text": "Preparation Assignment\n[content forthcoming]",
+    "text": "Preparation Assignment\n\nRead Chapter 4 and Appendix D of Reaction Engineering Basics\nWatch  Class 3 Preparation Video\nWatch either\n\n Example 4.5.4 Python Calculations Video\n Example 4.5.4 Matlab Calculations Video\n\n\n\nPreparation Assignment Computer Code\n\n\nPython\n\n score_utils.py\n example_4_5_4_python_calculations.py\n\nMatlab\n\n Arrhenius_parameters.m\n example_4_5_4_matlab_calculations.m",
     "crumbs": [
       "Reaction Engineering Basics",
       "Rate Expressions",
@@ -1539,7 +1539,7 @@
     "href": "class_3.html#class-3-1",
     "title": "Class 3",
     "section": "Class 3",
-    "text": "Class 3\n[content forthcoming]",
+    "text": "Class 3\n\n Class 3 Video (forthcoming on YouTube)\n\n\nClass 3 Computer Code",
     "crumbs": [
       "Reaction Engineering Basics",
       "Rate Expressions",
@@ -1551,7 +1551,7 @@
     "href": "class_3.html#practice-assignment",
     "title": "Class 3",
     "section": "Practice Assignment",
-    "text": "Practice Assignment\n[content forthcoming]\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
+    "text": "Practice Assignment\n\n Class 3 Practice Assignment Narrative (forthcoming)\n Class 3 Practice Assignment Solution (forthcoming)\n\n\nThis website is licensed under the Creative Commons Attribution-Non-Commercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).",
     "crumbs": [
       "Reaction Engineering Basics",
       "Rate Expressions",
