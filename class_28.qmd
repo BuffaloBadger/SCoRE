@@ -3,7 +3,7 @@
 
 # Class 28 {.ct}
 
-## Recycle PFRs {.ch}
+## Generation and Analysis of Kinetics Data {.ch}
 
 [description forthcoming]
 

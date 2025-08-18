@@ -3,7 +3,7 @@
 
 # Class 29 {.ct}
 
-## Generation and Analysis of Kinetics Data {.ch}
+## Kinetics Data Analysis Using Linearized Models {.ch}
 
 [description forthcoming]
 

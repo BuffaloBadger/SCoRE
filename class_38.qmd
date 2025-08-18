@@ -3,7 +3,7 @@
 
 # Class 38 {.ct}
 
-## Zoned Reactor Models {.ch}
+## Intermediate Reaction Engineering {.ch}
 
 [description forthcoming]
 

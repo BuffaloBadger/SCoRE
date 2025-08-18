@@ -3,7 +3,7 @@
 
 # Class 27 {.ct}
 
-## Thermally Back-Mixed PFRs {.ch}
+## Recycle PFRs {.ch}
 
 [description forthcoming]
 

@@ -3,7 +3,7 @@
 
 # Class 17 {.ct}
 
-## Steady-State CSTR Optimization {.ch}
+## CSTR Steady-State Multiplicity {.ch}
 
 [description forthcoming]
 

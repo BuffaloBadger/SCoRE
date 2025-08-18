@@ -3,7 +3,7 @@
 
 # Class 36 {.ct}
 
-## A Segregated Flow Reactor Model {.ch}
+## Steady-State Axial Dispersion Reactor Model {.ch}
 
 [description forthcoming]
 

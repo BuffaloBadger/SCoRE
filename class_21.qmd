@@ -3,7 +3,7 @@
 
 # Class 21 {.ct}
 
-## Steady-State PFR Response {.ch}
+## Steady-State PFR Optimization {.ch}
 
 [description forthcoming]
 

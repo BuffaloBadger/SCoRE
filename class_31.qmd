@@ -3,7 +3,7 @@
 
 # Class 31 {.ct}
 
-## Differential Kinetics Data Analysis {.ch}
+## Analysis of Kinetics Data from a BSTR {.ch}
 
 [description forthcoming]
 

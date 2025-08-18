@@ -3,7 +3,7 @@
 
 # Class 32 {.ct}
 
-## Analysis of Kinetics Data from a BSTR {.ch}
+## Analysis of Kinetics Data from a CSTR {.ch}
 
 [description forthcoming]
 

@@ -3,7 +3,7 @@
 
 # Class 14 {.ct}
 
-## SBSTR Optimization {.ch}
+## Design of Non-Continuous Reactors {.ch}
 
 [description forthcoming]
 

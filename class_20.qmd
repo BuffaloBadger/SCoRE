@@ -3,7 +3,7 @@
 
 # Class 20 {.ct}
 
-## CSTR Steady-State Stability and Sensitivity {.ch}
+## Steady-State PFR Response {.ch}
 
 [description forthcoming]
 

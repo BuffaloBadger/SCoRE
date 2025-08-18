@@ -3,7 +3,7 @@
 
 # Class 25 {.ct}
 
-## Design of Continuous Reactors {.ch}
+## Reactor Networks {.ch}
 
 [description forthcoming]
 

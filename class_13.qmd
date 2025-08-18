@@ -3,7 +3,7 @@
 
 # Class 13 {.ct}
 
-## SBSTR Response {.ch}
+## SBSTR Optimization {.ch}
 
 [description forthcoming]
 

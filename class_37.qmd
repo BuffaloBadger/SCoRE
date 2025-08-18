@@ -3,7 +3,7 @@
 
 # Class 37 {.ct}
 
-## Steady-State Axial Dispersion Reactor Model {.ch}
+## Zoned Reactor Models {.ch}
 
 [description forthcoming]
 

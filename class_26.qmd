@@ -3,7 +3,7 @@
 
 # Class 26 {.ct}
 
-## Reactor Networks {.ch}
+## Thermally Back-Mixed PFRs {.ch}
 
 [description forthcoming]
 

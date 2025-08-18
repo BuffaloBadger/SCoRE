@@ -3,7 +3,7 @@
 
 # Class 30 {.ct}
 
-## Kinetics Data Analysis Using Linearized Models {.ch}
+## Differential Kinetics Data Analysis {.ch}
 
 [description forthcoming]
 

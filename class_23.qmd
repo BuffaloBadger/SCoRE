@@ -3,7 +3,7 @@
 
 # Class 23 {.ct}
 
-## Transient PFR Response {.ch}
+## Packed Bed PFRs {.ch}
 
 [description forthcoming]
 

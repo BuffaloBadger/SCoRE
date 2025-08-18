@@ -3,7 +3,7 @@
 
 # Class 34 {.ct}
 
-## Analysis of Kinetics Data from a PFR {.ch}
+## Age Distribution Functions {.ch}
 
 [description forthcoming]
 

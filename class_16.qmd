@@ -3,7 +3,7 @@
 
 # Class 16 {.ct}
 
-## Steady-State CSTR Response {.ch}
+## Steady-State CSTR Optimization {.ch}
 
 [description forthcoming]
 

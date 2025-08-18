@@ -3,7 +3,7 @@
 
 # Class 18 {.ct}
 
-## CSTR Steady-State Multiplicity {.ch}
+## Transient CSTR Response {.ch}
 
 [description forthcoming]
 

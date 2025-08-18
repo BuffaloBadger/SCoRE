@@ -3,7 +3,7 @@
 
 # Class 19 {.ct}
 
-## Transient CSTR Response {.ch}
+## CSTR Steady-State Stability and Sensitivity {.ch}
 
 [description forthcoming]
 

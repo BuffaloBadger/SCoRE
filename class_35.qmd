@@ -3,7 +3,7 @@
 
 # Class 35 {.ct}
 
-## Age Distribution Functions {.ch}
+## A Segregated Flow Reactor Model {.ch}
 
 [description forthcoming]
 

@@ -3,7 +3,7 @@
 
 # Class 11 {.ct}
 
-## BSTR Response {.ch}
+## BSTR Optimization {.ch}
 
 [description forthcoming]
 
