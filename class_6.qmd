@@ -5,24 +5,29 @@
 
 ## Catalyst and Charge Conservation {.ch}
 
-[description forthcoming]
+Class 6 describes enzymes, homogeneous catalysts and heterogeneous catalysts. It explains that when a mechanism involves enzymes, catalysts, or charged reagents, a conservation equation applies to the concentrations of the intermediates, and show how such equations are used when generating mechanistic rate expressions.
 
 ## Learning Outcomes {.ch}
 
 After completing Class 6 you should...
 
-1. [outcomes forthcoming]
+1. be able to define enzymes, homogeneous catalysts, heterogeneous catalysts, and surface coverage
+2. be able to explain why catalyst complexes, enzyme complexes, charged reagents, and surface species are treated like reactive intermediates when generating mechanistic rate expressions
+3. be able to write equations for the conservation of catalyst, enzyme, charge, or surface sites and use them when generating mechanistic rate expressions
+4. know that an equation for the conservation of catalyst, enzyme, charge, or surface sites reduces the number of mathematically independent Bodenstein steady state approximation equations by one
 
 ## Preparation Assignment {.ch} 
 
-[content forthcoming]
+* Read Chapter 5 through section 5.2.6, Section 5.2.8, and Examples 5.3.4 through 5.3.6 of [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/)
+* Watch ![](graphics/icon_video.png) [Class 6 Preparation Video](https://youtu.be/nRx3CocyUjc)
 
 ## Class 6 {.ch}
 
-[content forthcoming]
+* ![](graphics/icon_video.png) Class 6 Video (forthcoming on YouTube)
 
 ## Practice Assignment {.ch}
 
-[content forthcoming]
+* ![](graphics/icon_document.png) Class 6 Practice Assignment Narrative (forthcoming)
+* ![](graphics/icon_document.png) Class 6 Practice Assignment Solution (forthcoming)
 
 {{< include includes/_bottom_license.qmd >}}

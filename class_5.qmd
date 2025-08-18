@@ -5,24 +5,29 @@
 
 ## Rate-Determining Steps {.ch}
 
-[description forthcoming]
+Class 5 defines rate-determining step and introduces quasi-equilibrium. Their use in eliminating concentrations of reactive intermediates from mechanistic rate expressions is described and illustrated.
 
 ## Learning Outcomes {.ch}
 
 After completing Class 5 you should...
 
-1. [outcomes forthcoming]
+1. know that a rate-determining step is a kinetic bottleneck, but it is not the slowest step in a mechanism
+2. know that the free energy change for a rate-determining step is nearly equal to the free energy change for the associated non-elementary reaction
+3. know that if there is a rate-determining step, all other steps are quasi-equilibrated
+4. know how to use rate-determining and quasi-equilibrated steps to eliminate concentrations of reactive intermediates from mechanistic rate expressions
 
 ## Preparation Assignment {.ch} 
 
-[content forthcoming]
+* Read Chapter 5 through section 5.2.4, Section 5.2.8, and Example 5.3.3 of [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/)
+* Watch ![](graphics/icon_video.png) [Class 5 Preparation Video](https://youtu.be/2iFzmgNC7VY)
 
 ## Class 5 {.ch}
 
-[content forthcoming]
+* ![](graphics/icon_video.png) Class 5 Video (forthcoming on YouTube)
 
 ## Practice Assignment {.ch}
 
-[content forthcoming]
+* ![](graphics/icon_document.png) Class 5 Practice Assignment Narrative (forthcoming)
+* ![](graphics/icon_document.png) Class 5 Practice Assignment Solution (forthcoming)
 
 {{< include includes/_bottom_license.qmd >}}

@@ -5,24 +5,27 @@
 
 ## Most Abundant Intermediate {.ch}
 
-[description forthcoming]
+Class 7 examines the situation where one of the intermediates in a catalytic reaction mechanism is present in much greater concentration that all other intermediates. It shows how the existence of a most abundant intermediate can sometime allow simplification of a mechanistic rate expression.
 
 ## Learning Outcomes {.ch}
 
 After completing Class 7 you should...
 
-1. [outcomes forthcoming]
+1. be able to define a most abundant intermediate
+2. know how to try to simplify mechanistic rate expressions for catalytic reactions where there is a most abundant intermediate
 
 ## Preparation Assignment {.ch} 
 
-[content forthcoming]
+* Read Chapter 5 and Examples 5.3.7 of [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/)
+* Watch ![](graphics/icon_video.png) [Class 7 Preparation Video](https://youtu.be/3U7t5eLVPu0)
 
 ## Class 7 {.ch}
 
-[content forthcoming]
+* ![](graphics/icon_video.png) Class 7 Video (forthcoming on YouTube)
 
 ## Practice Assignment {.ch}
 
-[content forthcoming]
+* ![](graphics/icon_document.png) Class 7 Practice Assignment Narrative (forthcoming)
+* ![](graphics/icon_document.png) Class 7 Practice Assignment Solution (forthcoming)
 
 {{< include includes/_bottom_license.qmd >}}

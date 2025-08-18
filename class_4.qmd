@@ -22,7 +22,7 @@ After completing Class 4 you should...
 ## Preparation Assignment {.ch} 
 
 * Read Chapter 5 through section 5.2.3, Section 5.2.8, and Examples 5.3.1 and 5.3.2 of [Reaction Engineering Basics](https://buffalobadger.github.io/RE_Basics/)
-* Watch ![](graphics/icon_video.png) Class 4 Preparation Video(forthcoming on YouTube)
+* Watch ![](graphics/icon_video.png) [Class 4 Preparation Video](https://youtu.be/TIrcPTVMy7s)
 
 ## Class 4 {.ch}
 
